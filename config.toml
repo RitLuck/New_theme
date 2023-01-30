@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://girishluckhun.com"
 title   = "Girish Luckhun"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -102,7 +102,7 @@ disableHugoGeneratorInject = false
   # generate the buttons here: https://sharingbuttons.io
   # and add them into your own `layouts/partials/sharing-buttons.html`
   #
-  enableSharingButtons = false
+  enableSharingButtons = true
 
   # Global language menu
   #
