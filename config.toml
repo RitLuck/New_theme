@@ -78,7 +78,7 @@ disableHugoGeneratorInject = false
   homeSubtitle = "Technophile | Linux Enthusiast | Introvert | and other nerd stuff"
 
   # Set a background for the homepage
-  backgroundImage = "/images/background.jpeg"
+  backgroundImage = "/images/bck.jpeg"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
