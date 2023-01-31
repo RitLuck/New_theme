@@ -2,6 +2,9 @@
 title: "Improving My Directory Workflow"
 date: 2023-01-27T19:22:37+04:00
 draft: false
+tags:
+  - tech
+  - linux
 ---
 
 This is my most used custom shell script.

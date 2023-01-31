@@ -2,6 +2,9 @@
 title: "Don't be afraid of the command line"
 date: 2023-01-28T19:24:20+04:00
 draft: false
+tags:
+  - tech
+  - linux
 ---
 
 

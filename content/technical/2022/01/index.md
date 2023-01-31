@@ -2,6 +2,9 @@
 title: "Developers Conference 2022"
 date: 2022-11-25T19:19:09+04:00
 draft: false
+tags:
+  - devcon
+  - tech
 ---
 
 Mauritius Developers Conference 2022
