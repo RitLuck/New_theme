@@ -78,7 +78,7 @@ disableHugoGeneratorInject = false
   homeSubtitle = "Technophile | Linux Enthusiast | Introvert | and other nerd stuff"
 
   # Set a background for the homepage
-  #backgroundImage = "background.jpg"
+  backgroundImage = "/images/background.jpeg"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
@@ -149,9 +149,9 @@ disableHugoGeneratorInject = false
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
-    logoCursorColor    = "#67a2c9"
+    logoCursorColor    = "#fffff"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
+    #logoCursorAnimate  = "2s"
 
   # Commento is more than just a comments widget you can embed — 
   # it’s a return to the roots of the internet. 
