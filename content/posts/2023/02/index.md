@@ -1,5 +1,5 @@
 ---
-title: "My current approach to social media"
+title: "My current approach to social media "
 date: 2023-01-27T19:17:31+04:00
 draft: false
 toc: false
