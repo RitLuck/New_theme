@@ -1,5 +1,5 @@
 ---
-title: "Realizing Nobody Has Ever Had a Crush on Me"
+title: "Realizing Nobody Has Ever Had a Crush on You"
 date: 2023-02-25T15:11:19+04:00
 draft: false
 toc: false
