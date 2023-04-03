@@ -29,5 +29,3 @@ fi
 Gone are the days of `cd ~; cd important-directory/; ls; cd subdirectory; ls; vim important-document.md`
 
 Now I just run `dic` and use `fzf` to search for the directory I need.
-
-Test123
