@@ -17,15 +17,15 @@ The AWS Well-Architected Framework is based on six pillars :
 ## **Operational excellence**
   This pillar focuses on helping customers run their workloads efficiently and effectively. It focuses on optimizing business and operational processes, as well as identifying areas of improvement to ensure continuous delivery and improvement of services. It includes services like AWS CloudFormation, AWS CloudTrail, AWS Config, and AWS CloudWatch. The Operational Excellence pillar includes a set of best practices, design principles, and core concepts that help customers achieve their goals. Some of the key components of this pillar are:  
   
-1. Infrastructure as Code (IaC):  
+1. **Infrastructure as Code (IaC)**:  
     This is a best practice that involves using code to manage and provision infrastructure resources. AWS offers services like AWS CloudFormation and AWS OpsWorks that enable customers to manage infrastructure resources as code. 
-2. Automation:  
+2. **Automation**:  
     This involves using automation to simplify and streamline operational processes. AWS provides several services that enable customers to automate their operations, such as AWS Lambda, AWS Step Functions, and AWS Elastic Beanstalk.  
-3. Monitoring and Logging:  
+3. **Monitoring and Logging**:  
     This involves implementing robust monitoring and logging systems to detect and diagnose issues in real-time. AWS provides several services that enable customers to monitor and log their systems, such as AWS CloudWatch and AWS X-Ray.  
-4. Performance Efficiency:  
+4. **Performance Efficiency**:  
     This involves optimizing system performance to ensure that workloads are running efficiently. AWS provides several services that enable customers to achieve high levels of performance, such as Amazon Elastic Compute Cloud (EC2), Amazon Elastic Block Store (EBS), and AWS Auto Scaling.  
-5. Continuous Improvement:  
+5. **Continuous Improvement**:  
     This involves continuously improving processes and systems to ensure that they are running efficiently. AWS provides several tools that enable customers to continuously improve their systems, such as AWS Trusted Advisor and AWS Config.
 
 
@@ -33,19 +33,19 @@ The AWS Well-Architected Framework is based on six pillars :
 The Security pillar of AWS is designed to help customers build and maintain secure systems and workloads in the cloud. It provides a comprehensive set of security services and features that enable customers to protect their data, systems, and applications from threats and attacks.
 
 
-1. Identity and Access Management (IAM):
-    This involves managing user access to AWS resources and services. AWS IAM allows customers to control access to their resources and services by creating and managing users, groups, and permissions.
+1. **Identity and Access Management (IAM)**:
+This involves managing user access to AWS resources and services. AWS IAM allows customers to control access to their resources and services by creating and managing users, groups, and permissions.
 
-2. Data Protection:
+2. **Data Protection**:
 This involves protecting data at rest and in transit. AWS provides several services that enable customers to encrypt their data, such as AWS Key Management Service (KMS) and Amazon S3 Server-Side Encryption.
 
-3. Infrastructure Protection:
+3. **Infrastructure Protection**:
 This involves protecting the underlying infrastructure that supports customer workloads. AWS provides several services that enable customers to protect their infrastructure, such as AWS Shield and AWS WAF.
 
-4. Detective Controls:
+4. **Detective Controls**:
 This involves monitoring and detecting security events and threats in real-time. AWS provides several services that enable customers to monitor and detect security events, such as AWS CloudTrail and Amazon GuardDuty.
 
-5. Incident Response:
+5. **Incident Response**:
 This involves responding to security incidents in a timely and effective manner. AWS provides several services that enable customers to respond to security incidents, such as AWS Config and AWS Systems Manager.
 
 ## **Reliability**
