@@ -4,6 +4,8 @@ date: 2023-03-31T11:00:27+04:00
 draft: false
 ---
 
+![image01](./images/01.jpeg)
+
 ## Friendship and solitude
 Amidst a period characterized by a pandemic, financial downturn, remote work and social distancing, relationships have been tested.
 
