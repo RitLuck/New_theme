@@ -1,6 +1,6 @@
 ---
 title: "Building a Strong Foundation with AWS: Exploring the Six Key Pillars of the Well-Architected Framework"
-date: 2023-04-04T10:19:40+04:00
+date: 2023-03-04T10:19:40+04:00
 draft: false
 ---
 
