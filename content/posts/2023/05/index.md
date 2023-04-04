@@ -24,6 +24,7 @@ Some friendships are more like cactus. They are resilient, adaptable, and can wi
 But as the orchids have separated themselves from the cacti, I’m prompted to wonder: What about being a loner?  Is it necessary to spend a lot of time socializing with friends to be happy and well-adjusted?
 
 ***“Hell is other people.” – Jean-Paul Sartre***
+
 There are those who would identify with Sartre's perspective and argue in favor of the loner life, which could involve having a small circle of friends or no friends at all.
 
 It is important to note that chronic loneliness has been [linked](https://www.apa.org/monitor/2019/05/ce-corner-isolation) to physical harm,  increasing our probability of early death, affecting our immunity, stress, sleep, cognitive functioning and mental health. However, it is crucial to distinguish between loneliness and the act of being alone for our purposes.
