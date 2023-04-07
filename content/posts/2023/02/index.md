@@ -76,20 +76,3 @@ Posts on my microblog will be similar to how I would post on Instagram. I will k
 
 Anyways, social media is messy and big tech is making it a terrible platform to be on. Social media isn’t all bad, it’s definitely being used for good. But the platforms are designed to work against you for your attention. So it’s best to have alternative ways of reaching others, not just through social media.
 
-# Get a Website
-If you are reading this and you don’t have a website, I encourage you get a website!
-
-Everyone uses the same 5 websites, it’s important that you own your own land on the internet. Most people can agree owning a house is much better than having to pay rent in an appartment. Do this on the internet! Post what you learn on your website, make posts that you would normally only do on Instagram, and put them on your website.
-
-The information you learn is valuable, and your experiences and memories are unreplacable. With a website you have the freedom to display your information however you want and the freedom to own it.
-
-I have found that this has made me a better writer, and has helped keep my thoughts more clear and organized. It may seem like a lot of work, but you can get a lot out of doing this.
-
-You can use [Blogger](https://www.blogger.com/), [Hashnode](https://hashnode.com/) just start using something.
-
-I use [Hugo](https://gohugo.io/) which is a bit more advanced for the average user, but still very simple once setup.
-
-# Conclusion
-Social media addiction is really harmful. Please try to find what works best for you. I find with this solution I have been able to improve myself, while also maintaining connection with my friends. That’s what matters most, do your best to be better, little by little everyday. You will find that you can do amazing things.
-
-Don’t start tomorrow, start today. Thank you for taking the time to read to read this. Please contact me if you have any questions, or if you just want to talk. Thanks! 😃
