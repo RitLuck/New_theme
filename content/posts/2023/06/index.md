@@ -1,5 +1,5 @@
 ---
-title: "Remember the Human: How Name-Calling Can Hurt "
+title: "Remember you are Human too."
 date: 2023-04-09T22:23:42+04:00
 draft: false
 toc: false
