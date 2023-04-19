@@ -1,5 +1,5 @@
 ---
-title: "Note to self #1"
+title: "Note to self"
 date: 2023-04-19T20:56:32+04:00
 draft: false
 ---
