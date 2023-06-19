@@ -16,16 +16,6 @@ The challenge is to build a static website on the cloud provider of your choice 
 
 
 ## Certification
-Although not necessary to have the certification to start the project, it seems having it would be required to finish, so this step was already finished for me as I found this challenge after getting my certification.
-
-## HTML/CSS
-In this step I was required to create a resume website using HTML as well as style it with CSS. It was quite fun relearning HTML as well as getting a better understanding of it as well as how to use CSS. After all was done I got done with my first ever resume webpage!
-
-![image1](./images/1.png)
-
-The challenge is to build a static website on the cloud provider of your choice to host your resume along with a visitor counter. Sounds pretty simple right? So I thought! The intent is to build many of the skills and use technologies that Cloud Engineers use on a day-to-day basis. I chose AWS as the cloud provider where will be deploying my static website and infrastructure.
-
-## Certification
 
 Although not necessary to have the certification to start the project, it seems having it would be required to finish, so this step was already finished for me as I found this challenge after getting my certification.
 
