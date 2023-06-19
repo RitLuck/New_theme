@@ -12,7 +12,7 @@ As a Cloud Engineer, acquiring new cloud skills has become essential. I explored
 The [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/) is great as not only am I applying what I've learned but I am also learning new skills and concepts such as JavaScript, html, etc. Its also making me use AWS tools and get familiar with how they work as well as the errors and problems that can occur while using them.
 
 ## Cloud Resume Challenge basics
-The challenge is to build a static website on the cloud provider of your choice to host your resume along with a visitor counter. Sounds pretty simple right? So I thought! can you paraphrse. The intent is to build many of the skills and use technologies that Cloud Engineers use on a day-to-day basis. I chose AWS as the cloud provider where will be deploying my static website and infrastructure. 
+The challenge is to build a static website on the cloud provider of your choice to host your resume along with a visitor counter. Sounds pretty simple right? So I thought! The intent is to build many of the skills and use technologies that Cloud Engineers use on a day-to-day basis. I chose AWS as the cloud provider where I will be deploying my static website and infrastructure. 
 
 
 ## Certification
@@ -43,4 +43,4 @@ During my testing phase, I encountered a cache issue that prevented the view cou
 The Cloud Resume Challenge has been an invaluable learning experience for me. It provided an opportunity to apply and expand my knowledge of cloud technologies, including HTML/CSS, AWS services, and backend logic with Lambda and DynamoDB. I encountered challenges along the way, such as DNS validation, cache issues, and infrastructure setup, but I was able to overcome them through research and problem-solving. In addition, it is a great way to build your resume and show potential employers your skills in action. Thanks Forrest!
 
 
-Try the challenge yourself! - [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/)
+My resume - [resume.girishluckhun.com](https://resume.girishluckhun.com)
