@@ -47,9 +47,10 @@ By adding the CNAME record to the DNS configuration, I allowed AWS to verify the
 
 To enable the visitor counter functionality, I implemented the required backend infrastructure and logic. Firstly, I created a basic DynamoDB table with a single item dedicated to storing and updating the visitor count. This table serves as the central data storage for the visitor counter feature. Next I worked on the Lamba function using Python to retrieve and update the count in the database table I made.
 
-During my testing phase, I encountered a cache issue that prevented the view count from appearing on the website. After some googling, I stumbled upon a helpful resource: https://www.simplified.guide/aws/cloudfront/invalidate-cache. This action ensures that the latest version of the objects, including the view count, is fetched from the origin server and displayed correctly on the website. By implementing the cache invalidation process, I successfully resolved the cache issue and ensured that the view count was accurately displayed to website visitors.
+During my testing phase, I encountered a cache issue that prevented the view count from appearing on the website. After some googling, I stumbled upon a [helpful resource](https://www.simplified.guide/aws/cloudfront/invalidate-cache). This action ensures that the latest version of the objects, including the view count, is fetched from the origin server and displayed correctly on the website. By implementing the cache invalidation process, I successfully resolved the cache issue and ensured that the view count was accurately displayed to website visitors.
 
 ## Conclusion
 The Cloud Resume Challenge has been an invaluable learning experience for me. It provided an opportunity to apply and expand my knowledge of cloud technologies, including HTML/CSS, AWS services, and backend logic with Lambda and DynamoDB. I encountered challenges along the way, such as DNS validation, cache issues, and infrastructure setup, but I was able to overcome them through research and problem-solving. In addition, it is a great way to build your resume and show potential employers your skills in action. Thanks Forrest!
 
-Try the challenge yourself! - (The Cloud Resume Challenge)[https://cloudresumechallenge.dev/docs/the-challenge/aws/]
+
+Try the challenge yourself! - [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/)
