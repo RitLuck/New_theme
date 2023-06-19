@@ -29,7 +29,7 @@ In this step I was required to create a resume website using HTML as well as sty
 
 This portion of the challenge wasn't too difficult. Getting the website up and running was relatively straightforward and simple. Firstly, I created an S3 bucket in my AWS account to store the webpage files. Once that was done, I ensured that the S3 bucket had the proper bucket policy in place to enable webpage access. I then proceeded to address the HTTPS requirement. Unfortunately, during that time, when I created my S3 bucket in the US East (N. Virginia) region, there was an [AWS outage](https://health.aws.amazon.com/health/status). As a result, I had to recreate my bucket and select a different region.
 
-To validate the certificate for the subdomain resume.girishluckhun.com, I followed the validation process specified by AWS. This typically involves adding a specific CNAME record to the DNS configuration of the domain. In this case, I added the CNAME record provided by AWS to the DNS settings of the domain registrar or DNS provider that manages the DNS records for girishluckhun.com.
+To validate the certificate for the subdomain resume.girishluckhun.com, I followed the validation process specified by AWS. This typically involves adding a specific CNAME record to the DNS configuration of the domain.
 
 By adding the CNAME record to the DNS configuration, I allowed AWS to verify the ownership of the domain and validate the certificate request. This validation step ensures that the SSL/TLS certificate issued for resume.girishluckhun.com is trusted and recognized by web browsers, enabling secure HTTPS connections to my website.
 
