@@ -9,10 +9,9 @@ Recently, I had the opportunity to work on a project that utilized an [Azure Dev
 Since I didn't have a personal Azure Account, and Azure doesn't accept Visa cards during registration, I had to explore alternative solutions. Fortunately, I discovered that university students could create free accounts using their email addresses without the requirement of adding any credit card information.   More details can be found [here](https://azure.microsoft.com/en-us/free/students). Luckily, I had a friend who was in her third year at UOM, and with her kind assistance, I managed to overcome this hurdle 😅.
 Thanks [Divya](https://mu.linkedin.com/in/divya-rampersad-328a10231).
 
-
 ## What is an Web App
 
-In case you're new to Azure, [Microsoft Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/overview) offers a fully managed platform designed to facilitate the building, deployment, and scaling of web apps. As a Platform as a Service (PaaS), it eliminates the need to worry about infrastructure and performance, allowing quick and seamless app deployment. With support for various programming languages, including .NET, .NET Core, Java, Ruby, Node.js, PHP, and Python, developers can work with their preferred language. The flexibility extends to both Windows and Linux-based environments, enabling easy running and scaling of applications. 
+In case you're new to Azure, [Microsoft Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/overview) offers a fully managed platform designed to facilitate the building, deployment, and scaling of web apps. As a Platform as a Service (PaaS), it eliminates the need to worry about infrastructure and performance, allowing quick and seamless app deployment. With support for various programming languages, including .NET, .NET Core, Java, Ruby, Node.js, PHP, and Python, developers can work with their preferred language. The flexibility extends to both Windows and Linux-based environments, enabling easy running and scaling of applications.
 
 Azure App Service goes beyond providing the capabilities of Microsoft Azure, incorporating features such as security, load balancing, autoscaling, and automated management into your application. Additionally, it leverages the DevOps capabilities, including continuous deployment from Azure DevOps, to further streamline the development process.
 
@@ -44,9 +43,11 @@ Given that I'm still learning Node.js, I asked ChatGPT to write a simple and eas
 
 3. The remaining configurations can be left as default. 
 4. Click Review + Create button, and wait until the app is deployed successfully.
+
     ![](./images/3.png)
 
 5. Go to your resource and click the URL to ensure your app is running.
+
     ![](./images/4.png)
 
 ## Creating Service Principle
@@ -59,8 +60,74 @@ Since we're on the Azure Portal, let's create an App Registration because we don
     ![](./images/5.png)
 
 3. Once created, go the **Certificates & Secrets** and create a Secret. Make sure to store the Secret Value somewhere.
+
     ![](./images/6.png)
 
-
 ## Creating Devops Environment
+1. To create an azure devOps, head over to this [url](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/) 
 
+2. On the right-hand side, under Basic Plan, click the "Start Free" button. 
+
+    ![](./images/7.png)
+
+3. Create your Azure DevOps organization. Click the "Continue" button.
+
+4. Once your DevOps environment is set, you can add your code to Azure Repos or directly use your code from GitHub/Git.
+
+### Setting up the service connection
+
+#### Why do we need to create a service connection?
+A service connection is used to establish a connection between Azure DevOps and external services, such as Azure, GitHub, Docker Hub, etc. These connections allow Azure DevOps pipelines and other automation tasks to interact with these external services seamlessly.
+
+1. Go to **Project Settings** on Azure DevOps.
+2. Select "**Service Connections**" and Create a **new service connection**
+3. Select **Azure Resource Manager** and **Service principle (manual)**
+4. Fill in all the required informations 
+    - Subscription Id
+    - Susbscription Name
+    - Service Principle Id (This will be the Client ID of the App registration you created earlier)
+    - Service principle key (The value you saved earlier)
+    - Tenant Id 
+    - Service Connection name (Any name you want)
+    - Select **Grant access permission to all pipelines**
+
+5. Once everything is filled out, click and verify; it should appear as succeeded. If not, you might have a permission issue.
+
+
+### Fixing service connection issue
+
+In case you're getting this issue, which I'm quite certain you're getting xD. Then fear not.
+
+**"Failed to query service connection API "https://managemant.azure.com/sub/xxx?api-version=2016-06-01.status code:'status code:{"error",:{code""Authorization failed message" 'the client" with object id "does not have authorization to perform action 'microsoft.resource/sub/read,over scope'/sub or scope is invalid.if access was recently granted.please refresh your credentials}}"**
+
+![](./images/8.png)
+
+To resolve the error, assign the reader role/permission to the Azure AD Application on the subscription level.
+
+1. Go to your **subscription**
+2. Click on **Access control(IAM)**
+3. Click on **Add Role Assignment**
+4. Choose the **Reader or Contributor** Role
+5. Click on **Select Members** and choose your app registration.
+
+    ![](./images/9.png)
+
+After giving your app registration access, check your service connection again, and it should appear as Succeeded.
+
+![](./images/10.png)
+
+
+### Building our pipeline
+
+To create the pipeline based on the Node.js node, proceed as follows:
+
+1. Click on **Pipelines** and **Create New Pipeline**
+2. It should say **"Where is your code?"**. Since I added mine on Azure Repos, I chose Azure Repos Git.
+3. Select your repository.
+4. Configure your pipeline. I'm using **Node.Js**, so I'm choosing **Node.js**
+5. Review the default pipeline and Save.
+6. The default pipeline will be as follows : 
+
+    ![](./images/11.png)
+
+7. Now let's run out own pipeline 
