@@ -7,7 +7,7 @@ tags:
   - tech
 ---
 
-Recently, I had the opportunity to work on a project that utilized an [Azure DevOps build pipeline](https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops) to deploy an [app service](https://learn.microsoft.com/en-us/azure/app-service/overview). Since all this is new to me, I thought why not make a blog post about it,
+Recently, I had the opportunity to work on a project that utilized an [Azure DevOps build pipeline](https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops) to deploy an [app service](https://learn.microsoft.com/en-us/azure/app-service/overview). 
 
 Since I didn't have a personal Azure Account, and Azure doesn't accept Visa cards during registration, I had to explore alternative solutions. Fortunately, I discovered that university students could create free accounts using their email addresses without the requirement of adding any credit card information.   More details can be found [here](https://azure.microsoft.com/en-us/free/students). Luckily, I had a friend who was in her third year at UOM, and with her kind assistance, I managed to overcome this hurdle 😅.
 Thanks [Divya](https://mu.linkedin.com/in/divya-rampersad-328a10231).
@@ -214,7 +214,7 @@ To create the pipeline based on the Node.js node, proceed as follows:
 
     Reason why we get this error is Microsoft has currently suspended the free grant of parallel jobs for public projects and some private projects in newly created organizations. However, you have the option to request this grant by submitting a request. This change does not impact existing organizations and projects. Please be aware that it may take 2-3 business days for Microsoft to respond to your request for the free tier. https://learn.microsoft.com/en-us/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops&tabs=ms-hosted
 
-    Now if you're impatient like me and want to see the code being deployed asap then you're in luck.
+    Now if you're impatient like me and want to see the code being deployed asap then there is a workaround.
 
 #### Creating your own agent.
 
@@ -338,5 +338,11 @@ Now that the agent is set up, Let's proceed to add it on our pipeline.
 
     ![](./images/18.png)
 
+
+## Summary 
+
+In this blog post, I shared my experience of deploying a web app using Azure DevOps and Azure App Service, despite my initial preference for AWS. I explored the process of creating a free Azure account for university students and dove into the functionalities of Azure App Service, which impressed me with its simplicity and DevOps integration. With a fun Node.js Dad joke generator app as our test case, I walked through the steps of setting up Azure App Service, creating a service connection, and building the pipeline using YAML. Through this project, I gained valuable insights into Azure and Azure DevOps, ultimately expanding my cloud deployment skills.
+
+In the next blog post, we will explore how to automate the process of creating an Azure web app using Terraform. Terraform is a powerful infrastructure-as-code tool that allows us to define and manage cloud resources in a declarative way. By using Terraform, we can script the entire deployment process, making it more efficient, reproducible, and scalable. We'll learn how to define the Azure web app, the required configurations, and any dependencies using Terraform code. This automation will streamline the deployment process and provide a solid foundation for future projects on Azure, making it easier to manage and update resources as needed. 
 
 ![](./images/1.gif)
