@@ -201,7 +201,7 @@ To create the pipeline based on the Node.js node, proceed as follows:
         SlotName: 'production'
         package: '$(System.DefaultWorkingDirectory)/**/*.zip'
         RuntimeStack: 'NODE|18-lts'
-        StartupCommand: 'apt-get update -yy && apt-get install -yy chromium && npm run start'
+        StartupCommand: 'apt-get update -yy && node app.js'
 
     ```
 
@@ -330,7 +330,7 @@ Now that the agent is set up, Let's proceed to add it on our pipeline.
 
 3. Now, Let's run the pipeline again.
 
-4. The pipeline has been built and deployed successfully. 
+4. The pipeline has been built and deployed successfully. Thanks you [Zain](https://zain.mu/) for helping me with the StartupCommand
 
     ![](./images/17.png)
 
