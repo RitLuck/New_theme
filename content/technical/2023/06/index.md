@@ -193,7 +193,7 @@ To create the pipeline based on the Node.js node, proceed as follows:
     # Use the AzureWebApp task to deploy the application to an Azure Web App
     - task: AzureWebApp@1
         inputs:
-        azureSubscription: 'GLU Azure Web App'
+        azureSubscription: 'Azure for Students'
         appType: 'webAppLinux'
         AppName: 'dadjokegenerator'
         deployToSlotOrASE: true
@@ -316,7 +316,7 @@ Now that the agent is set up, Let's proceed to add it on our pipeline.
     # Use the AzureWebApp task to deploy the application to an Azure Web App
     - task: AzureWebApp@1
         inputs:
-        azureSubscription: 'GLU Azure Web App'
+        azureSubscription: 'Azure for Students'
         appType: 'webAppLinux'
         AppName: 'dadjokegenerator'
         deployToSlotOrASE: true
