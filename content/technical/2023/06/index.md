@@ -341,8 +341,9 @@ Now that the agent is set up, Let's proceed to add it on our pipeline.
 
 ## Conclusion 
 
-In this blog post, I shared my experience of deploying a web app using Azure DevOps and Azure App Service, despite my initial preference for AWS. I explored the process of creating a free Azure account for university students and dove into the functionalities of Azure App Service, which impressed me with its simplicity and DevOps integration. With a fun Node.js Dad joke generator app as our test case, I walked through the steps of setting up Azure App Service, creating a service connection, and building the pipeline using YAML. Through this project, I gained valuable insights into Azure and Azure DevOps, ultimately expanding my cloud deployment skills.
+So, despite my preference for AWS, I had a pretty good experience with Azure. I learned how to deploy a web app using Azure DevOps and Azure App Service, and thanks to ChatGPT for helping me with the Node.js App. I'll try to dive a bit more into Node.js (if I have time 🥲).
 
-In the next blog post, we will explore how to automate the process of creating an Azure web app using Terraform. Terraform is a powerful infrastructure-as-code tool that allows us to define and manage cloud resources in a declarative way. By using Terraform, we can script the entire deployment process, making it more efficient, reproducible, and scalable. We'll learn how to define the Azure web app, the required configurations, and any dependencies using Terraform code. This automation will streamline the deployment process and provide a solid foundation for future projects on Azure, making it easier to manage and update resources as needed. 
+Now, you might be wondering why I did all these steps manually. Well, the truth is, I was learning just like you are right now 😌. And guess what? Yes, they can be automated using something called [Terraform](https://www.terraform.io/). In the next blog post, I'll show how we can make all of this happen automatically using Terraform, and let's hope it works smoothly 😅.
+
 
 ![](./images/1.gif)
