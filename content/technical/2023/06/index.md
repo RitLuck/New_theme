@@ -256,7 +256,7 @@ Now that the agent is set up, Let's proceed to add it on our pipeline.
 
     Change Line 10 and 40 to ```name: default```
 
-2. So, the final yaml file will be like like 
+2. So, the final yaml file will be like this : 
 
     ```
     # Define the trigger configuration for the pipeline
@@ -328,15 +328,15 @@ Now that the agent is set up, Let's proceed to add it on our pipeline.
 
     ```
 
-3. Now Let's run the pipeline again.
+3. Now, Let's run the pipeline again.
 
-4. So, the pipeline has been builed and deployed successfully. 
+4. The pipeline has been built and deployed successfully. 
 
     ![](./images/17.png)
 
-5. Try to access the url again.
+5. Try to access the URL again.
 
     ![](./images/18.png)
 
 
-![GIF](https://giphy.com/embed/t2sKa4JKNW9DawxAYi)
+![](./images/1.gif)
