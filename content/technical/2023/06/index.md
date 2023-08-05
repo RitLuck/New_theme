@@ -135,76 +135,75 @@ To create the pipeline based on the Node.js node, proceed as follows:
 
 7. We'll add our own yaml line
 
+    ```
+    # Define the trigger configuration for the pipeline
+    # This pipeline will be triggered when changes are pushed to the "devops" branch
+    trigger:
+    branches:
+        include:
+        - devops   # Replace with your main branch name
 
-```
-# Define the trigger configuration for the pipeline
-# This pipeline will be triggered when changes are pushed to the "devops" branch
-trigger:
-  branches:
-    include:
-      - devops   # Replace with your main branch name
+    # Define the jobs that will be executed in the pipeline
+    jobs:
+    - job: Build
+    displayName: 'Build the app'
+    pool:
+        vmImage: 'ubuntu-latest'
+    steps:
+    # Use the NodeTool task to install Node.js version 18.x
+    - task: NodeTool@0
+        inputs:
+        versionSpec: '18.x'
+        displayName: 'Install Node.js'
 
-# Define the jobs that will be executed in the pipeline
-jobs:
-- job: Build
-  displayName: 'Build the app'
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  # Use the NodeTool task to install Node.js version 18.x
-  - task: NodeTool@0
-    inputs:
-      versionSpec: '18.x'
-    displayName: 'Install Node.js'
+    # Run 'npm install' to install the project dependencies
+    - script: |
+        npm install
+        displayName: 'Install dependencies'
 
-  # Run 'npm install' to install the project dependencies
-  - script: |
-      npm install
-    displayName: 'Install dependencies'
+    # Display the contents of the default working directory for debugging purposes
+    - script: |
+        echo "Contents of the default working directory:"
+        ls $(System.DefaultWorkingDirectory)
+        displayName: 'List files in working directory'
 
-  # Display the contents of the default working directory for debugging purposes
-  - script: |
-      echo "Contents of the default working directory:"
-      ls $(System.DefaultWorkingDirectory)
-    displayName: 'List files in working directory'
+    # Archive the build output into a ZIP file
+    - task: ArchiveFiles@2
+        inputs:
+        rootFolderOrFile: '$(System.DefaultWorkingDirectory)' # Change this if your build output is in a different folder
+        includeRootFolder: false
+        archiveType: 'zip'
+        archiveFile: '$(Build.ArtifactStagingDirectory)/app.zip'
 
-  # Archive the build output into a ZIP file
-  - task: ArchiveFiles@2
-    inputs:
-      rootFolderOrFile: '$(System.DefaultWorkingDirectory)' # Change this if your build output is in a different folder
-      includeRootFolder: false
-      archiveType: 'zip'
-      archiveFile: '$(Build.ArtifactStagingDirectory)/app.zip'
+    # Publish the ZIP file as an artifact named "drop" for deployment
+    - publish: $(Build.ArtifactStagingDirectory)/app.zip
+        artifact: drop
 
-  # Publish the ZIP file as an artifact named "drop" for deployment
-  - publish: $(Build.ArtifactStagingDirectory)/app.zip
-    artifact: drop
+    # Define the "Deploy" job, which depends on the successful completion of the "Build" job
+    - job: Deploy
+    displayName: 'Deploy to Azure Web App'
+    dependsOn: Build
+    pool:
+        vmImage: 'ubuntu-latest'
+    steps:
+    # Download the artifact "drop" from the "Build" job for deployment
+    - download: current
+        artifact: drop
 
-# Define the "Deploy" job, which depends on the successful completion of the "Build" job
-- job: Deploy
-  displayName: 'Deploy to Azure Web App'
-  dependsOn: Build
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  # Download the artifact "drop" from the "Build" job for deployment
-  - download: current
-    artifact: drop
+    # Use the AzureWebApp task to deploy the application to an Azure Web App
+    - task: AzureWebApp@1
+        inputs:
+        azureSubscription: 'GLU Azure Web App'
+        appType: 'webAppLinux'
+        AppName: 'dadjokegenerator'
+        deployToSlotOrASE: true
+        ResourceGroupName: 'Girish_RG'
+        SlotName: 'production'
+        package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+        RuntimeStack: 'NODE|18-lts'
+        StartupCommand: 'apt-get update -yy && apt-get install -yy chromium && npm run start'
 
-  # Use the AzureWebApp task to deploy the application to an Azure Web App
-  - task: AzureWebApp@1
-    inputs:
-      azureSubscription: 'GLU Azure Web App'
-      appType: 'webAppLinux'
-      AppName: 'dadjokegenerator'
-      deployToSlotOrASE: true
-      ResourceGroupName: 'Girish_RG'
-      SlotName: 'production'
-      package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-      RuntimeStack: 'NODE|18-lts'
-      StartupCommand: 'apt-get update -yy && apt-get install -yy chromium && npm run start'
-
-```
+    ```
 
 8. Let's try to run the pipeline. The following error will be indicated 
     ```
