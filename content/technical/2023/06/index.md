@@ -1,7 +1,10 @@
 ---
 title: "Deploying an app service (web app) using Azure DevOps"
 date: 2023-07-25T09:46:17+04:00
-draft: true
+draft: false
+tags:
+  - azure
+  - tech
 ---
 
 Recently, I had the opportunity to work on a project that utilized an [Azure DevOps build pipeline](https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops) to deploy an [app service](https://learn.microsoft.com/en-us/azure/app-service/overview). Even though I don't really like Azure and am trying to focus more on AWS, I couldn't pass up the chance to learn new things. 
@@ -130,4 +133,187 @@ To create the pipeline based on the Node.js node, proceed as follows:
 
     ![](./images/11.png)
 
-7. Now let's run out own pipeline 
+7. We'll add our own yaml line
+
+
+```
+    trigger:
+  branches:
+    include:
+      - devops   # Replace with your main branch name
+
+jobs:
+- job: Build
+  displayName: 'Build the app'
+  pool:
+    vmImage: 'ubuntu-latest'
+  steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '18.x'
+    displayName: 'Install Node.js'
+
+  - script: |
+      npm install
+    displayName: 'Install dependencies'
+
+  - script: |
+      echo "Contents of the default working directory:"
+      ls $(System.DefaultWorkingDirectory)
+    displayName: 'List files in working directory'
+
+  - task: ArchiveFiles@2
+    inputs:
+      rootFolderOrFile: '$(System.DefaultWorkingDirectory)' # Change this if your build output is in a different folder
+      includeRootFolder: false
+      archiveType: 'zip'
+      archiveFile: '$(Build.ArtifactStagingDirectory)/app.zip'
+
+  - publish: $(Build.ArtifactStagingDirectory)/app.zip
+    artifact: drop
+
+- job: Deploy
+  displayName: 'Deploy to Azure Web App'
+  dependsOn: Build
+  pool:
+    vmImage: 'ubuntu-latest'
+  steps:
+  - download: current
+    artifact: drop
+
+  - task: AzureWebApp@1
+    inputs:
+      azureSubscription: 'GLU Azure Web App'
+      appType: 'webAppLinux'
+      AppName: 'dadjokegenerator'
+      deployToSlotOrASE: true
+      ResourceGroupName: 'Girish_RG'
+      SlotName: 'production'
+      package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+      RuntimeStack: 'NODE|18-lts'
+      StartupCommand: 'apt-get update -yy && apt-get install -yy chromium && npm run start'
+```
+
+8. Let's try to run the pipeline. The following error will be indicated 
+    ```
+    ##[error]No hosted parallelism has been purchased or granted. To request a free parallelism grant, please fill out the following form https://aka.ms/azpipelines-parallelism-request
+    ```
+
+    ![](./images/12.png)
+
+    Reason why we get this error is Microsoft has currently suspended the free grant of parallel jobs for public projects and some private projects in newly created organizations. However, you have the option to request this grant by submitting a request. This change does not impact existing organizations and projects. Please be aware that it may take 2-3 business days for Microsoft to respond to your request for the free tier. https://learn.microsoft.com/en-us/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops&tabs=ms-hosted
+
+    Now if you're impatient like me and want to see the code being deployed asap then you're in luck.
+
+#### Creating your own agent.
+
+Having an understanding of Agent Pools is essential. In Azure DevOps service, Agents are required to build or run your code in build pipelines. When executing a job within a build, the Agent in the Agent Pool facilitates the process.
+
+To access Agent Pools, navigate to project settings and click on 'Agent Pools.' By default, there are two pools that exist.
+
+-  **Azure Pipelines hosted pool**,(Each time you run a pipeline, you get a fresh virtual machine.)
+
+You can manage these pools in Azure DevOps Yaml file as well. Read more [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops)
+
+-  **Default Pool** — Use it to register self hosted agents that you can setup. You have to manage on your own.
+
+![](./images/13.png)
+
+
+We will use the Default Pool to register our self hosted agents.
+
+1. Click on **Default Pool** and **New Agent**
+2. Follow the steps shown on the screen
+
+    ![](./images/14.png)
+
+3. Make sure you generate Access Token(PAT) beforehand. It is available in your profile settings.
+
+    ![](./images/15.png)
+
+4. Now move to the machine or system which is going to work. Install it using instructions given by Microsoft. While running it you have to provide few details so that it can configure itself.
+
+5. Once you run the agent, check the status in Azure Console.
+
+    ![](./images/16.png)
+
+Now that the agent is set up, Let's proceed to add it on our pipeline.
+
+### Deploying the Web app via Azure Devops
+
+1. First, let's change our agent pool. 
+
+    Change Line 10 and 40 to ```name: default```
+
+2. So, the final yaml file will be like like 
+
+    ```
+        trigger:
+    branches:
+        include:
+        - master   # Replace with your main branch name
+
+    jobs:
+    - job: Build
+    displayName: 'Build the app'
+    pool:
+        name: default
+    steps:
+    - task: NodeTool@0
+        inputs:
+        versionSpec: '18.x'
+        displayName: 'Install Node.js'
+
+    - script: |
+        npm ci
+        displayName: 'Install dependencies'
+
+    - script: |
+        echo "Contents of the default working directory:"
+        ls $(System.DefaultWorkingDirectory)
+        displayName: 'List files in working directory'
+
+    - task: ArchiveFiles@2
+        inputs:
+        rootFolderOrFile: '$(System.DefaultWorkingDirectory)' # Change this if your build output is in a different folder
+        includeRootFolder: false
+        archiveType: 'zip'
+        archiveFile: '$(Build.ArtifactStagingDirectory)/app.zip'
+
+    - publish: $(Build.ArtifactStagingDirectory)/app.zip
+        artifact: drop
+
+    - job: Deploy
+    displayName: 'Deploy to Azure Web App'
+    dependsOn: Build
+    pool:
+        name: default
+    steps:
+    - download: current
+        artifact: drop
+
+    - task: AzureWebApp@1
+        inputs:
+        azureSubscription: 'dadjoke'
+        appType: 'webAppLinux'
+        appName: 'dadjokegenerator'
+        deployToSlotOrASE: true
+        resourceGroupName: 'Girish_RG'
+        slotName: 'production'
+        package: '$(Pipeline.Workspace)/drop/app.zip'
+        runtimeStack: 'NODE|18-lts'
+        startUpCommand: 'apt-get update -yy && node app.js'
+    ```
+
+3. Now Let's run the pipeline again.
+
+4. So, the pipeline has been builed and deployed successfully. 
+
+    ![](./images/17.png)
+
+5. Try to access the url again.
+
+    ![](./images/18.png)
+
+
+![GIF](https://giphy.com/embed/t2sKa4JKNW9DawxAYi)
