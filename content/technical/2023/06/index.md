@@ -339,7 +339,7 @@ Now that the agent is set up, Let's proceed to add it on our pipeline.
     ![](./images/18.png)
 
 
-## Summary 
+## Conclusion 
 
 In this blog post, I shared my experience of deploying a web app using Azure DevOps and Azure App Service, despite my initial preference for AWS. I explored the process of creating a free Azure account for university students and dove into the functionalities of Azure App Service, which impressed me with its simplicity and DevOps integration. With a fun Node.js Dad joke generator app as our test case, I walked through the steps of setting up Azure App Service, creating a service connection, and building the pipeline using YAML. Through this project, I gained valuable insights into Azure and Azure DevOps, ultimately expanding my cloud deployment skills.
 
