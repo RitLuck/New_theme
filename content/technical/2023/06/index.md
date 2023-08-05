@@ -1,6 +1,6 @@
 ---
 title: "Deploying an app service (web app) using Azure DevOps"
-date: 2023-07-25T09:46:17+04:00
+date: 2023-08-05T09:46:17+04:00
 draft: false
 tags:
   - azure
