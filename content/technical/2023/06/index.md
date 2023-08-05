@@ -40,7 +40,7 @@ Given that I'm still learning Node.js, I asked ChatGPT to write a simple and eas
     - Runtime stack. Specify the app service language. In this example, I chose Node 18 LTS.
     - OS (I Chose Linux)
     - Region (East US by default)
-    - Princing Plan (Free F1, because this is just for demo purposes)
+    - Pricing Plan (Free F1, because this is just for demo purposes)
 
     ![](./images/2.png)
 
@@ -99,7 +99,7 @@ A service connection is used to establish a connection between Azure DevOps and 
 
 ### Fixing service connection issue
 
-In case you're getting this issue, which I'm quite certain you're getting xD. Then fear not.
+In case you're getting this issue, which I'm quite certain you're getting 🥹. Then fear not.
 
 **"Failed to query service connection API "https://managemant.azure.com/sub/xxx?api-version=2016-06-01.status code:'status code:{"error",:{code""Authorization failed message" 'the client" with object id "does not have authorization to perform action 'microsoft.resource/sub/read,over scope'/sub or scope is invalid.if access was recently granted.please refresh your credentials}}"**
 
