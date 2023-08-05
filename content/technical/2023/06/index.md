@@ -330,7 +330,7 @@ Now that the agent is set up, Let's proceed to add it on our pipeline.
 
 3. Now, Let's run the pipeline again.
 
-4. The pipeline has been built and deployed successfully. Thanks you [Zain](https://zain.mu/) for helping me with the StartupCommand
+4. The pipeline has been built and deployed successfully. Thank you [Zain](https://zain.mu/) for helping me with the StartupCommand. 🤝
 
     ![](./images/17.png)
 
