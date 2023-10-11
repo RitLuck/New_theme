@@ -1,7 +1,7 @@
 ---
 title: "Terraform Automation with a Bash Script"
 date: 2023-10-11T10:13:28+04:00
-draft: true
+draft: false
 tags:
   - azure
   - terraform
