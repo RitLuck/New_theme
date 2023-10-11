@@ -10,7 +10,7 @@ tags:
 
 Deploying your first cloud resources with [Terraform](https://www.terraform.io/) often means juggling commands like `terraform fmt`, `terraform plan`, and `terraform apply`. It can feel a bit like a repetitive dance. But what if I told you there's a simpler way? Just one command, you can seamlessly execute the entire Terraform workflow – from code formatting to applying changes in your cloud environment.
 
-The one command mentioned is a Bash Script, where you only need to specify the environment in which you want to provision your resources. The code can be found at the end of the blog on my gihub.
+The one command mentioned is a Bash Script, where you only need to specify the environment in which you want to provision your resources. The code can be found at the end of the blog on my github.
 
 This Bash script is designed to simplify the process of managing Terraform deployments across different environments (dev, test, and prod). 
 
