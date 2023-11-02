@@ -9,17 +9,17 @@ tags:
   - life
 ---
 
-Okay, it's been some time since I wrote last and I thought to write about my vacation in Malaysia. The planning has been going on for days after one of my friends got married; A tug Excitement. Finally, on the scheduled day(07 Aug) we boarded the Mauritius Airlines flight. 
+Okay, it's been some time since I wrote last and I thought to write about my vacation in Malaysia. The planning has been going on for days after one of my friends got married; A tug of Excitement. Finally, on the scheduled day(07 Aug) we boarded the Mauritius Airlines flight. 
 
 ![](./images/01.jpg)
 
 #  Day 1 - Arrival
 
-We arrived the following day around 3 PM. It was so freaking hot, fortunately every buidling, cars, bus had aircon. We stayed at the [cheapest hotel](https://www.booking.com/hotel/my/msp.en-gb.html) we could find on booking.com in Kuala Lumpur. Although, we did not like the small bathroom and toilet, the staff was nice and they cleaned our room every 3 days giving up new towel, shampoo pillow. 
+We arrived the following day around 3 PM. It was so freaking hot, fortunately every building, cars, bus had aircon. We stayed at the [cheapest hotel](https://www.booking.com/hotel/my/msp.en-gb.html) we could find on booking.com in Kuala Lumpur. Although, we did not like the small bathroom and toilet, the staff was nice and they cleaned our room every 3 days giving up new towel, shampoo pillow. 
 
-First thing after unpacking our stuff, we went to 7-evelen and grab a [malaysia sim card](https://www.u.com.my/en/personal/home). And yes ofcourse, on our very first day, it was raining so freaking much, that we had to stay around 2 hours in the same building. But luckily, the malls was so huge, that even 2 hours doesn't seem enough. 
+After unpacking our things, we went to 7-Eleven and grab a [malaysian sim card](https://www.u.com.my/en/personal/home). And yes ofcourse, on our very first day, it was raining so freaking much, that we had to stay around 2 hours in the same building. But luckily, the malls was so huge, even 2 hours doesn't seem enough. 
 
-We went to [Pavillion](https://www.pavilion-kl.com/) food-court for diiner. First thing i got was Burger King, which was alllrighhtt. Then I saw a place seling japansese food. Bought the Signature beed curry, and boy it was good.
+We went to [Pavillion](https://www.pavilion-kl.com/) food-court for dinner. First thing i got was Burger King, which was allrighhtt. Then I saw a place seling japansese food. Bought the Signature beed curry, and boy it was good!
 
 ![](./images/02.jpg)
 
