@@ -9,7 +9,7 @@ tags:
   - life
 ---
 
-Okay, it's been some time since I wrote last and I thought to write about my vacation in Malaysia. The planning has been going on for days after one of my friends got married; A tug of Excitement. Finally, on the scheduled day(07 Aug) we boarded the Mauritius Airlines flight. 
+Okay, it's been some time since I wrote last and I thought to write about my vacation in Malaysia. The planning has been going on for days after one of my friends got married back in July; A tug of Excitement. Finally, on the scheduled day(07 Aug) we boarded the Mauritius Airlines flight. 
 
 ![](./images/01.jpg)
 
