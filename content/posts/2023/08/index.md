@@ -11,7 +11,7 @@ tags:
 
 Okay, it's been some time since I wrote last and I thought to write about my vacation in Malaysia. The planning has been going on for days after one of my friends got married; A tug Excitement. Finally, on the scheduled day(07 Aug) we boarded the Mauritius Airlines flight. 
 
-![](/content/posts/2023/08/images/01.jpg)
+![](./images/01.jpg)
 
 #  Day 1 - Arrival
 
@@ -21,13 +21,13 @@ First thing after unpacking our stuff, we went to 7-evelen and grab a [malaysia 
 
 We went to [Pavillion](https://www.pavilion-kl.com/) food-court for diiner. First thing i got was Burger King, which was alllrighhtt. Then I saw a place seling japansese food. Bought the Signature beed curry, and boy it was good.
 
-![](/content/posts/2023/08/images/02.jpg)
+![](./images/02.jpg)
 
 Around 1 am, we went out to look for food again, and we saw [this place ](https://www.youtube.com/watch?v=EzDIzWR6a1Y), we bought a plate of spicy Tandoori Ayam and [Teh Tarik](https://www.google.com/search?client=firefox-b-e&q=teh+tarik).
 
-![](/content/posts/2023/08/images/03.jpg)
+![](./images/03.jpg)
 
-![](/content/posts/2023/08/images/04.jpg)
+![](./images/04.jpg)
 
 # Day 2 - Batu Caves
 
