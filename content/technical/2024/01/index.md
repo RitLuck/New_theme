@@ -9,7 +9,7 @@ tags:
   - aws
 ---
 
-# How to configure the AWS Application Migration Service (AWS MGN) to replicate the source server in an AWS region
+# How to configure AWS MGN for migrating your workloads from one AWS Region to another.
 
 Moving to the cloud can be tough for companies as they need to ensure smooth and safe data transfers. [AWS MGN](https://aws.amazon.com/application-migration-service/), a service by Amazon Web Services, makes this easier. It helps companies to **Lift** and **Shift** their data to AWS securely, cutting downtime and lowering the chance of losing data.
 
@@ -31,4 +31,11 @@ Lift-and-shit consists in copying the existing applications and data to the clou
 ### Provision of a source server to be copied
 
 - Launch an Ec2 instance with public IP enabled and inbound 22 (SSH) and 80 (HTTP) open in any region of your choice. This will be the source server and region (eu-west-1).
-- 
+
+- Install Apache
+
+  ![](./images/2.png)
+
+- Start the HTTPD service
+
+  ![](./images/3.png)
