@@ -9,7 +9,7 @@ tags:
   - aws
 ---
 
-## How to configure AWS MGN for migrating your workloads from one AWS Region to another.
+## Configure AWS MGN for migrating your workloads from one AWS Region to another.
 
 Moving to the cloud can be tough for companies as they need to ensure smooth and safe data transfers. [AWS MGN](https://aws.amazon.com/application-migration-service/), a service by Amazon Web Services, makes this easier. It helps companies to **Lift** and **Shift** their data to AWS securely, cutting downtime and lowering the chance of losing data.
 
