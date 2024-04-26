@@ -9,13 +9,13 @@ tags:
   - aws
 ---
 
-# How to configure AWS MGN for migrating your workloads from one AWS Region to another.
+## How to configure AWS MGN for migrating your workloads from one AWS Region to another.
 
 Moving to the cloud can be tough for companies as they need to ensure smooth and safe data transfers. [AWS MGN](https://aws.amazon.com/application-migration-service/), a service by Amazon Web Services, makes this easier. It helps companies to **Lift** and **Shift** their data to AWS securely, cutting downtime and lowering the chance of losing data.
 
 Lift-and-shit consists in copying the existing applications and data to the cloud with no redesigning or modification, it’s a copy paste operation.
 
-## MGN Big picture 
+### MGN Big picture 
 
 ![](./images/1.png)
 
@@ -26,9 +26,9 @@ Lift-and-shit consists in copying the existing applications and data to the clou
 5. After confirming that your launched instances are operating properly on AWS, you can decommission your source servers.
 
 
-## Get Started
+### Get Started
 
-### Provision of a source server to be copied
+#### Provision of a source server to be copied
 
 - Launch an Ec2 instance with public IP enabled and inbound 22 (SSH) and 80 (HTTP) open in any region of your choice. This will be the source server and region (eu-west-1).
 
