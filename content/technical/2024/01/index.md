@@ -1,7 +1,7 @@
 ---
 title: "AWS Application Migration Service (MGN)"
 date: 2024-04-24T19:16:11+04:00
-draft: false
+draft: true
 toc: false
 images:
 tags:
@@ -39,3 +39,12 @@ Lift-and-shit consists in copying the existing applications and data to the clou
 - Start the HTTPD service
 
   ![](./images/3.png)
+
+- Go to the web browser and copy paste the instance public IP.
+  
+  ![](./images/4.png)
+
+#### Initialize AWS Application Migration Service (MGN) 
+
+- Select on AWS Console the service **Application Migration Service**. The service must be initialized in any AWS region you plan to use and copy the source server over your target region. 
+- AWS credentials will be needed to install the Replication Agent on the source server.
