@@ -1,7 +1,7 @@
 ---
 title: "Copy Amazon Machine Images (AMI) to another account using AWS Key Management Service (KMS)"
 date: 2024-04-29T19:16:11+04:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
