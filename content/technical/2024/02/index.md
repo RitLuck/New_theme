@@ -1,7 +1,7 @@
 ---
 title: "AWS Application Migration Service (MGN)"
 date: 2024-04-24T19:16:11+04:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
