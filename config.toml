@@ -203,8 +203,8 @@ disableHugoGeneratorInject = false
     weight     = 20
   [[menu.main]]
     identifier = "Techinical_posts"
-    name       = "~/Today I Learned"
-    url        = "Today I Learned/"
+    name       = "~/technical"
+    url        = "technical/"
     weight     = 30
   [[menu.main]]
     identifier = "tags"
@@ -216,3 +216,4 @@ disableHugoGeneratorInject = false
   #   name       = "~/search"
   #   url        = "/search/"
   #   weight     = 50
+
