@@ -6,6 +6,7 @@ toc: false
 images:
 tags:
   - life
+  - blog
 ---
 
 I think there's a point in blogging just because you can record your feelings and what you're doing even if you don't show it to anyone, but it's hard to come up with something to write about. There were days when I didn't think to blog about it, couldn't make any progress, or rather, didn't pick up the pen.
