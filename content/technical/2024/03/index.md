@@ -54,3 +54,12 @@ This application is running on Amazon Elastic Beanstalk.
 ![](./images/5.png)
 
 ![](./images/6.png)
+
+
+## Amazon Bedrock Model access
+
+Access to Amazon Bedrock foundation models isn't granted by default. In order to gain access to a foundation model, an IAM user with sufficient permissions needs to request access to it through the console. Once access is provided to a model, it is available for all users in the account.
+
+The model access is available at the bottom of the left navigation pane in the Amazon Bedrock management console.
+
+![](./images/7.png)
