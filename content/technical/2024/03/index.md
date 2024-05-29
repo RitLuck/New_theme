@@ -63,3 +63,17 @@ Access to Amazon Bedrock foundation models isn't granted by default. In order to
 The model access is available at the bottom of the left navigation pane in the Amazon Bedrock management console.
 
 ![](./images/7.png)
+
+
+### Playing around with the Image generation
+
+![](./images/8.png)
+
+![](./images/9.png)
+
+
+### Text Generation
+
+![](./images/10.png)
+
+P.s My dad's name is Rajesh 😂
