@@ -1,5 +1,5 @@
 ---
-title: "Generative AI on AWS"
+title: "Generative AI on AWS Part 1"
 date: 2024-05-29T12:31:18+04:00
 draft: false
 toc: false
