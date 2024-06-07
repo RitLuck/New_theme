@@ -1,6 +1,6 @@
 ---
-title: "AWS Application Migration Service (MGN)"
-date: 2024-04-24T19:16:11+04:00
+title: "Copy Amazon Machine Images (AMI) to another account using AWS Key Management Service (KMS)"
+date: 2024-04-28T15:00:19+04:00
 draft: false
 toc: false
 images:
@@ -9,42 +9,123 @@ tags:
   - aws
 ---
 
-## Configure AWS MGN for migrating your workloads from one AWS Region to another.
+## Create an Image for the VM you want to copy
 
-Moving to the cloud can be tough for companies as they need to ensure smooth and safe data transfers. [AWS MGN](https://aws.amazon.com/application-migration-service/), a service by Amazon Web Services, makes this easier. It helps companies to **Lift** and **Shift** their data to AWS securely, cutting downtime and lowering the chance of losing data.
+1. Select your vm.
+2. Click on **Actions** -> **Image and templates** -> **Create Image**.
+   ![](./images/1.png)
 
-Lift-and-shit consists in copying the existing applications and data to the cloud with no redesigning or modification, it’s a copy paste operation.
+## Create an KMS key to the account
 
-### MGN Big picture 
+1. Go to the account where the AMI will be copied.
+2. Go to **Key Management Service (KMS)**
+3. Click on **Create A key**.
+4. Skip all the steps and go directly to **Review**.
+5. Copy and paste the following policy in the **Key Policy** section.
+   
+   ```
+   {
+    "Version": "2012-10-17",
+    "Id": "key-consolepolicy-3",
+    "Statement": [
+        {
+            "Sid": "Enable IAM User Permissions",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::ACCOUNT_ID:root"
+            },
+            "Action": "kms:*",
+            "Resource": "*"
+        },
+        {
+            "Sid": "Allow access for Key Administrators",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::ACCOUNT_ID:root"
+            },
+            "Action": [
+                "kms:Create*",
+                "kms:Describe*",
+                "kms:Enable*",
+                "kms:List*",
+                "kms:Put*",
+                "kms:Update*",
+                "kms:Revoke*",
+                "kms:Disable*",
+                "kms:Get*",
+                "kms:Delete*",
+                "kms:TagResource",
+                "kms:UntagResource",
+                "kms:ScheduleKeyDeletion",
+                "kms:CancelKeyDeletion",
+                "kms:RotateKeyOnDemand"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "Allow use of the KMS key for organization",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": [
+                "kms:Encrypt",
+                "kms:Decrypt",
+                "kms:ReEncrypt*",
+                "kms:GenerateDataKey*",
+                "kms:DescribeKey",
+                "kms:GetKeyPolicy",
+                "kms:ListKeys",
+                "kms:ListAliases",
+                "kms:CreateGrant"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "Allow attachment of persistent resources",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "AWS": "arn:aws:iam::ACCOUNT_ID:role/KMSKeyAdmins"
+            },
+            "Action": [
+                "kms:CreateGrant",
+                "kms:ListGrants",
+                "kms:RevokeGrant"
+            ],
+            "Resource": "*",
+            "Condition": {
+                "Bool": {
+                    "kms:GrantIsForAWSResource": "true"
+                }
+            }
+        }
+    ]
+   }
+   ```
 
-![](./images/1.png)
+   Replace **Account_ID** with your account id.
 
-1. In order to perform a migration using AWS MGN, we need to install the AWS MGN Replication Agent on our source (machine that we intend to migrate). 
-2. Replication servers copy the data from your source servers using the AWS Replication Agent. 
-3. The data are written in the EBS volume in a compressed and encrypted format. 
-4. When performing a cutover, AWS uses your defined launch settings to launch the instances. 
-5. After confirming that your launched instances are operating properly on AWS, you can decommission your source servers.
+   For info [here](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-default.html#key-policy-default-allow-administrators)
 
+## Encrypting EBS Snapshots of AMI Copy
 
-### Get Started
-
-#### Provision of a source server to be copied
-
-- Launch an Ec2 instance with public IP enabled and inbound 22 (SSH) and 80 (HTTP) open in any region of your choice. This will be the source server and region (eu-west-1).
-
-- Install Apache
+1. Copy the **ARN** of the newly created KMS.
+2. Go back to the account the the AMI is located.
+3. Select the **AMI** -> **Actions** -> **Copy AMI**.
+4. Select the **Encrypt EBS Snapshots of AMI Copy**\
+5. Add the ARN that you copied from the previous account and paste it here.
+6. Click on **Copy AMI below**
 
   ![](./images/2.png)
 
-- Start the HTTPD service
 
-  ![](./images/3.png)
+## Copy the AMI to another account.
+1. Click on the AMI.
+2. Select **Actions** -> **Edit AMI permissions**.
+3. Under **Shared accounts**, click on **Add account ID**.
+4. Add the **account ID** to which the AMI will be copied.
 
-- Go to the web browser and copy paste the instance public IP.
-  
-  ![](./images/4.png)
 
-#### Initialize AWS Application Migration Service (MGN) 
+## Final Check
 
-- Select on AWS Console the service **Application Migration Service**. The service must be initialized in any AWS region you plan to use and copy the source server over your target region. 
-- AWS credentials will be needed to install the Replication Agent on the source server.
+Navigate to the account, and check if the ami has been copied.
