@@ -1,3 +1,16 @@
+---
+title: "AWS S3 Cross-Account Replication "
+date: 2025-06-01T15:41:16+04:00
+draft: false
+toc: false
+images:
+tags:
+  - tech
+  - aws
+---
+
+
+
 # AWS S3 Cross-Account Replication
 
 Say for X reason, you need to migrate all your data from an S3 bucket in **Account A** to a bucket in **Account B**. There are several ways to go about it. For example:
