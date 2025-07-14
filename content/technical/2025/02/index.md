@@ -10,7 +10,6 @@ tags:
   - genAi
 ---
 
-
 Okay, so you might be wondering, what the heck is **Amzon Q**, and what is **MCP**? 
 Dont worry, I was just confused at first!
 
