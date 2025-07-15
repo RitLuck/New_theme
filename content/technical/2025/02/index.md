@@ -55,7 +55,7 @@ Before we start interacting with Q, we need to add the MCP Servers. Head over to
 
 Under the Prerequisites, you will need to install **uv** from [Astral](https://docs.astral.sh/uv/getting-started/installation/) and have Python 3.10 or newer installed.
 
-Add the json code in `~/.aws/amazonq/mcp.json `
+Now, add the following JSON config to your file at `~/.aws/amazonq/mcp.json`:
 
 ```
 {
@@ -74,32 +74,35 @@ Add the json code in `~/.aws/amazonq/mcp.json `
 }
 ```
 
-Once done, type `q` to your terminal.
+Once done, type `q` in your terminal.
 
 ![alt text](./images/02.png)
 
-Bravo, you have successfully added Amazon Q to your terminal.
+Bravo, you have successfully added Amazon Q to your terminal! 🥳
 
-Now for the not so magic part, chat with it.
+Now for the fun part.
 
 
 # Chatting with Amazon Q
 
-To test if it works, I asked how to migrate all s3 buckets to another account?
+To test if it was working, I asked 
 
-From the screenshot, you can see that it is using the mcp server that we added earlier awslabsaws_documentation_mcp_server to do the reasearch.
+"how to migrate all s3 buckets to another account?"
+
+From the screenshot below, you can see that it's using the MCP server we added earlier `awslabsaws_documentation_mcp_server` to do the reasearch.
 
 ![alt text](./images/03.png)
 
-Now, It's showing how to migrate the s3 buckets including the IAM policy and the buckey policy to add.
+It provided detailed steps, including the IAM and bucket policies you'd need to add.
 
 ![alt text](./images/04.png)
 
 
-Here, it is giving some important considerations and Best Practices.
+Then it went further — giving best practices and important considerations.
+
 ![alt text](./images/05.png)
 
 
 And there you have it. 
 
-I'll do something even cooler 👀 
+I’ll try something even cooler next 👀
