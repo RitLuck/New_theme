@@ -33,7 +33,7 @@ Think of it as the magic connector behind the scenes that makes Amazon Q smarter
 P.S. It can also generate code. 😎
 
 
-## Installing Amazon Q for command line
+## Installing Amazon Q for the Command Line
 
 The installation is rather simple. You can just follow the [official documentation](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html)
 
@@ -46,14 +46,14 @@ To login, just type
 q login
 ```
 
-It will log you into your account and ask your permission to use Amazon Q.
+It will log you into your account and ask for your permission to use Amazon Q.
 
 ![alt text](./images/01.png)
 
 
-Before we start interacting with Q, we must add the MCP Servers. Head over to the [aws labs github repos](https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server).
+Before we start interacting with Q, we need to add the MCP Servers. Head over to the [aws labs github repos](https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server).
 
-Notice that in the Prerequisites, you will need to install uv from [Astral](https://docs.astral.sh/uv/getting-started/installation/) and also Python 3.10 or newer.
+Under the Prerequisites, you will need to install **uv** from [Astral](https://docs.astral.sh/uv/getting-started/installation/) and have Python 3.10 or newer installed.
 
 Add the json code in `~/.aws/amazonq/mcp.json `
 
