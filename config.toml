@@ -54,7 +54,7 @@ disableHugoGeneratorInject = false
     disable = true
   [privacy.instagram]
     disable = true
-  [privacy.twitter]
+  [privacy.x]
     disable = true
   [privacy.vimeo]
     disable = true
@@ -173,8 +173,8 @@ disableHugoGeneratorInject = false
 
   # Social icons
   [[params.social]]
-  name = "twitter"
-  url  = "https://twitter.com/sudo_gluck"
+  name = "x"
+  url  = "https://x.com/sudo_gluck"
 
   [[params.social]]
     name = "linkedin"

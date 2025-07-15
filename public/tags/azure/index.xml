@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure on Girish Luckhun</title>
+    <link>http://localhost:1313/tags/azure/</link>
+    <description>Recent content in Azure on Girish Luckhun</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2024 14:08:25 +0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform Automation with a Bash Script</title>
+      <link>http://localhost:1313/technical/2023/07/</link>
+      <pubDate>Wed, 11 Oct 2023 10:13:28 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2023/07/</guid>
+      <description>&lt;p&gt;Deploying your first cloud resources with &lt;a href=&#34;https://www.terraform.io/&#34;&gt;Terraform&lt;/a&gt; often means juggling commands like &lt;code&gt;terraform fmt&lt;/code&gt;, &lt;code&gt;terraform plan&lt;/code&gt;, and &lt;code&gt;terraform apply&lt;/code&gt;. It can feel a bit like a repetitive dance. But what if I told you there&amp;rsquo;s a simpler way? Just one command, you can seamlessly execute the entire Terraform workflow – from code formatting to applying changes in your cloud environment.&lt;/p&gt;&#xA;&lt;p&gt;The one command mentioned is a Bash Script, where you only need to specify the environment in which you want to provision your resources. The code can be found at the end of the blog on my github.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deploying an app service (web app) using Azure DevOps</title>
+      <link>http://localhost:1313/technical/2023/06/</link>
+      <pubDate>Sat, 05 Aug 2023 09:46:17 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2023/06/</guid>
+      <description>&lt;p&gt;Recently, I had the opportunity to work on a project that utilized an &lt;a href=&#34;https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops&#34;&gt;Azure DevOps build pipeline&lt;/a&gt; to deploy an &lt;a href=&#34;https://learn.microsoft.com/en-us/azure/app-service/overview&#34;&gt;app service&lt;/a&gt;. Lately, I&amp;rsquo;ve been focusing more on AWS, but I couldn&amp;rsquo;t pass up this chance to learn new things from Azure.&lt;/p&gt;&#xA;&lt;p&gt;Since I don&amp;rsquo;t have a personal Azure Account, and Azure doesn&amp;rsquo;t accept Visa cards during registration, I had to explore alternative solutions. Fortunately, I discovered that university students could create free accounts using their email addresses without the requirement of adding any credit card information.   More details can be found &lt;a href=&#34;https://azure.microsoft.com/en-us/free/students&#34;&gt;here&lt;/a&gt;. Luckily, I had a friend who was in her third year at UOM, and with her kind assistance, I managed to overcome this hurdle 😅.&#xA;Thanks &lt;a href=&#34;https://mu.linkedin.com/in/divya-rampersad-328a10231&#34;&gt;Divya&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

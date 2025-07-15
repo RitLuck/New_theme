@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Girish Luckhun</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Girish Luckhun</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Jun 2025 21:25:03 +0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS S3 Cross-Account Replication </title>
+      <link>http://localhost:1313/technical/2025/06/</link>
+      <pubDate>Sun, 01 Jun 2025 15:41:16 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2025/06/</guid>
+      <description>&lt;h1 id=&#34;aws-s3-cross-account-replication&#34;&gt;AWS S3 Cross-Account Replication&lt;/h1&gt;&#xA;&lt;p&gt;Say for X reason, you need to migrate all your data from an S3 bucket in &lt;strong&gt;Account A&lt;/strong&gt; to a bucket in &lt;strong&gt;Account B&lt;/strong&gt;. There are several ways to go about it. For example:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Manual Way&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Download all the objects from the source bucket in Account A to your local machine, then upload them to the destination bucket in Account B.&#xA;Is it the smartest way? Probably not. But technically, it works.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enable Termination Protection on ec2 instances using bash </title>
+      <link>http://localhost:1313/technical/2024/05/</link>
+      <pubDate>Mon, 24 Jun 2024 15:41:16 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2024/05/</guid>
+      <description>&lt;p&gt;To prevent your instance from being accidentally terminated, you can enable &lt;strong&gt;termination protection&lt;/strong&gt; for the instance.&lt;/p&gt;&#xA;&lt;p&gt;Below is a simple bash script that will&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Retrieve Running Instance IDs: Fetches a list of all running instance IDs in your AWS account.&lt;/li&gt;&#xA;&lt;li&gt;Enable Termination Protection: Loops through each retrieved instance ID and enables termination protection.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash&#xA;&#xA;# Get a list of all running instance IDs&#xA;INSTANCE_IDS=$(aws ec2 describe-instances --filters &amp;#34;Name=instance-state-name,Values=running&amp;#34; --query &amp;#34;Reservations[*].Instances[*].InstanceId&amp;#34; --output text --profile PROFILE_NAME)&#xA;&#xA;# Loop through each instance ID and enable termination protection&#xA;for instance_id in $INSTANCE_IDS&#xA;do&#xA;  echo &amp;#34;Enabling termination protection for instance: $instance_id&amp;#34;&#xA;  aws ec2 modify-instance-attribute --instance-id &amp;#34;$instance_id&amp;#34; --disable-api-termination --profile PROFILE_NAME&#xA;done&#xA;&#xA;echo &amp;#34;Termination protection enabled for all running instances.&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;AWS CLI Commands:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Generative AI on AWS</title>
+      <link>http://localhost:1313/technical/2024/04/</link>
+      <pubDate>Wed, 29 May 2024 12:31:18 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2024/04/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;Just a few days back, I jumped into this online workshop hosted by AWS. They were all about using Generative AI to build smart apps. It was called &amp;lsquo;Build Intelligent Enterprise Apps Powered By Generative AI On AWS - GenAI Booster.&amp;rsquo; Participants were given access to a temporary AWS account, valid for 48 hours, specifically for the workshop. This account provided hands-on experience and access to the necessary resources for the duration of the event.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I&#39;m thinking of ending things</title>
+      <link>http://localhost:1313/posts/2024/05/im-thinking-of-ending-things/</link>
+      <pubDate>Sat, 11 May 2024 19:16:11 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2024/05/im-thinking-of-ending-things/</guid>
+      <description>&lt;p&gt;&amp;ldquo;I’m thinking of ending things. Once this thought arrives, it stays. It sticks. It lingers. It dominates. There’s not much I can do about it. Trust me. It doesn’t go away. It’s there whether I like it or not. It’s there when I eat. When I go to bed. It’s there when I sleep. It’s there when I wake up. It’s always there. Always.”&lt;/p&gt;&#xA;&lt;p&gt;-― Iain Reid, I&amp;rsquo;m Thinking of Ending Things&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A few months have passed since I was thinking about why I can&#39;t write a blog.</title>
+      <link>http://localhost:1313/posts/2024/04/a-few-months-have-passed-since-i-was-thinking-about-why-i-cant-write-a-blog./</link>
+      <pubDate>Tue, 30 Apr 2024 20:34:16 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2024/04/a-few-months-have-passed-since-i-was-thinking-about-why-i-cant-write-a-blog./</guid>
+      <description>&lt;p&gt;I think there&amp;rsquo;s a point in blogging just because you can record your feelings and what you&amp;rsquo;re doing even if you don&amp;rsquo;t show it to anyone, but it&amp;rsquo;s hard to come up with something to write about. There were days when I didn&amp;rsquo;t think to blog about it, couldn&amp;rsquo;t make any progress, or rather, didn&amp;rsquo;t pick up the pen.&lt;/p&gt;&#xA;&lt;p&gt;There must be a reason for this, I understand. Well, the &lt;code&gt;blogging experience&lt;/code&gt; is not good, and I have been thinking about it for several months, thinking that I need to change the system and how to change it. had passed. It&amp;rsquo;s hilarious.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Copy Amazon Machine Images (AMI) to another account using AWS Key Management Service (KMS)</title>
+      <link>http://localhost:1313/technical/2024/02/</link>
+      <pubDate>Sun, 28 Apr 2024 15:00:19 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2024/02/</guid>
+      <description>&lt;h2 id=&#34;create-an-image-for-the-vm-you-want-to-copy&#34;&gt;Create an Image for the VM you want to copy&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Select your vm.&lt;/li&gt;&#xA;&lt;li&gt;Click on &lt;strong&gt;Actions&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Image and templates&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Create Image&lt;/strong&gt;.&#xA;&lt;img src=&#34;./images/1.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;create-an-kms-key-to-the-account&#34;&gt;Create an KMS key to the account&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Go to the account where the AMI will be copied.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Go to &lt;strong&gt;Key Management Service (KMS)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Click on &lt;strong&gt;Create A key&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Skip all the steps and go directly to &lt;strong&gt;Review&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Copy and paste the following policy in the &lt;strong&gt;Key Policy&lt;/strong&gt; section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AWS Application Migration Service (MGN)</title>
+      <link>http://localhost:1313/technical/2024/03/</link>
+      <pubDate>Wed, 24 Apr 2024 19:16:11 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2024/03/</guid>
+      <description>&lt;h2 id=&#34;configure-aws-mgn-for-migrating-your-workloads-from-one-aws-region-to-another&#34;&gt;Configure AWS MGN for migrating your workloads from one AWS Region to another.&lt;/h2&gt;&#xA;&lt;p&gt;Moving to the cloud can be tough for companies as they need to ensure smooth and safe data transfers. &lt;a href=&#34;https://aws.amazon.com/application-migration-service/&#34;&gt;AWS MGN&lt;/a&gt;, a service by Amazon Web Services, makes this easier. It helps companies to &lt;strong&gt;Lift&lt;/strong&gt; and &lt;strong&gt;Shift&lt;/strong&gt; their data to AWS securely, cutting downtime and lowering the chance of losing data.&lt;/p&gt;&#xA;&lt;p&gt;Lift-and-shit consists in copying the existing applications and data to the cloud with no redesigning or modification, it’s a copy paste operation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2023 - Malyasia Trip</title>
+      <link>http://localhost:1313/posts/2023/11/2023-malyasia-trip/</link>
+      <pubDate>Thu, 02 Nov 2023 01:48:45 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2023/11/2023-malyasia-trip/</guid>
+      <description>&lt;p&gt;Okay, it&amp;rsquo;s been some time since I wrote last and I thought to write about my vacation in Malaysia. The planning has been going on for days after one of my friends got married back in July; A tug of Excitement. Finally, on the scheduled day(07 Aug) we boarded the Mauritius Airlines flight.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./images/01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;day-1---arrival&#34;&gt;Day 1 - Arrival&lt;/h1&gt;&#xA;&lt;p&gt;We arrived the following day around 3 PM. It was so freaking hot, fortunately every building, cars, bus had aircon. We stayed at the &lt;a href=&#34;https://www.booking.com/hotel/my/msp.en-gb.html&#34;&gt;cheapest hotel&lt;/a&gt; we could find on booking.com in Kuala Lumpur. Although, we did not like the small bathroom and toilet, the staff was nice and they cleaned our room every 3 days giving up new towel, shampoo pillow.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Terraform Automation with a Bash Script</title>
+      <link>http://localhost:1313/technical/2023/07/</link>
+      <pubDate>Wed, 11 Oct 2023 10:13:28 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2023/07/</guid>
+      <description>&lt;p&gt;Deploying your first cloud resources with &lt;a href=&#34;https://www.terraform.io/&#34;&gt;Terraform&lt;/a&gt; often means juggling commands like &lt;code&gt;terraform fmt&lt;/code&gt;, &lt;code&gt;terraform plan&lt;/code&gt;, and &lt;code&gt;terraform apply&lt;/code&gt;. It can feel a bit like a repetitive dance. But what if I told you there&amp;rsquo;s a simpler way? Just one command, you can seamlessly execute the entire Terraform workflow – from code formatting to applying changes in your cloud environment.&lt;/p&gt;&#xA;&lt;p&gt;The one command mentioned is a Bash Script, where you only need to specify the environment in which you want to provision your resources. The code can be found at the end of the blog on my github.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deploying an app service (web app) using Azure DevOps</title>
+      <link>http://localhost:1313/technical/2023/06/</link>
+      <pubDate>Sat, 05 Aug 2023 09:46:17 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2023/06/</guid>
+      <description>&lt;p&gt;Recently, I had the opportunity to work on a project that utilized an &lt;a href=&#34;https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops&#34;&gt;Azure DevOps build pipeline&lt;/a&gt; to deploy an &lt;a href=&#34;https://learn.microsoft.com/en-us/azure/app-service/overview&#34;&gt;app service&lt;/a&gt;. Lately, I&amp;rsquo;ve been focusing more on AWS, but I couldn&amp;rsquo;t pass up this chance to learn new things from Azure.&lt;/p&gt;&#xA;&lt;p&gt;Since I don&amp;rsquo;t have a personal Azure Account, and Azure doesn&amp;rsquo;t accept Visa cards during registration, I had to explore alternative solutions. Fortunately, I discovered that university students could create free accounts using their email addresses without the requirement of adding any credit card information.   More details can be found &lt;a href=&#34;https://azure.microsoft.com/en-us/free/students&#34;&gt;here&lt;/a&gt;. Luckily, I had a friend who was in her third year at UOM, and with her kind assistance, I managed to overcome this hurdle 😅.&#xA;Thanks &lt;a href=&#34;https://mu.linkedin.com/in/divya-rampersad-328a10231&#34;&gt;Divya&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My AWS Cloud Resume Challenge</title>
+      <link>http://localhost:1313/technical/2023/05/</link>
+      <pubDate>Sun, 18 Jun 2023 19:31:14 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2023/05/</guid>
+      <description>&lt;p&gt;As a Cloud Engineer, acquiring new cloud skills has become essential. I explored various avenues for learning, including enrolling in free online courses, watching informative videos, and attending insightful presentations. However, I realized that while I had grasped certain concepts, there was still a gap in my practical understanding of cloud technologies. The question lingered: if tasked with migrating an existing application to the cloud, would I truly be prepared?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Note to self</title>
+      <link>http://localhost:1313/posts/2023/04/note-to-self/</link>
+      <pubDate>Wed, 19 Apr 2023 20:56:32 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2023/04/note-to-self/</guid>
+      <description>&lt;p&gt;Dear you,&lt;/p&gt;&#xA;&lt;p&gt;Life is not a simple equation of 1+1= 2.. Life is full of hard choices, compromise, and sacrifices. &amp;ldquo;I know you&amp;rsquo;re looking for happiness; you&amp;rsquo;re trying to find comfort and warmth. I know your heart is at the right place, but it seems like your choices weren’t..&lt;/p&gt;&#xA;&lt;p&gt;It seems to me like you broke yourself trying to feel whole again..&lt;/p&gt;&#xA;&lt;p&gt;like you lost yourself trying to find yourself..&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Remember you are Human too.</title>
+      <link>http://localhost:1313/posts/2023/04/remember-you-are-human-too./</link>
+      <pubDate>Sun, 09 Apr 2023 22:23:42 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2023/04/remember-you-are-human-too./</guid>
+      <description>&lt;p&gt;Most of us know the saying, &lt;em&gt;&lt;strong&gt;Sticks and stones may break my bones, but words will never hurt me.&lt;/strong&gt;&lt;/em&gt; However, this statement may not hold true for those of us who have experienced hurtful name-calling. If you have been called names or seen someone who has, you know how damaging these words can be. When it comes to name calling, many teens or children may not understand that name calling is also a form of bullying. They might start out by joking, but calling someone a name with the intent of hurting them is not okay.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Can You Be a Loner Without Being Lonely?</title>
+      <link>http://localhost:1313/posts/2023/03/can-you-be-a-loner-without-being-lonely/</link>
+      <pubDate>Fri, 31 Mar 2023 11:00:27 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2023/03/can-you-be-a-loner-without-being-lonely/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;./images/01.jpeg&#34; alt=&#34;image01&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;friendship-and-solitude&#34;&gt;Friendship and solitude&lt;/h2&gt;&#xA;&lt;p&gt;Amidst a period characterized by a pandemic, financial downturn, remote work and social distancing, relationships have been tested.&lt;/p&gt;&#xA;&lt;p&gt;It is widely believed that a rise in divorce rates is imminent. This is not surprising, as financial difficulties can put a strain on a marriage, and also couples these days have to spend more time… with each other. Today, however, I would like to focus on our wider social circles and friendships. More precisely, I want to reflect on the potential advantages of being a loner.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building a Strong Foundation with AWS: Exploring the Six Key Pillars of the Well-Architected Framework</title>
+      <link>http://localhost:1313/technical/2023/04/</link>
+      <pubDate>Sat, 04 Mar 2023 10:19:40 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2023/04/</guid>
+      <description>&lt;p&gt;AWS Well-Architected framework is built around six foundational areas, also known as pillars, to help customers structure their applications in line with best practices that have become established.&lt;/p&gt;&#xA;&lt;p&gt;The AWS Well-Architected Framework is based on six pillars :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Operational excellence&lt;/li&gt;&#xA;&lt;li&gt;Security&lt;/li&gt;&#xA;&lt;li&gt;Reliability&lt;/li&gt;&#xA;&lt;li&gt;Performance efficiency&lt;/li&gt;&#xA;&lt;li&gt;Cost optimization&lt;/li&gt;&#xA;&lt;li&gt;Sustainability.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;operational-excellence&#34;&gt;&lt;strong&gt;Operational excellence&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This pillar focuses on helping customers run their workloads efficiently and effectively. It focuses on optimizing business and operational processes, as well as identifying areas of improvement to ensure continuous delivery and improvement of services. It includes services like AWS CloudFormation, AWS CloudTrail, AWS Config, and AWS CloudWatch. The Operational Excellence pillar includes a set of best practices, design principles, and core concepts that help customers achieve their goals. Some of the key components of this pillar are:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Realizing Nobody Has Ever Had a Crush on You</title>
+      <link>http://localhost:1313/posts/2023/02/realizing-nobody-has-ever-had-a-crush-on-you/</link>
+      <pubDate>Sat, 25 Feb 2023 15:11:19 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2023/02/realizing-nobody-has-ever-had-a-crush-on-you/</guid>
+      <description>&lt;p&gt;Realizing that nobody has ever had a crush on you can be a devastating realization. It can leave you feeling unlovable, unwanted, and alone. The weight of this realization can feel suffocating and it&amp;rsquo;s easy to fall into a spiral of negative thoughts and self-doubt.&lt;/p&gt;&#xA;&lt;p&gt;You may begin to wonder what&amp;rsquo;s wrong with you, why you haven&amp;rsquo;t been able to attract any romantic attention. You may start to compare yourself to others and feel like you don&amp;rsquo;t measure up. You may feel like you&amp;rsquo;re doomed to a life of loneliness and isolation. The reality is that attraction is complicated and often out of our control. It&amp;rsquo;s not a reflection of your worth as a person, but it can be hard to remember that in the face of this realization, you may start to feel like you&amp;rsquo;re not good enough, like you&amp;rsquo;ll never find someone who loves you for who you are.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Walking Under the Stars: A Trek to Grand Bassin</title>
+      <link>http://localhost:1313/posts/2023/02/walking-under-the-stars-a-trek-to-grand-bassin/</link>
+      <pubDate>Sat, 18 Feb 2023 16:50:56 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2023/02/walking-under-the-stars-a-trek-to-grand-bassin/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;./images/01.jpg&#34; alt=&#34;image01&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Maha Shivratri, the great night of Lord Shiva, is a festival celebrated by millions of people around the world. It is a time to honor and worship Lord Shiva, the god of destruction and transformation, and to seek his blessings for a prosperous and fulfilling life. The journey to Grand Bassin on Maha Shivratri is a unique experience that I have been fortunate enough to undertake multiple times. Due to the COVID-19 pandemic, the pilgrimage was not possible in 2021 and 2022, but with restrictions easing, I was excited to return to the road and experience the adventure once again. This year, I decided to start my walk from Rose Belle, which added an extra dimension of excitement to the journey. Although I did not take many pictures this year, I will be sharing some from my previous journey to give you a glimpse of the pilgrimage.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Whoami</title>
+      <link>http://localhost:1313/whoami/</link>
+      <pubDate>Mon, 30 Jan 2023 18:54:48 +0400</pubDate>
+      <guid>http://localhost:1313/whoami/</guid>
+      <description>&lt;p&gt;My introverted nature.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;I am rarely bored alone; I am often bored in groups and crowds - laurie Helgoe.&lt;/p&gt;&#xA;&lt;p&gt;I may be the guy next door suffering from wanderlust, the introvert or even the idiot. I may be the most boring person on this planet. I may also be a saint, a sinner, a muse, a nerd&amp;hellip;.anything&amp;hellip;&#xA;I think you will understand me better when you&amp;rsquo;ve known me thru and thru&amp;hellip;Believe me, very few people have had that privilege or curse as the case may be. If you&amp;rsquo;ve realized by now that I&amp;rsquo;m a pessimistic fool&amp;hellip;&#xA;Thank you! I&amp;rsquo;m a cynic as well&amp;hellip;.I don&amp;rsquo;t always think the best about people or buy into the myth that humanity is inherently good.. And then, to turn around the opinion you&amp;rsquo;ve formed of me by now&amp;hellip;&#xA;let me proclaim I&amp;rsquo;m a dreamer, good listener, perceptive, down to earth, open-minded, knowledgeable, logical, quick learner, genuine, warm, generous, insightful, a secret keeper. kindly note that I ain&amp;rsquo;t bragging&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Don&#39;t be afraid of the command line</title>
+      <link>http://localhost:1313/technical/2023/02/</link>
+      <pubDate>Sat, 28 Jan 2023 19:24:20 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2023/02/</guid>
+      <description>&lt;p&gt;We are so used to graphical user interfaces that we forget computers started off without it. As an engineer, there are many reasons why using the command line can help with scripting.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Less context switching -&amp;gt; more focus&lt;/li&gt;&#xA;&lt;li&gt;Lightweight -&amp;gt; faster development&lt;/li&gt;&#xA;&lt;li&gt;Deeper understanding of tools and the computer&lt;/li&gt;&#xA;&lt;li&gt;Higher interoperability between computers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;On an aside, the recent trend of containerization requires you to be familiar with the command line. With most containers being in linux and entering them would mean that there&amp;rsquo;s no user interface so you have to depend on the good old fashion command line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Improving My Directory Workflow</title>
+      <link>http://localhost:1313/technical/2023/01/</link>
+      <pubDate>Fri, 27 Jan 2023 19:22:37 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2023/01/</guid>
+      <description>&lt;p&gt;This is my most used custom shell script. test&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/sh&#xA;&#xA;directory=$(find ~/myworkspace ~/Desktop -mindepth 0 -maxdepth 1 -type d | fzf)&#xA;&#xA;if [ -z &amp;#34;$1&amp;#34; ]; then&#xA;    cd &amp;#34;$directory&amp;#34;&#xA;    exec bash&#xA;else&#xA;    exec ranger &amp;#34;$directory&amp;#34;&#xA;fi&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;speed-&#34;&gt;Speed 🏃🏻💨&lt;/h1&gt;&#xA;&lt;p&gt;&lt;code&gt;dic&lt;/code&gt; was a little script I made to quickly find directories that I use a lot.&lt;/p&gt;&#xA;&lt;p&gt;Gone are the days of &lt;code&gt;cd ~; cd important-directory/; ls; cd subdirectory; ls; vim important-document.md&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Now I just run &lt;code&gt;dic&lt;/code&gt; and use &lt;code&gt;fzf&lt;/code&gt; to search for the directory I need.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My current approach to social media </title>
+      <link>http://localhost:1313/posts/2023/01/my-current-approach-to-social-media/</link>
+      <pubDate>Fri, 27 Jan 2023 19:17:31 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2023/01/my-current-approach-to-social-media/</guid>
+      <description>&lt;p&gt;I’ve been doing a lot of thinking about my relationship with social media. Over the years, I’ve struggled between enjoying it’s benefits while also watching it consume valuable time that I will never get back. I would take social media breaks, in the hopes that I would be able to have more control over my time while still being active on the platforms. The problem was that I kept coming back and getting sucked into the same cycle of consumption over creation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is the most important choice in life?</title>
+      <link>http://localhost:1313/posts/2023/01/what-is-the-most-important-choice-in-life/</link>
+      <pubDate>Mon, 23 Jan 2023 19:16:11 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2023/01/what-is-the-most-important-choice-in-life/</guid>
+      <description>&lt;p&gt;The most important choice in life is not to choose what kind of work to do, nor to choose which company to invest in, but to choose who to marry.&lt;/p&gt;&#xA;&lt;p&gt;The first time I heard this statement came from Bill Gates and Buffett. Of course, the two of them are good friends and and the possibility of mutual influence cannot be ruled out，but I believe this is a common choice for all wise men. They all believe that the most important thing in life is not which company to invest in, but who to marry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My experience so far</title>
+      <link>http://localhost:1313/posts/2022/12/my-experience-so-far/</link>
+      <pubDate>Fri, 30 Dec 2022 19:12:22 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2022/12/my-experience-so-far/</guid>
+      <description>&lt;p&gt;Now that 2022 is almost over, I decided to write about my experience so far in general.&lt;/p&gt;&#xA;&lt;h1 id=&#34;university-life&#34;&gt;University life&lt;/h1&gt;&#xA;&lt;p&gt;Electrical with computer Science, yes, was an actual course at UOM(university of Mauritius) that I took during my time there. I really didn’t enjoy my university life as much as I should have. I felt like during my entire 20s I was just trailing along, not really enjoying life, always resentful and regretful of my choices, and just wasting my time altogether. But I made some really good friends along the way. The only thing I&amp;rsquo;m really proud of achieving is getting an A+ on my dissertation. It would not have been possible without the help of my friend. We literally stayed up all night just to finish it. The project was an Android app that can be used to detect any infringement on the road while you&amp;rsquo;re driving. Feel free to contact me if you want more info; in any case, here&amp;rsquo;s my [research paper] (&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-030-90618-4_18)&#34;&gt;https://link.springer.com/chapter/10.1007/978-3-030-90618-4_18)&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Developers Conference 2022</title>
+      <link>http://localhost:1313/technical/2022/01/</link>
+      <pubDate>Fri, 25 Nov 2022 19:19:09 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2022/01/</guid>
+      <description>&lt;p&gt;Mauritius Developers Conference 2022&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./images/15.png&#34; alt=&#34;image15&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This week, more than 900 tech enthusiasts descended on the city of Port Louis at &lt;a href=&#34;https://caudanartscentre.com/&#34;&gt;Caudan Arts Centre&lt;/a&gt; for the 7th Developers Conference. In case you are wondering what the Developers Conference is. Here is an &lt;a href=&#34;https://lexpress.mu/node/415580&#34;&gt;article&lt;/a&gt; written by &lt;a href=&#34;https://twitter.com/IshSookun&#34;&gt;Ish Sookun&lt;/a&gt; on L&amp;rsquo;express.&lt;/p&gt;&#xA;&lt;p&gt;Before we start talking about devcon, let&amp;rsquo;s take a moment to appreciate the venue first. It was my first time being there for an event, and damn its magnificent. Unfortunately I did not take many photos but here is &lt;a href=&#34;https://twitter.com/AfriTheatreMag/status/1484796561884340225&#34;&gt;tweet thread&lt;/a&gt; I found on twitter. All I can say is, it is absolutely remarkable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So I went to my first Night Club</title>
+      <link>http://localhost:1313/posts/2022/11/so-i-went-to-my-first-night-club/</link>
+      <pubDate>Mon, 07 Nov 2022 19:11:02 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2022/11/so-i-went-to-my-first-night-club/</guid>
+      <description>&lt;p&gt;An introvert… clubbing. Something about that sentence almost seems paradoxical.&lt;/p&gt;&#xA;&lt;p&gt;So 26 and I have yet to go to a &amp;ldquo;dance club&amp;rdquo; and for the most part, I am really unbothered by that. Nightclubs are challenging territories for a lot of introverts. Nearly every aspect of the environment puts us outside of our ideal comfort zone. That’s not to say that we can’t still enjoy them. It just requires a little bit more effort to get us there and into the right mindset to enjoy it. It is usually not my cup of tea, but my friends asked me if I wanted to go dancing to &lt;a href=&#34;https://lakaz.mu/&#34;&gt;Lakaz&lt;/a&gt; and as an introvert I am, I more than happily accepted the invitation. I&amp;rsquo;m not sure why I did because 1) I had to work that day 2) my anxiety when i see a lot of people 3) I usually talked myself out of going because I didn’t think I’d have a good time. I’d been trying to work the nerve to go out to one lately though because I wanted to break out of my comfort zone. I figured if tonight went well, I’d push further past my boundaries next time and approach some girls the next time I go. (Just kidding xD) I&amp;rsquo;m thinking it was sure curiosity, so nonetheless I pressed on to the night life on the country side of country.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tachiyomi: open-source manga reader</title>
+      <link>http://localhost:1313/posts/2022/11/tachiyomi-open-source-manga-reader/</link>
+      <pubDate>Sat, 05 Nov 2022 19:09:12 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2022/11/tachiyomi-open-source-manga-reader/</guid>
+      <description>&lt;p&gt;I’m sure a lot of manga readers had a hard time searching for a different manga reader. That is why I’m going to introduce you an open-source manga application named Tachiyomi. Here&amp;rsquo;s is a couple of reasons why i use Tachiyomi:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Completely free&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Tachiyomi is completely free to use and without any ads. That means you can have a great reading experience without any ads interrupting.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open source&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Tachiyomi is also open source which means that you can go and look at the code and see how it work and maybe even contribute if you have programming experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/2022/10/my-first-post/</link>
+      <pubDate>Wed, 26 Oct 2022 19:06:08 +0400</pubDate>
+      <guid>http://localhost:1313/posts/2022/10/my-first-post/</guid>
+      <description>&lt;p&gt;Now I know what you’re thinking…  This blog post isn’t very impressive looking. Well, I’m still quite proud of it! This is my first blog post using Hugo, a static website generator. The thing you have to know about me, however, is that I really enjoy customization. Some might (rightfully) call me a hipster in certain situations. I’m very excited to see what I will be able to achieve with this blog!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

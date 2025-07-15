@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terraform on Girish Luckhun</title>
+    <link>http://localhost:1313/tags/terraform/</link>
+    <description>Recent content in Terraform on Girish Luckhun</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2024 14:08:25 +0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform Automation with a Bash Script</title>
+      <link>http://localhost:1313/technical/2023/07/</link>
+      <pubDate>Wed, 11 Oct 2023 10:13:28 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2023/07/</guid>
+      <description>&lt;p&gt;Deploying your first cloud resources with &lt;a href=&#34;https://www.terraform.io/&#34;&gt;Terraform&lt;/a&gt; often means juggling commands like &lt;code&gt;terraform fmt&lt;/code&gt;, &lt;code&gt;terraform plan&lt;/code&gt;, and &lt;code&gt;terraform apply&lt;/code&gt;. It can feel a bit like a repetitive dance. But what if I told you there&amp;rsquo;s a simpler way? Just one command, you can seamlessly execute the entire Terraform workflow – from code formatting to applying changes in your cloud environment.&lt;/p&gt;&#xA;&lt;p&gt;The one command mentioned is a Bash Script, where you only need to specify the environment in which you want to provision your resources. The code can be found at the end of the blog on my github.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
