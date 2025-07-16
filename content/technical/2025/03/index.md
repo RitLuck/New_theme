@@ -1,5 +1,5 @@
 ---
-title: "Building a Maze Game with Amazon Q CLI"
+title: "Building the Flappy Bird Game with Amazon Q CLI"
 date: 2025-07-16T10:47:04+04:00
 draft: false
 toc: false
