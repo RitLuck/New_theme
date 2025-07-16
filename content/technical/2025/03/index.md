@@ -28,6 +28,8 @@ Once I gave it the prompt, it immediately got to work:
 
 It even let me test the game step by step to make sure everything was working.
 
+![alt text](./images/03.png)
+
 P.S I suck at my own game xD
 
 To top it off, it generated a full `README.md` file:
