@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GenAI on Girish Luckhun</title>
+    <title>GenAi on Girish Luckhun</title>
     <link>http://localhost:1313/tags/genai/</link>
-    <description>Recent content in GenAI on Girish Luckhun</description>
+    <description>Recent content in GenAi on Girish Luckhun</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Jun 2024 16:41:56 +0400</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 12:55:27 +0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/genai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building the Flappy Bird Game with Amazon Q CLI</title>
+      <link>http://localhost:1313/technical/2025/03/</link>
+      <pubDate>Wed, 16 Jul 2025 10:47:04 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2025/03/</guid>
+      <description>&lt;p&gt;If you think Amazon Q is cool, try building a game with it on the CLI and experience the AWSomeness!&lt;/p&gt;&#xA;&lt;p&gt;Alright, let’s jump right in. In my &lt;a href=&#34;https://girishluckhun.com/technical/2025/02/&#34;&gt;previous blog&lt;/a&gt;, I shared the basic things you can do with Amazon Q.&lt;/p&gt;&#xA;&lt;p&gt;In this post, I’m going one step further: I’ll be building a &lt;strong&gt;Flappy Bird&lt;/strong&gt; — entirely using the Q CLI.&lt;/p&gt;&#xA;&lt;p&gt;Remember the Flappy Bird game? well, lets try that with some new features to make my life more difficult.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Having fun with Amazon Q CLI and MCP</title>
+      <link>http://localhost:1313/technical/2025/02/</link>
+      <pubDate>Tue, 15 Jul 2025 20:29:16 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2025/02/</guid>
+      <description>&lt;p&gt;Okay, so you might be wondering, what the heck is &lt;strong&gt;Amzon Q&lt;/strong&gt;, and what is &lt;strong&gt;MCP&lt;/strong&gt;?&#xA;Dont worry, I was just confused at first!&lt;/p&gt;&#xA;&lt;p&gt;So, we recently had a meeting with our AWS guru the other day, and introduced to us &lt;strong&gt;Amazon Q&lt;/strong&gt; and &lt;strong&gt;MCP&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Let me give you a quick intro to both.&lt;/p&gt;&#xA;&lt;h2 id=&#34;amazon-q&#34;&gt;Amazon Q&lt;/h2&gt;&#xA;&lt;p&gt;You have probably noticed that small blue icon when you visit the AWS docs. yes yes, that&amp;rsquo;s &lt;strong&gt;Amazon Q&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Generative AI on AWS</title>
       <link>http://localhost:1313/technical/2024/04/</link>

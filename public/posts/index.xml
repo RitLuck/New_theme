@@ -1,110 +1,411 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Girish Luckhun</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Girish Luckhun</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 10 May 2024 11:12:04 +0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>I&#39;m thinking of ending things</title>
-      <link>http://localhost:1313/posts/2024/05/im-thinking-of-ending-things/</link>
-      <pubDate>Sat, 11 May 2024 19:16:11 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2024/05/im-thinking-of-ending-things/</guid>
-      <description>&lt;p&gt;&amp;ldquo;I’m thinking of ending things. Once this thought arrives, it stays. It sticks. It lingers. It dominates. There’s not much I can do about it. Trust me. It doesn’t go away. It’s there whether I like it or not. It’s there when I eat. When I go to bed. It’s there when I sleep. It’s there when I wake up. It’s always there. Always.”&lt;/p&gt;&#xA;&lt;p&gt;-― Iain Reid, I&amp;rsquo;m Thinking of Ending Things&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>A few months have passed since I was thinking about why I can&#39;t write a blog.</title>
-      <link>http://localhost:1313/posts/2024/04/a-few-months-have-passed-since-i-was-thinking-about-why-i-cant-write-a-blog./</link>
-      <pubDate>Tue, 30 Apr 2024 20:34:16 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2024/04/a-few-months-have-passed-since-i-was-thinking-about-why-i-cant-write-a-blog./</guid>
-      <description>&lt;p&gt;I think there&amp;rsquo;s a point in blogging just because you can record your feelings and what you&amp;rsquo;re doing even if you don&amp;rsquo;t show it to anyone, but it&amp;rsquo;s hard to come up with something to write about. There were days when I didn&amp;rsquo;t think to blog about it, couldn&amp;rsquo;t make any progress, or rather, didn&amp;rsquo;t pick up the pen.&lt;/p&gt;&#xA;&lt;p&gt;There must be a reason for this, I understand. Well, the &lt;code&gt;blogging experience&lt;/code&gt; is not good, and I have been thinking about it for several months, thinking that I need to change the system and how to change it. had passed. It&amp;rsquo;s hilarious.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>2023 - Malyasia Trip</title>
-      <link>http://localhost:1313/posts/2023/11/2023-malyasia-trip/</link>
-      <pubDate>Thu, 02 Nov 2023 01:48:45 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2023/11/2023-malyasia-trip/</guid>
-      <description>&lt;p&gt;Okay, it&amp;rsquo;s been some time since I wrote last and I thought to write about my vacation in Malaysia. The planning has been going on for days after one of my friends got married back in July; A tug of Excitement. Finally, on the scheduled day(07 Aug) we boarded the Mauritius Airlines flight.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./images/01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;day-1---arrival&#34;&gt;Day 1 - Arrival&lt;/h1&gt;&#xA;&lt;p&gt;We arrived the following day around 3 PM. It was so freaking hot, fortunately every building, cars, bus had aircon. We stayed at the &lt;a href=&#34;https://www.booking.com/hotel/my/msp.en-gb.html&#34;&gt;cheapest hotel&lt;/a&gt; we could find on booking.com in Kuala Lumpur. Although, we did not like the small bathroom and toilet, the staff was nice and they cleaned our room every 3 days giving up new towel, shampoo pillow.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Note to self</title>
-      <link>http://localhost:1313/posts/2023/04/note-to-self/</link>
-      <pubDate>Wed, 19 Apr 2023 20:56:32 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2023/04/note-to-self/</guid>
-      <description>&lt;p&gt;Dear you,&lt;/p&gt;&#xA;&lt;p&gt;Life is not a simple equation of 1+1= 2.. Life is full of hard choices, compromise, and sacrifices. &amp;ldquo;I know you&amp;rsquo;re looking for happiness; you&amp;rsquo;re trying to find comfort and warmth. I know your heart is at the right place, but it seems like your choices weren’t..&lt;/p&gt;&#xA;&lt;p&gt;It seems to me like you broke yourself trying to feel whole again..&lt;/p&gt;&#xA;&lt;p&gt;like you lost yourself trying to find yourself..&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Remember you are Human too.</title>
-      <link>http://localhost:1313/posts/2023/04/remember-you-are-human-too./</link>
-      <pubDate>Sun, 09 Apr 2023 22:23:42 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2023/04/remember-you-are-human-too./</guid>
-      <description>&lt;p&gt;Most of us know the saying, &lt;em&gt;&lt;strong&gt;Sticks and stones may break my bones, but words will never hurt me.&lt;/strong&gt;&lt;/em&gt; However, this statement may not hold true for those of us who have experienced hurtful name-calling. If you have been called names or seen someone who has, you know how damaging these words can be. When it comes to name calling, many teens or children may not understand that name calling is also a form of bullying. They might start out by joking, but calling someone a name with the intent of hurting them is not okay.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Can You Be a Loner Without Being Lonely?</title>
-      <link>http://localhost:1313/posts/2023/03/can-you-be-a-loner-without-being-lonely/</link>
-      <pubDate>Fri, 31 Mar 2023 11:00:27 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2023/03/can-you-be-a-loner-without-being-lonely/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;./images/01.jpeg&#34; alt=&#34;image01&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;friendship-and-solitude&#34;&gt;Friendship and solitude&lt;/h2&gt;&#xA;&lt;p&gt;Amidst a period characterized by a pandemic, financial downturn, remote work and social distancing, relationships have been tested.&lt;/p&gt;&#xA;&lt;p&gt;It is widely believed that a rise in divorce rates is imminent. This is not surprising, as financial difficulties can put a strain on a marriage, and also couples these days have to spend more time… with each other. Today, however, I would like to focus on our wider social circles and friendships. More precisely, I want to reflect on the potential advantages of being a loner.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Realizing Nobody Has Ever Had a Crush on You</title>
-      <link>http://localhost:1313/posts/2023/02/realizing-nobody-has-ever-had-a-crush-on-you/</link>
-      <pubDate>Sat, 25 Feb 2023 15:11:19 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2023/02/realizing-nobody-has-ever-had-a-crush-on-you/</guid>
-      <description>&lt;p&gt;Realizing that nobody has ever had a crush on you can be a devastating realization. It can leave you feeling unlovable, unwanted, and alone. The weight of this realization can feel suffocating and it&amp;rsquo;s easy to fall into a spiral of negative thoughts and self-doubt.&lt;/p&gt;&#xA;&lt;p&gt;You may begin to wonder what&amp;rsquo;s wrong with you, why you haven&amp;rsquo;t been able to attract any romantic attention. You may start to compare yourself to others and feel like you don&amp;rsquo;t measure up. You may feel like you&amp;rsquo;re doomed to a life of loneliness and isolation. The reality is that attraction is complicated and often out of our control. It&amp;rsquo;s not a reflection of your worth as a person, but it can be hard to remember that in the face of this realization, you may start to feel like you&amp;rsquo;re not good enough, like you&amp;rsquo;ll never find someone who loves you for who you are.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Walking Under the Stars: A Trek to Grand Bassin</title>
-      <link>http://localhost:1313/posts/2023/02/walking-under-the-stars-a-trek-to-grand-bassin/</link>
-      <pubDate>Sat, 18 Feb 2023 16:50:56 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2023/02/walking-under-the-stars-a-trek-to-grand-bassin/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;./images/01.jpg&#34; alt=&#34;image01&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Maha Shivratri, the great night of Lord Shiva, is a festival celebrated by millions of people around the world. It is a time to honor and worship Lord Shiva, the god of destruction and transformation, and to seek his blessings for a prosperous and fulfilling life. The journey to Grand Bassin on Maha Shivratri is a unique experience that I have been fortunate enough to undertake multiple times. Due to the COVID-19 pandemic, the pilgrimage was not possible in 2021 and 2022, but with restrictions easing, I was excited to return to the road and experience the adventure once again. This year, I decided to start my walk from Rose Belle, which added an extra dimension of excitement to the journey. Although I did not take many pictures this year, I will be sharing some from my previous journey to give you a glimpse of the pilgrimage.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My current approach to social media </title>
-      <link>http://localhost:1313/posts/2023/01/my-current-approach-to-social-media/</link>
-      <pubDate>Fri, 27 Jan 2023 19:17:31 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2023/01/my-current-approach-to-social-media/</guid>
-      <description>&lt;p&gt;I’ve been doing a lot of thinking about my relationship with social media. Over the years, I’ve struggled between enjoying it’s benefits while also watching it consume valuable time that I will never get back. I would take social media breaks, in the hopes that I would be able to have more control over my time while still being active on the platforms. The problem was that I kept coming back and getting sucked into the same cycle of consumption over creation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>What is the most important choice in life?</title>
-      <link>http://localhost:1313/posts/2023/01/what-is-the-most-important-choice-in-life/</link>
-      <pubDate>Mon, 23 Jan 2023 19:16:11 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2023/01/what-is-the-most-important-choice-in-life/</guid>
-      <description>&lt;p&gt;The most important choice in life is not to choose what kind of work to do, nor to choose which company to invest in, but to choose who to marry.&lt;/p&gt;&#xA;&lt;p&gt;The first time I heard this statement came from Bill Gates and Buffett. Of course, the two of them are good friends and and the possibility of mutual influence cannot be ruled out，but I believe this is a common choice for all wise men. They all believe that the most important thing in life is not which company to invest in, but who to marry.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My experience so far</title>
-      <link>http://localhost:1313/posts/2022/12/my-experience-so-far/</link>
-      <pubDate>Fri, 30 Dec 2022 19:12:22 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2022/12/my-experience-so-far/</guid>
-      <description>&lt;p&gt;Now that 2022 is almost over, I decided to write about my experience so far in general.&lt;/p&gt;&#xA;&lt;h1 id=&#34;university-life&#34;&gt;University life&lt;/h1&gt;&#xA;&lt;p&gt;Electrical with computer Science, yes, was an actual course at UOM(university of Mauritius) that I took during my time there. I really didn’t enjoy my university life as much as I should have. I felt like during my entire 20s I was just trailing along, not really enjoying life, always resentful and regretful of my choices, and just wasting my time altogether. But I made some really good friends along the way. The only thing I&amp;rsquo;m really proud of achieving is getting an A+ on my dissertation. It would not have been possible without the help of my friend. We literally stayed up all night just to finish it. The project was an Android app that can be used to detect any infringement on the road while you&amp;rsquo;re driving. Feel free to contact me if you want more info; in any case, here&amp;rsquo;s my [research paper] (&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-030-90618-4_18)&#34;&gt;https://link.springer.com/chapter/10.1007/978-3-030-90618-4_18)&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>So I went to my first Night Club</title>
-      <link>http://localhost:1313/posts/2022/11/so-i-went-to-my-first-night-club/</link>
-      <pubDate>Mon, 07 Nov 2022 19:11:02 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2022/11/so-i-went-to-my-first-night-club/</guid>
-      <description>&lt;p&gt;An introvert… clubbing. Something about that sentence almost seems paradoxical.&lt;/p&gt;&#xA;&lt;p&gt;So 26 and I have yet to go to a &amp;ldquo;dance club&amp;rdquo; and for the most part, I am really unbothered by that. Nightclubs are challenging territories for a lot of introverts. Nearly every aspect of the environment puts us outside of our ideal comfort zone. That’s not to say that we can’t still enjoy them. It just requires a little bit more effort to get us there and into the right mindset to enjoy it. It is usually not my cup of tea, but my friends asked me if I wanted to go dancing to &lt;a href=&#34;https://lakaz.mu/&#34;&gt;Lakaz&lt;/a&gt; and as an introvert I am, I more than happily accepted the invitation. I&amp;rsquo;m not sure why I did because 1) I had to work that day 2) my anxiety when i see a lot of people 3) I usually talked myself out of going because I didn’t think I’d have a good time. I’d been trying to work the nerve to go out to one lately though because I wanted to break out of my comfort zone. I figured if tonight went well, I’d push further past my boundaries next time and approach some girls the next time I go. (Just kidding xD) I&amp;rsquo;m thinking it was sure curiosity, so nonetheless I pressed on to the night life on the country side of country.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tachiyomi: open-source manga reader</title>
-      <link>http://localhost:1313/posts/2022/11/tachiyomi-open-source-manga-reader/</link>
-      <pubDate>Sat, 05 Nov 2022 19:09:12 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2022/11/tachiyomi-open-source-manga-reader/</guid>
-      <description>&lt;p&gt;I’m sure a lot of manga readers had a hard time searching for a different manga reader. That is why I’m going to introduce you an open-source manga application named Tachiyomi. Here&amp;rsquo;s is a couple of reasons why i use Tachiyomi:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Completely free&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Tachiyomi is completely free to use and without any ads. That means you can have a great reading experience without any ads interrupting.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open source&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Tachiyomi is also open source which means that you can go and look at the code and see how it work and maybe even contribute if you have programming experience.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/2022/10/my-first-post/</link>
-      <pubDate>Wed, 26 Oct 2022 19:06:08 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2022/10/my-first-post/</guid>
-      <description>&lt;p&gt;Now I know what you’re thinking…  This blog post isn’t very impressive looking. Well, I’m still quite proud of it! This is my first blog post using Hugo, a static website generator. The thing you have to know about me, however, is that I really enjoy customization. Some might (rightfully) call me a hipster in certain situations. I’m very excited to see what I will be able to achieve with this blog!&lt;/p&gt;</description>
-    </item>
-  </channel>
+    <channel>
+        <title>Posts on Girish Luckhun</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on Girish Luckhun</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 11 May 2024 19:16:11 +0400</lastBuildDate>
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>I&#39;m thinking of ending things</title>
+            <link>http://localhost:1313/posts/2024/05/im-thinking-of-ending-things/</link>
+            <pubDate>Sat, 11 May 2024 19:16:11 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2024/05/im-thinking-of-ending-things/</guid>
+            <description>&lt;p&gt;&amp;ldquo;I’m thinking of ending things. Once this thought arrives, it stays. It sticks. It lingers. It dominates. There’s not much I can do about it. Trust me. It doesn’t go away. It’s there whether I like it or not. It’s there when I eat. When I go to bed. It’s there when I sleep. It’s there when I wake up. It’s always there. Always.”&lt;/p&gt;
+&lt;p&gt;-― Iain Reid, I&amp;rsquo;m Thinking of Ending Things&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>&ldquo;I’m thinking of ending things. Once this thought arrives, it stays. It sticks. It lingers. It dominates. There’s not much I can do about it. Trust me. It doesn’t go away. It’s there whether I like it or not. It’s there when I eat. When I go to bed. It’s there when I sleep. It’s there when I wake up. It’s always there. Always.”</p>
+<p>-― Iain Reid, I&rsquo;m Thinking of Ending Things</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>A few months have passed since I was thinking about why I can&#39;t write a blog.</title>
+            <link>http://localhost:1313/posts/2024/04/a-few-months-have-passed-since-i-was-thinking-about-why-i-cant-write-a-blog./</link>
+            <pubDate>Tue, 30 Apr 2024 20:34:16 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2024/04/a-few-months-have-passed-since-i-was-thinking-about-why-i-cant-write-a-blog./</guid>
+            <description>&lt;p&gt;I think there&amp;rsquo;s a point in blogging just because you can record your feelings and what you&amp;rsquo;re doing even if you don&amp;rsquo;t show it to anyone, but it&amp;rsquo;s hard to come up with something to write about. There were days when I didn&amp;rsquo;t think to blog about it, couldn&amp;rsquo;t make any progress, or rather, didn&amp;rsquo;t pick up the pen.&lt;/p&gt;
+&lt;p&gt;There must be a reason for this, I understand. Well, the &lt;code&gt;blogging experience&lt;/code&gt; is not good, and I have been thinking about it for several months, thinking that I need to change the system and how to change it. had passed. It&amp;rsquo;s hilarious.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>I think there&rsquo;s a point in blogging just because you can record your feelings and what you&rsquo;re doing even if you don&rsquo;t show it to anyone, but it&rsquo;s hard to come up with something to write about. There were days when I didn&rsquo;t think to blog about it, couldn&rsquo;t make any progress, or rather, didn&rsquo;t pick up the pen.</p>
+<p>There must be a reason for this, I understand. Well, the <code>blogging experience</code> is not good, and I have been thinking about it for several months, thinking that I need to change the system and how to change it. had passed. It&rsquo;s hilarious.</p>
+<p>However, in the end, I thought that perhaps the hurdle was thinking, <code>If I'm going to write, I should write a proper article.</code>
+So, I decided to post this kind of sloppy article and try to free myself from the curse of being &ldquo;proper.&rdquo;
+Aim for around 30 articles per year (2.5 articles per month).</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>2023 - Malyasia Trip</title>
+            <link>http://localhost:1313/posts/2023/11/2023-malyasia-trip/</link>
+            <pubDate>Thu, 02 Nov 2023 01:48:45 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2023/11/2023-malyasia-trip/</guid>
+            <description>&lt;p&gt;Okay, it&amp;rsquo;s been some time since I wrote last and I thought to write about my vacation in Malaysia. The planning has been going on for days after one of my friends got married back in July; A tug of Excitement. Finally, on the scheduled day(07 Aug) we boarded the Mauritius Airlines flight.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;day-1---arrival&#34;&gt;Day 1 - Arrival&lt;/h1&gt;
+&lt;p&gt;We arrived the following day around 3 PM. It was so freaking hot, fortunately every building, cars, bus had aircon. We stayed at the &lt;a href=&#34;https://www.booking.com/hotel/my/msp.en-gb.html&#34;&gt;cheapest hotel&lt;/a&gt; we could find on booking.com in Kuala Lumpur. Although, we did not like the small bathroom and toilet, the staff was nice and they cleaned our room every 3 days giving up new towel, shampoo pillow.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Okay, it&rsquo;s been some time since I wrote last and I thought to write about my vacation in Malaysia. The planning has been going on for days after one of my friends got married back in July; A tug of Excitement. Finally, on the scheduled day(07 Aug) we boarded the Mauritius Airlines flight.</p>
+<p><img src="./images/01.jpg" alt=""></p>
+<h1 id="day-1---arrival">Day 1 - Arrival</h1>
+<p>We arrived the following day around 3 PM. It was so freaking hot, fortunately every building, cars, bus had aircon. We stayed at the <a href="https://www.booking.com/hotel/my/msp.en-gb.html">cheapest hotel</a> we could find on booking.com in Kuala Lumpur. Although, we did not like the small bathroom and toilet, the staff was nice and they cleaned our room every 3 days giving up new towel, shampoo pillow.</p>
+<p>After unpacking our things, we went to 7-Eleven and grab a <a href="https://www.u.com.my/en/personal/home">malaysian sim card</a>. And yes ofcourse, on our very first day, it was raining so freaking much, that we had to stay around 2 hours in the same building. But luckily, the malls was so huge, even 2 hours doesn&rsquo;t seem enough.</p>
+<p>We went to <a href="https://www.pavilion-kl.com/">Pavillion</a> food-court for dinner. First thing i got was Burger King, which was allrighhtt. Then I saw a place seling japansese food. Bought the Signature beed curry, and boy it was good!</p>
+<p><img src="./images/02.jpg" alt=""></p>
+<p>Around 1 am, we went out to look for food again, and we saw <a href="https://www.youtube.com/watch?v=EzDIzWR6a1Y">this place </a>, we bought a plate of spicy Tandoori Ayam and <a href="https://www.google.com/search?client=firefox-b-e&amp;q=teh+tarik">Teh Tarik</a>.</p>
+<p><img src="./images/03.jpg" alt=""></p>
+<p><img src="./images/04.jpg" alt=""></p>
+<h1 id="day-2---batu-caves">Day 2 - Batu Caves</h1>
+<p>On the second day, we went to Batu Caves to visit the Gods. We took the train at 8 am and reached there around 9 15am. Little history about the batu caves : Dedicated to Lord Murugan, this vibrant temple has a series of caves and cave temples. It is believed that the caves are said to be around 400 million years old.</p>
+<p>And here’s the best part…there is no entrance fee! <strong>Batu Caves is FREE</strong>. Simply walk right up and admire what’s in front of you, snap some pictures, and then take on those 272 stairs. Even though the stairs look daunting, they’re actually not that bad, and you get some awesome views along the way.</p>
+<p>But whether you just snap pictures from the bottom or are trudging up the stairs , watch out for the macaques! They are small monkeys that will steal your food and sometimes water bottle. They’re fun to take photos of, but don’t taunt them – sometimes they bite people or take your stuff. I always clutch my camera and phone tight when they’re around. 😅</p>
+<p>Inside the caves there are statues and temples. You can walk freely throughout the cave. Enjoy the pics below</p>
+<p>Right after, we went to <a href="https://www.foodpanda.my/restaurant/w1rb/rani-vilas-restaurant-shop">Rani Vilas Restaurant Shop</a> which was around and eat some different Dosa.</p>
+<h2 id="new-phone">New Phone</h2>
+<p>Ever since the released of the first [Nothing Phone(https://intl.nothing.tech/pages/phone-1)], I&rsquo;ve been waiting to get my hand on the Nothing Phone 2. It was a surprise for me to find that <a href="https://www.lowyat.net/">Low Yat</a> which is a shopping centre specializing in electronics and IT products do not sell the phone. So i did some research and found a store in Pavillion called[Urban Republic] (<a href="https://shop.urbanrepublic.com.my/">https://shop.urbanrepublic.com.my/</a>) was selling the phone. Went there and bought it.</p>
+<h1 id="day-3---petaling-street-market-jalan-alor">Day 3 - Petaling Street Market, Jalan Alor</h1>
+<p>Jalan Petaling – or the famous main road of the neighborhood called Petaling Street. Within minutes of entering, I am indeed ready to keep on walking. Both sides of the crowded road are lined with hawkers, proffering me and a hundred other tourists t-shirts, belts, bags, and at least fifty different watches. We</p>
+<p>We returned to KL last at night and then directly to Jalan Alor which is a vibrant and colorful street in the heart of the Bukit Bintang area.</p>
+<p><strong>Highlights of Jalan Alor Food Street:</strong></p>
+<ul>
+<li>The street is always buzzing (at night). It has many food options, including Hawker Food, Chinese Seafood sit-down restaurants, regional restaurants including Thai, Vietnamese, and Korean, and dessert stalls like ice cream and fruit.</li>
+<li>Endless list of dishes, you might struggle to make choices while wandering along this historic street!</li>
+<li>Pushy people &ldquo;encouraging&rdquo; you into some of the eating establishments as you walk down the street.</li>
+<li>Some stalls in Jalan Alor offer tropical fruits which include rambutan, mangosteen, mango, durian, longan, apple, orange, dragon fruit, and durians.</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Note to self</title>
+            <link>http://localhost:1313/posts/2023/04/note-to-self/</link>
+            <pubDate>Wed, 19 Apr 2023 20:56:32 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2023/04/note-to-self/</guid>
+            <description>&lt;p&gt;Dear you,&lt;/p&gt;
+&lt;p&gt;Life is not a simple equation of 1+1= 2.. Life is full of hard choices, compromise, and sacrifices. &amp;ldquo;I know you&amp;rsquo;re looking for happiness; you&amp;rsquo;re trying to find comfort and warmth. I know your heart is at the right place, but it seems like your choices weren’t..&lt;/p&gt;
+&lt;p&gt;It seems to me like you broke yourself trying to feel whole again..&lt;/p&gt;
+&lt;p&gt;like you lost yourself trying to find yourself..&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Dear you,</p>
+<p>Life is not a simple equation of 1+1= 2.. Life is full of hard choices, compromise, and sacrifices. &ldquo;I know you&rsquo;re looking for happiness; you&rsquo;re trying to find comfort and warmth. I know your heart is at the right place, but it seems like your choices weren’t..</p>
+<p>It seems to me like you broke yourself trying to feel whole again..</p>
+<p>like you lost yourself trying to find yourself..</p>
+<p>like you’re looking for love in all the wrong places..</p>
+<p>you gave up so many things that you shouldn’t have.. you always made sure everyone is happy, comfortable and cared for, but you sacrificed yourself in the process..</p>
+<p>you knew exactly how to make everyone around you feel loved, but you didn’t have a taste of that yourself..</p>
+<p>you knew how to make compromises, but you compromised all the wrong things..</p>
+<p>Dear you, I know you’re trying your best, but you still feel like it’s not enough. Well that’s not true. You’re still trying, and that’s what matters. Keep looking for your heart’s desires, but learn to value yourself while doing it. Look for love and warmth, but know that it can never be forced.</p>
+<p>Dear you, I know you’re tired, but I also know that the sun will rise, and you will try again.. Just like you always do..</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Remember you are Human too.</title>
+            <link>http://localhost:1313/posts/2023/04/remember-you-are-human-too./</link>
+            <pubDate>Sun, 09 Apr 2023 22:23:42 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2023/04/remember-you-are-human-too./</guid>
+            <description>&lt;p&gt;Most of us know the saying, &lt;em&gt;&lt;strong&gt;Sticks and stones may break my bones, but words will never hurt me.&lt;/strong&gt;&lt;/em&gt; However, this statement may not hold true for those of us who have experienced hurtful name-calling. If you have been called names or seen someone who has, you know how damaging these words can be. When it comes to name calling, many teens or children may not understand that name calling is also a form of bullying. They might start out by joking, but calling someone a name with the intent of hurting them is not okay.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Most of us know the saying, <em><strong>Sticks and stones may break my bones, but words will never hurt me.</strong></em> However, this statement may not hold true for those of us who have experienced hurtful name-calling. If you have been called names or seen someone who has, you know how damaging these words can be. When it comes to name calling, many teens or children may not understand that name calling is also a form of bullying. They might start out by joking, but calling someone a name with the intent of hurting them is not okay.</p>
+<p>Unfortunately, I know firsthand just how much damage name-calling can do. As a child, I experienced name-calling in my primary school years from both my peers and even my professor. Every day it seemed like there was a new insult hurled my way, and it felt like I had no escape from the constant barrage of negativity. Even though it started as jokes, it quickly turned into a form of bullying that left me feeling helpless and alone.</p>
+<p>Name-calling is just one form of bullying, but it can be just as damaging as physical or cyberbullying. Verbal bullying can have a significant impact on a person&rsquo;s mental and emotional wellbeing, causing low self-esteem, anxiety, depression, and even suicidal thoughts. And unlike physical bullying, the effects of verbal bullying can often go unnoticed by those around us.</p>
+<p>It&rsquo;s important to recognize that words have power, and the things we say can have a lasting impact on others. That&rsquo;s why it&rsquo;s crucial to speak out against name-calling and other forms of verbal bullying. Whether you&rsquo;re a victim of name-calling yourself or you witness it happening to someone else, it&rsquo;s important to take action and stand up for what&rsquo;s right. In my case, my mom tried to talk to my professor about the name-calling, but unfortunately, nothing was ever done to address the issue. This made me feel even more helpless and alone, and I didn&rsquo;t know where to turn. Fast forward almost two decade later, I’m 26 years old, yet here I am, suddenly finding myself crying over videos about bullying. I thought I was over it. But the cuts of bullying run deeper than I thought. They say that teenhood is pivotal to one’s life. It’s when our innocence begins to fade and we start seeing life’s many colors. It’s when our sense of identity is born, when we discover who we are and what we want to be.</p>
+<p>Contrary to what a lot of people think, victims usually blame themselves more than anyone. They blame themselves for being weak, for not being popular, for not looking good enough, for not being white, for not being born to a more privileged side of the world, etc. This is because we grow up in a society that tells us that this is an eat-or-be-eaten world. We grow up in a society that tells us that being weak is a sin, and that nobody else is to be blamed for this but yourself. Never mind that the world is already unequal as it is, that some people are already being discriminated on the basis of their race, color, and gender. What bullies sees as just “having fun” makes people look down on themselves and not see their worth. It breaks confidence, harms reputations, and undermines one’s ability to perform.</p>
+<p><strong>The trauma cuts deep and the scars stay for a long time.</strong></p>
+<p><em><strong>Remember the human</strong></em></p>
+<p>Remember the human who’s behind that social media profile. Remember the human who is your classmate and is probably having a hard time making friends. Remember the human who is your neighbor, the one who’s hating himself for having dark skin, acne, and curly hair. Remember the human in your friend who might not have the courage to tell you that he or she is hurting when you jokingly call her fat and ugly. Remember that you are human too.</p>
+<p>I was inspired to write this blog after seeing in the <a href="https://defimedia.info/agression-sauvage-dans-un-centre-du-mitd-la-mere-de-la-victime-je-ne-leur-pardonnerai-jamais">news</a> about a young person who suffered bullying. It hit close to home for me, as I too experienced bullying as a child. Watching the video brought back painful memories of the hurtful words and name-calling that I endured, and made me realize just how damaging this kind of behavior can be. That&rsquo;s why I feel it&rsquo;s important to speak out against name-calling and other forms of bullying, and to raise awareness about the lasting impact that they can have on a person&rsquo;s mental and emotional wellbeing.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Can You Be a Loner Without Being Lonely?</title>
+            <link>http://localhost:1313/posts/2023/03/can-you-be-a-loner-without-being-lonely/</link>
+            <pubDate>Fri, 31 Mar 2023 11:00:27 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2023/03/can-you-be-a-loner-without-being-lonely/</guid>
+            <description>&lt;p&gt;&lt;img src=&#34;./images/01.jpeg&#34; alt=&#34;image01&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;friendship-and-solitude&#34;&gt;Friendship and solitude&lt;/h2&gt;
+&lt;p&gt;Amidst a period characterized by a pandemic, financial downturn, remote work and social distancing, relationships have been tested.&lt;/p&gt;
+&lt;p&gt;It is widely believed that a rise in divorce rates is imminent. This is not surprising, as financial difficulties can put a strain on a marriage, and also couples these days have to spend more time… with each other. Today, however, I would like to focus on our wider social circles and friendships. More precisely, I want to reflect on the potential advantages of being a loner.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p><img src="./images/01.jpeg" alt="image01"></p>
+<h2 id="friendship-and-solitude">Friendship and solitude</h2>
+<p>Amidst a period characterized by a pandemic, financial downturn, remote work and social distancing, relationships have been tested.</p>
+<p>It is widely believed that a rise in divorce rates is imminent. This is not surprising, as financial difficulties can put a strain on a marriage, and also couples these days have to spend more time… with each other. Today, however, I would like to focus on our wider social circles and friendships. More precisely, I want to reflect on the potential advantages of being a loner.</p>
+<h2 id="pandemic-friendships-the-orchid-and-the-cactus">Pandemic friendships: the orchid and the cactus</h2>
+<p>As humans, it is natural for us to seek social connections. However, with many living a simplified version of our previous lives,  we may find ourselves reevaluating the nature and quality of our relationships. The people we choose to build relationships with have always been significant, but now we are becoming more aware of the impact these choices can have on our lives.</p>
+<p>During this time, many friendships have either ended or evolved. Some have dissolved due to conflicting political or pandemic-related beliefs, while financial struggles may have slowly eroded others. Furthermore, some friends who we thought were close may have revealed themselves to be mere acquaintances, as the fun activities we once enjoyed together no longer mask our lack of true connection. In this virtual world, with just a Zoom screen to connect us, any incongruity in our relationships becomes more apparent.</p>
+<p>Some friendships are like an orchid:  Initially, they may appear appealing and promising, but in reality, they can be delicate and unpredictable. They require specific conditions and care to thrive, and even slight changes can cause them to wither away. For instance, overwatering or providing too much light can harm them. If not given enough attention, they may not last long. These relationships tend to prioritize aesthetics over substance and can feel a bit performative.</p>
+<p>Maintaining an orchid friendship is a delicate process, and deep down, you are aware that it could easily fall apart even with the slightest mishap. It requires constant attention and effort, and any wrong move could potentially damage the relationship irreparably.</p>
+<p>Some friendships are more like cactus. They are resilient, adaptable, and can withstand harsh environments. They’ll be with you forever.</p>
+<p>But as the orchids have separated themselves from the cacti, I’m prompted to wonder: What about being a loner?  Is it necessary to spend a lot of time socializing with friends to be happy and well-adjusted?</p>
+<p><em><strong>“Hell is other people.” – Jean-Paul Sartre</strong></em></p>
+<p>There are those who would identify with Sartre&rsquo;s perspective and argue in favor of the loner life, which could involve having a small circle of friends or no friends at all.</p>
+<p>It is important to note that chronic loneliness has been <a href="https://www.apa.org/monitor/2019/05/ce-corner-isolation">linked</a> to physical harm,  increasing our probability of early death, affecting our immunity, stress, sleep, cognitive functioning and mental health. However, it is crucial to distinguish between loneliness and the act of being alone for our purposes.</p>
+<p>Can the loner enjoy being alone without being lonely, with only a few or no friends, and still maintain a high level of happiness?</p>
+<h2 id="the-stoic-view">The Stoic view</h2>
+<p>Seneca wrote a letter in which he discusses the common misinterpretation of the Stoic idea that &ldquo;the wise man is content with himself.&rdquo; While it may appear to be a motto for those who prefer solitude, the true meaning behind this concept is often misunderstood.</p>
+<p>According to Seneca, while this quote means you are self-sufficient and doesn&rsquo;t depend on others to be happy, but it doesn&rsquo;t mean that they don&rsquo;t desire friendships. He refers to a Stoic mind as “invulnerable” or “above all suffering”, so if you lose a friend, you can move on from that relationship. But friendships can still provide pleasure, love, and an opportunity to practice the skill of friendship. Seneca believes that the more virtuous a person is, the more they should engage in friendships because they provide a mechanism for collaboration and personal development for everyone involved.</p>
+<p>Friendships are wonderful additions to life, but you can’t define your happiness purely through others. <strong>Happiness is an inside job.</strong></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Realizing Nobody Has Ever Had a Crush on You</title>
+            <link>http://localhost:1313/posts/2023/02/realizing-nobody-has-ever-had-a-crush-on-you/</link>
+            <pubDate>Sat, 25 Feb 2023 15:11:19 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2023/02/realizing-nobody-has-ever-had-a-crush-on-you/</guid>
+            <description>&lt;p&gt;Realizing that nobody has ever had a crush on you can be a devastating realization. It can leave you feeling unlovable, unwanted, and alone. The weight of this realization can feel suffocating and it&amp;rsquo;s easy to fall into a spiral of negative thoughts and self-doubt.&lt;/p&gt;
+&lt;p&gt;You may begin to wonder what&amp;rsquo;s wrong with you, why you haven&amp;rsquo;t been able to attract any romantic attention. You may start to compare yourself to others and feel like you don&amp;rsquo;t measure up. You may feel like you&amp;rsquo;re doomed to a life of loneliness and isolation. The reality is that attraction is complicated and often out of our control. It&amp;rsquo;s not a reflection of your worth as a person, but it can be hard to remember that in the face of this realization, you may start to feel like you&amp;rsquo;re not good enough, like you&amp;rsquo;ll never find someone who loves you for who you are.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Realizing that nobody has ever had a crush on you can be a devastating realization. It can leave you feeling unlovable, unwanted, and alone. The weight of this realization can feel suffocating and it&rsquo;s easy to fall into a spiral of negative thoughts and self-doubt.</p>
+<p>You may begin to wonder what&rsquo;s wrong with you, why you haven&rsquo;t been able to attract any romantic attention. You may start to compare yourself to others and feel like you don&rsquo;t measure up. You may feel like you&rsquo;re doomed to a life of loneliness and isolation. The reality is that attraction is complicated and often out of our control. It&rsquo;s not a reflection of your worth as a person, but it can be hard to remember that in the face of this realization, you may start to feel like you&rsquo;re not good enough, like you&rsquo;ll never find someone who loves you for who you are.</p>
+<p>It&rsquo;s important to remember that you&rsquo;re not alone in feeling this way. Many people have gone through the same experience and come out on the other side. While it may be difficult to see right now, there is hope for the future. You never know who might come into your life and see you for the amazing person that you are. We have friends, family, and other loved ones who value us for who we are. Our worth is not determined by the opinions of others, but rather by our own sense of self-worth and the way we treat others.</p>
+<p>If you are feeling down about this realization, it&rsquo;s important to take care of yourself. Spend time doing things that make you happy, whether it&rsquo;s reading a good book, going for a walk, or trying out a new hobby. Surround yourself with positive people who uplift you and make you feel good about yourself. Focus on building your self-esteem and your sense of self-worth.</p>
+<p>Remember, just because nobody has ever had a crush on you doesn&rsquo;t mean that it will never happen. Keep an open mind and continue to work on yourself and your personal growth. The right person will come along at the right time, and in the meantime, focus on being the best version of yourself that you can be.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Walking Under the Stars: A Trek to Grand Bassin</title>
+            <link>http://localhost:1313/posts/2023/02/walking-under-the-stars-a-trek-to-grand-bassin/</link>
+            <pubDate>Sat, 18 Feb 2023 16:50:56 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2023/02/walking-under-the-stars-a-trek-to-grand-bassin/</guid>
+            <description>&lt;p&gt;&lt;img src=&#34;./images/01.jpg&#34; alt=&#34;image01&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Maha Shivratri, the great night of Lord Shiva, is a festival celebrated by millions of people around the world. It is a time to honor and worship Lord Shiva, the god of destruction and transformation, and to seek his blessings for a prosperous and fulfilling life. The journey to Grand Bassin on Maha Shivratri is a unique experience that I have been fortunate enough to undertake multiple times. Due to the COVID-19 pandemic, the pilgrimage was not possible in 2021 and 2022, but with restrictions easing, I was excited to return to the road and experience the adventure once again. This year, I decided to start my walk from Rose Belle, which added an extra dimension of excitement to the journey. Although I did not take many pictures this year, I will be sharing some from my previous journey to give you a glimpse of the pilgrimage.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p><img src="./images/01.jpg" alt="image01"></p>
+<p>Maha Shivratri, the great night of Lord Shiva, is a festival celebrated by millions of people around the world. It is a time to honor and worship Lord Shiva, the god of destruction and transformation, and to seek his blessings for a prosperous and fulfilling life. The journey to Grand Bassin on Maha Shivratri is a unique experience that I have been fortunate enough to undertake multiple times. Due to the COVID-19 pandemic, the pilgrimage was not possible in 2021 and 2022, but with restrictions easing, I was excited to return to the road and experience the adventure once again. This year, I decided to start my walk from Rose Belle, which added an extra dimension of excitement to the journey. Although I did not take many pictures this year, I will be sharing some from my previous journey to give you a glimpse of the pilgrimage.</p>
+<p>Walking through the night, surrounded by the beauty of Mauritius, is a one-of-a-kind experience that I look forward to each year. The camaraderie of fellow travelers, the delicious food and drink, and the spiritual significance of the journey all contribute to an unforgettable adventure. As we made our way through the darkness, we were joined by people from all over the island who were making their way to Grand Bassin on foot. As we walked, we were sustained by the generosity of the people of Mauritius. Along the way, we were offered food and drink from temples and from people&rsquo;s homes. It was a heartwarming reminder of the kindness and hospitality that permeates this island nation. The food was all free of charge, provided by those who wanted to contribute to the pilgrimage and help make the journey a little easier for their fellow travelers. It was a beautiful expression of community spirit, and one of the many reasons why the Maha Shivratri pilgrimage is such a special experience. The sense of community and shared experience was palpable, and as the night wore on, our feet grew heavy, but our spirits remained high. With my backpack, comfortable sandals, and a sense of anticipation, I set out once again to see where the journey would take me.</p>
+<h2 id="preparations">Preparations</h2>
+<p>Before embarking on the journey, it&rsquo;s important to understand the route and what to expect along the way. The pilgrimage to Grand Bassin typically starts from various locations across the island and converges at the sacred lake. For my journey, I decided to start from Rose Belle. Below is a map of the route we took, which covers a distance of approximately 20 kilometers.</p>
+<p><img src="./images/02.png" alt="image02"></p>
+<p>The terrain is mostly hilly, with some steep inclines and declines, so it&rsquo;s essential to wear comfortable footwear. By preparing adequately and knowing what to expect, we were able to make the most of our pilgrimage experience. Since the journey took place at night, I made sure to bring a jacket with me as a precautionary measure against the cold weather. Temperatures can drop significantly at night, and I didn&rsquo;t want to risk getting sick.</p>
+<h2 id="the-walk">The Walk</h2>
+<p>As I live in Mahebourg, a group of my friends and I decided to take the bus from there to Rose Belle. We met up with some other friends at Rose Belle at aorund 4pm, and  we began our journey on foot. Walking through the bustling streets, we were surrounded by the festive atmosphere, as people from all over the island were making their way to Grand Bassin.</p>
+<p>Here&rsquo;s a picture of Manish, Bhavana, and me taken in 2020, just before we started our walk.
+<img src="./images/03.jpg" alt="image03"></p>
+<p>As we made our way, I caught up with a school friend of mine whom I hadn&rsquo;t seen in almost 15 years. It was a coincidence that we both work in the same company now, and we were both happy to reconnect after so many years. We talked about our time in school, reminisced about old times, and marveled at how much things had changed since then. We also laughed over some of our old memories. and joked along the way, and it was great to be able to share this journey with old friends.  We also talked about our friends from primary school, some of which are already married and now have children of their own, while we were still single.</p>
+<p>We were a large group of walkers, and as we progressed, everyone started to separate. Some were ahead, while some were way behind. However, we continued to support and encourage each other along the way. One of the most memorable aspects of the journey was the food. We stopped at various food stalls along the way, where we savored some of the most delicious street food Mauritius has to offer, such as roti, puri, briyani, and lots of juice and tea. The vendors were friendly and welcoming, and the food was freshly prepared, giving us a taste of the local cuisine.</p>
+<p>Our group stopped to eat, and as a big fan of biryani, I couldn&rsquo;t resist getting myself a plate.
+<img src="./images/04.jpg" alt="image04"></p>
+<p>As the journey progressed, we started to feel the strain on our feet. The constant walking and the weight of our backpacks were taking a toll on our bodies. However, we took breaks along the way, sitting down to rest and rejuvenate. At times, we took longer breaks, and we could feel our feet struggling to get back up. But with each other&rsquo;s support, we managed to push through.</p>
+<p>We continued to walk through the night, and finally, around midnight, we arrived at Grand Bassin. The sight of the sacred lake and the temple of Lord Shiva was awe-inspiring, and we felt a sense of accomplishment and fulfillment.</p>
+<p>Here&rsquo;s a photo of our complete group taken in 2020 at Grand Bassin, once we had made it to our destination.&quot;
+<img src="./images/05.jpg" alt="image05"></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>My current approach to social media </title>
+            <link>http://localhost:1313/posts/2023/01/my-current-approach-to-social-media/</link>
+            <pubDate>Fri, 27 Jan 2023 19:17:31 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2023/01/my-current-approach-to-social-media/</guid>
+            <description>&lt;p&gt;I’ve been doing a lot of thinking about my relationship with social media. Over the years, I’ve struggled between enjoying it’s benefits while also watching it consume valuable time that I will never get back. I would take social media breaks, in the hopes that I would be able to have more control over my time while still being active on the platforms. The problem was that I kept coming back and getting sucked into the same cycle of consumption over creation.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>I’ve been doing a lot of thinking about my relationship with social media. Over the years, I’ve struggled between enjoying it’s benefits while also watching it consume valuable time that I will never get back. I would take social media breaks, in the hopes that I would be able to have more control over my time while still being active on the platforms. The problem was that I kept coming back and getting sucked into the same cycle of consumption over creation.</p>
+<p>Last year, I came across a few personal websites/blogs which made me re-think my usage of social media. They made me ask questions like:</p>
+<ul>
+<li>What is my intention behind using social media?</li>
+<li>How do I want to utilize my attention on a daily basis?</li>
+</ul>
+<p>Eventually, I set out to answer these questions and began to think more and more about the intention behind many things that I do, not just with my time and attention on social media, but in life overall. So much so, that I think my word of the year for 2023 will be intention. What could be more crucial than how I spend my time when my life could end tomorrow? I seriously doubt that when I look back on my life, I’ll be reminiscing on the tweets and Instagram posts that I liked. I want to be able to look back and recall ideas that I brought to fruition, the creative ways in which I engaged with the world, and the like-minded individuals I met along the way.</p>
+<p>In today’s mainstream society, when we are inundated with a plethora of media and opinions vying for our attention, living as many moments as one can manage with intention may seem like an impossible task. I know one thing for certain – I can’t continue siphoning my attention towards the addictive aspects of social media.</p>
+<ul>
+<li>Addiction</li>
+</ul>
+<p>Social media is naturally made to be addictive.</p>
+<p>Over the past 10 years, social media has been finetuned to work against you and to push for your attention.</p>
+<ul>
+<li>Social Media Impacts the Whole World</li>
+</ul>
+<p>Most people use social media, it impacts a very large aspect of the world.</p>
+<p>Most social media generally has an “algorithm” to promote content. This algorithm is always being balanced and modified ever so slightly.</p>
+<p>They modify it to make people think certain ways, or to promote certain types of content over others. Effectively giving them the ability to brainwash the world.</p>
+<p>Look at those Tiktok challenges. No other platform promoted these challenges as much as Tiktok. It convinced people to do stupid things that they wouldn’t have done otherwise.</p>
+<p>It even got to the point that schools had to shutdown.</p>
+<ul>
+<li>Not Being in Control Over Content</li>
+</ul>
+<p>How are you not in control? You get to choose who you follow. Yep you do, but I constantly get crap in my feed that I don’t want to see.</p>
+<p>Things that I don’t follow get forced in my face no matter what.</p>
+<p>I want to be in control of the things that I get to see on social media.</p>
+<p>In my opinion it would be best just to be connected with your friends and family. I don’t care about the celebrities and all the other junk that gets thrown in my face.</p>
+<ul>
+<li>Being a Hypocrite</li>
+</ul>
+<p>I don’t support where social media is headed, and how manipulative it’s getting.</p>
+<p>Therefore, I will not use it. Under normal circumstances</p>
+<ul>
+<li>Why I Kinda Use Social Media</li>
+</ul>
+<p>A year ago I deleted my Instagram/Facebook/Whatsapp account. Here’s my philosophy that led to me deleting it.</p>
+<p><code>If you don’t support it, don’t use it.</code></p>
+<p>You know, basically don’t be a hypocrite.</p>
+<p>Since then, I missed seeing what my friends are up to and connecting to them through that. So it’s hard to support both, you know? I don’t want to support Facebook by using Instagram, but I want to support my friends by seeing and messaging with them on the platform.</p>
+<p>So I decided to get back on the platform. But I have a specific way of going about things that screws over Facebook and Instagram 😂</p>
+<h1 id="the-solution">The Solution</h1>
+<p>I won’t post on Instagram. I will instead be using my blog.</p>
+<p>Posts on my microblog will be similar to how I would post on Instagram. I will keep my blog seperate, because my posts there will be more technical and informational.</p>
+<p>Anyways, social media is messy and big tech is making it a terrible platform to be on. Social media isn’t all bad, it’s definitely being used for good. But the platforms are designed to work against you for your attention. So it’s best to have alternative ways of reaching others, not just through social media.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>What is the most important choice in life?</title>
+            <link>http://localhost:1313/posts/2023/01/what-is-the-most-important-choice-in-life/</link>
+            <pubDate>Mon, 23 Jan 2023 19:16:11 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2023/01/what-is-the-most-important-choice-in-life/</guid>
+            <description>&lt;p&gt;The most important choice in life is not to choose what kind of work to do, nor to choose which company to invest in, but to choose who to marry.&lt;/p&gt;
+&lt;p&gt;The first time I heard this statement came from Bill Gates and Buffett. Of course, the two of them are good friends and and the possibility of mutual influence cannot be ruled out，but I believe this is a common choice for all wise men. They all believe that the most important thing in life is not which company to invest in, but who to marry.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>The most important choice in life is not to choose what kind of work to do, nor to choose which company to invest in, but to choose who to marry.</p>
+<p>The first time I heard this statement came from Bill Gates and Buffett. Of course, the two of them are good friends and and the possibility of mutual influence cannot be ruled out，but I believe this is a common choice for all wise men. They all believe that the most important thing in life is not which company to invest in, but who to marry.</p>
+<p>To further explain his point of view, Buffett told his own story. He said he was dating the most beautiful girl in the state when she was young, but in the end he did not choose to be with her. He said: This girl has been divorced three times. If she is with me, I don&rsquo;t know what the result will be.</p>
+<p>No matter who you are, where you are, what kind of work you are doing, famous or ordinary, the eternal topic for individuals is life itself, the ones who accompany you the longest in this life are neither your parents, nor your children, nor Not your colleagues, but your partner. Therefore, from a time perspective, the choice of a partner is the most important choice in life.</p>
+<p>From another perspective, if we perform well in other aspects of life, such as education, career, investment, and financial management, etc., we have made the right choices and achieved proud results, but if we choose the wrong partner, This failed relationship would render all of the above options moot.</p>
+<p>For example, if a person is very successful in his career, and his career achievements far exceed those of his peers, but he is not wise enough in his choice of marriage, then a fire in his backyard is enough to destroy everything he has worked hard for many years. There are also entrepreneurs, whose wife divorces on the eve of the company&rsquo;s listing, which is enough to ruin a successful IPO, so that all investors must investigate the marital status of the founder when deciding whether to invest in a company afterwards.</p>
+<p>Therefore, no matter how good a person is in other areas, if he is always foolish in the choice of feelings and marriage, we think he is lacking in great wisdom in life—because he lacks in the most important things in life. Judgment, not knowing what he wants in life, this may reflect that he may not be good at long-term thinking.</p>
+<p>When you consider a lifelong partner, you may wish to think about a question: If there is one most important factor that makes you both have the courage to choose to be together, what is this factor?</p>
+<p>There is an unexpected answer: to break up well, to make each other better, not to destroy each other.</p>
+<p>People often say: Human nature cannot stand the test. But think about it the other way around: only what can stand the test is human nature. What is the biggest test between a couple? It is to see how they will deal with the breakup. It&rsquo;s a love affair in the heart, but they are still willing to break up peacefully, or they still want to hurt each other, or even destroy each other.</p>
+<p>Of course, many people will ask:</p>
+<p>First, before I choose to be with someone, how can I see each other&rsquo;s state when facing (if) breaking up?</p>
+<p>Second, I am choosing a life partner. Why should I think about such an unlucky topic: breaking up?</p>
+<p>My answer is: First of all, you can observe this person from various angles, including how they usually treats friends, differences, contradictions, and &ldquo;injustice&rdquo;. It even includes how did they deal with the previous relationship, how did they break up with Ex? If a person is full of complaints or even resentment towards Ex, then don&rsquo;t expect Ta to treat the &ldquo;breakup&rdquo; peacefully in the future.</p>
+<p>Secondly, there is an analogy as to why it is necessary to judge how a person will face a &ldquo;breakup&rdquo; before deciding to fall in love or even be together: that is, if we understand how we will face death in our daily life, it will completely change our life. Life. Although it is difficult for us to face the topic of &ldquo;death&rdquo; and choose to avoid it in our daily life, once we have the courage to face the topic of death and have a little breakthrough cognition here, our life will be greatly improved. For a different self. This point was brilliantly elaborated by Jobs in his most famous speech during his lifetime: &ldquo;Three Stories of My Life&rdquo;. He said that the best teacher in life is &ldquo;death&rdquo;. After he was diagnosed with cancer for the first time, he really understood the &ldquo;meaning of death&rdquo;. He said:</p>
+<p>&ldquo;Remember that I am going to die&rdquo; is the most important mantra I have encountered in my life, and it helped me make important choices in my life.</p>
+<p>By analogy, if lovers can think about how they will break up before deciding to be together. If both can accept each other&rsquo;s attitude towards breaking up, then the relationship between the two of them will be much stronger. When we think about breaking up and talking about breaking up, we don&rsquo;t plan to break up one day in the future, but pass the limit test of &ldquo;breakup&rdquo; to judge a person&rsquo;s bottom line in dealing with feelings.</p>
+<p>If this test can be passed, if it is determined that everyone can treat each other with sincerity and achieve mutual success when they may face a breakup in the future, then I think this couple has the most important foundation for a happy life together. When you know that you will not choose to hurt each other in the most difficult time, but choose to trust each other, then you will work together to overcome many difficulties in life.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>My experience so far</title>
+            <link>http://localhost:1313/posts/2022/12/my-experience-so-far/</link>
+            <pubDate>Fri, 30 Dec 2022 19:12:22 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2022/12/my-experience-so-far/</guid>
+            <description>&lt;p&gt;Now that 2022 is almost over, I decided to write about my experience so far in general.&lt;/p&gt;
+&lt;h1 id=&#34;university-life&#34;&gt;University life&lt;/h1&gt;
+&lt;p&gt;Electrical with computer Science, yes, was an actual course at UOM(university of Mauritius) that I took during my time there. I really didn’t enjoy my university life as much as I should have. I felt like during my entire 20s I was just trailing along, not really enjoying life, always resentful and regretful of my choices, and just wasting my time altogether. But I made some really good friends along the way. The only thing I&amp;rsquo;m really proud of achieving is getting an A+ on my dissertation. It would not have been possible without the help of my friend. We literally stayed up all night just to finish it. The project was an Android app that can be used to detect any infringement on the road while you&amp;rsquo;re driving. Feel free to contact me if you want more info; in any case, here&amp;rsquo;s my [research paper] (&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-030-90618-4_18)&#34;&gt;https://link.springer.com/chapter/10.1007/978-3-030-90618-4_18)&lt;/a&gt;.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Now that 2022 is almost over, I decided to write about my experience so far in general.</p>
+<h1 id="university-life">University life</h1>
+<p>Electrical with computer Science, yes, was an actual course at UOM(university of Mauritius) that I took during my time there. I really didn’t enjoy my university life as much as I should have. I felt like during my entire 20s I was just trailing along, not really enjoying life, always resentful and regretful of my choices, and just wasting my time altogether. But I made some really good friends along the way. The only thing I&rsquo;m really proud of achieving is getting an A+ on my dissertation. It would not have been possible without the help of my friend. We literally stayed up all night just to finish it. The project was an Android app that can be used to detect any infringement on the road while you&rsquo;re driving. Feel free to contact me if you want more info; in any case, here&rsquo;s my [research paper] (<a href="https://link.springer.com/chapter/10.1007/978-3-030-90618-4_18)">https://link.springer.com/chapter/10.1007/978-3-030-90618-4_18)</a>.</p>
+<p>Here&rsquo;s a picture of me holding my dissertation (yes, this is my face). ugly? I know):
+<img src="./images/1.png" alt="image1"></p>
+<h1 id="first-job">First Job</h1>
+<p>My first job was at Ceridian as an application analyst. During that time, I actually had no idea which career path to go down. You see, if you&rsquo;re a techie, you know how big the tech world is, and unfortunately for me, I went with the first company that contacted me, which was, of course, Ceridian.The job was basically like a call center. I am sorry if you&rsquo;re from Ceridian and are reading this, but I absolutely hated my job. It stinks, despite the fact that the salary was excellent for an entry-level employee like me. See, they had an application called <a href="https://www.ceridian.com/products/dayforce">DayForce</a>, while the app is game changing in the HR world, my job was mainly to resolve issues that clients faced. And yes, if you&rsquo;re guessing by now, I only worked on Dayforce. During the three months, I adapted rather quickly, but the longer I stayed at the job, the more I realized that I was only learning the application for the company. I&rsquo;m not actually learning anything; there are no new technologies. At one point, we were getting training on all sorts of HR-related stuff.</p>
+<p>As I said in my previous blog, even though I&rsquo;m an introvert, I often like to listen to people, especially older people, as I get to hear about their experiences with their mistakes. Opinions from some people serve as an excellent warning sign what not to do. Listen to genuine people who lived their lives and had careers. E.g. never take advice on parenting from someone who is 25 and have no kids. Do not take relationships advice from someone who had never been in at least mid-term relationships. Do not listen to what to read or watch or to do from such people. Listen to people who are nice, and lived their lives and also are always changing. Self-righteous people change very slowly. Because they already have all the “answers.” Be open to the ideas, but really think who are you talking to now. Bad advice is much worse than no advice at all!</p>
+<p>So I did. I talked to the system administrators there, who told me being in my current job would get me nowhere if I&rsquo;m someone who loves to learn. Interestingly, during that time, they were hiring for the post of configuration management. But the mistake I made was telling my manager I hated the job. I know what you&rsquo;re thinking: &ldquo;Girish, why did you do that?&rdquo; Frankly, I don&rsquo;t know, I so hated my job that I wanted to quit asap. So, I told him, there is an opening for configuration management, and I want to apply for it. So he did his best. I got an interview, which was great, I was so hopeful that I would get it. After one week, I did not get it. I was told that I did not have enough experience for the job and did not have ccna too. That was my first encounter with depression, which hit me really hard. I was really down during these times, and I was also getting pressured by management and HR.</p>
+<p>In my opinion, it is still important to listen and reflect on this advice and opinions. But mostly as an exercise in reflection. Opinions from some people serve as an excellent warning sign what not to do.</p>
+<p>Before we continue, here are some happy memories I had at Ceridian.</p>
+<p>This was during the eoy party with my two work buddies.
+<img src="./images/2.png" alt="image2"></p>
+<p>Another selfie, this time with my mentor, who has really helped me since day 1. Since he was a huge Game of Thrones fan, I gave him a <a href="https://www.amazon.com/Thrones-Music-Musical-Carved-Wooden/dp/B07F3KNGG8">Game of Throne Msic Box</a> for Christmas for really helping, teaching, and mentoring me. 
+<img src="./images/3.png" alt="image3"></p>
+<p>Okay, so last image. This was the drunken team. I don&rsquo;t remember how much I drank that night, but it was insane, the best eoy party I&rsquo;d ever been to. I do remember the guys from the system admin team giving me Jack Daniels to drink. Yeah, crazy night. And let&rsquo;s not forget the walk of shame when I went back to work. I received a lot of compliments. I&rsquo;m someone who will actually forget about everything when I get on the dance floor. Get me drunk and get me on the dance floor, and you sure will have a night you&rsquo;ll always remember!
+<img src="./images/4.png" alt="image4"></p>
+<p>Let&rsquo;s get back to the boring stuff, shall we? After getting pressured by the manager, I started applying for other jobs. I eventually got a job interview with SD Worx as a system administrator. I did 3 interviews (2 technical ones and 1 HR). Another major blunder I made at Ceridan was submitting my resignation letter before finding another job. So yeah, this happened, I was so sure I was going to get the job at SD worx that I gave my resignation letter early. Yes, I did not get it, and I was left with no job after I left Ceridian. To make things worse, it was during that time that COVID hit.</p>
+<h1 id="depression-phase">Depression phase</h1>
+<p>The thing about Depression is it kind of collapses time. Suddenly, you find your whole days blending together to create one endless and suffocating loop. So you find yourself trying to remember the things that made you happy. But slowly, your brain begins to erase every memory that ever brought you joy. And eventually, all you can think about is how life has always been this way. An will only continue to be this way. Someone once said that these states will wax and wane. Which gave my mother relief, because it meant that in the bad times, there would be good times. But it also gave her anxiety because it meant that in the good times, there would be bad times. It always confused me, because I didn&rsquo;t really know what it meant. But it did sound a lot calmer than the way I would describe it. Granted, I didn&rsquo;t realize until later what waxing and waning implied. That these feelings were fixed and constant and would never end for the rest of my life.</p>
+<p>For nearly six months, I was unemployed. Full mode depression I went through a lot of stuff during these periods, having nightmares every day. It was awful, I must say. especially since the lockdown. staying at home, sleeping all day. There were times when I nearly gave up. I was filled with negative thoughts. What kept me sane was anime/manga. I spend most of my time reading manga and books. During these times also, I only stayed in contact with one friend (we didn&rsquo;t talk for nearly a year, she was kind of an angel sent from the sky to cheer me up). She was always supportive, always encouraging me not to give up. Also, my parents are always looking out for me. And I did; I started to get back in shape. I began to take my career seriously. I applied to a bunch of companies. I got a lot of rejections but never gave up.</p>
+<p>Eventually I got an interview at Linkbynet. Lockdown periods were over, so I went and did the technical interview. It was fun; I prepared a lot for this. They did ask me why I was unemployed, and I just kept true to myself and told them about my current situation, why I left the job at Ceridian, and the stuff I&rsquo;m having to go through. And three days later, I got the job as a junior system administrator. The only issue was that I had to wait another three months to start the job. So I did.</p>
+<p>During these three months, I started preparing for my new job. I started learning Linux, System Administrator job. Since my friend was having some issues with her final year project, I kept myself busy.</p>
+<p>One of the best achievements of my life was assembling a huge team of 23 people during Cyclone Class 3 to go play laser tag. Yes, I think it was a Sunday; I&rsquo;m not sure, but 23 people during Cyclone class 3 was nearly an impossible task. Actually, it was class 2 in the morning, and we were still debating whether to go or not. Eventually, we decided to go since the weather was fine. It was only during the ride on the bus that we heard that it had become class 3. I called Funzone (RIP now) immediately to make sure if it would still operate, and luckily it did. Since it was located at 4 Bornes, we walked from Shoprite to 4 Bornes. Yeah, yeah. Not only did I make them come play laser tag, but they also walked nearly 30 minutes during Cyclone class 3. But hey, we had a lot of fun, and it&rsquo;s something we&rsquo;ll always remember. Here&rsquo;s the awesome team:</p>
+<p><img src="./images/5.png" alt="image5"></p>
+<h1 id="second-job">Second Job</h1>
+<p>My second job was at Linkbynet (which is now Accenture), which was located in Phoenix, Les hailles. I integrated a team of Junior System admin. The job was okayish but boring since we were doing the same thing every day, like checking if inventory for both Linux and Windows failed or not and checking for any failed patching tickets. Boring, but I eventually learned a lot, and I also developed a script to get all patching tickets from an API to add the data to an Excel sheet. Each sheet represented one client. The script was written in Python and was run every Monday. I also took advantage of the free Azure Certification.It really was a fun experience. I remember doing an exam at 1 a.m. on a Saturday.</p>
+<p>After nearly a year of completing all of these certifications, I became a Linux system administrator. Unfortunately, I did not get the team I wanted, but I entered a team called SSCR. The team was all about procedures. We have to follow a procedure for every job we do; it stinks, but we can&rsquo;t do anything else. Despite all that, I managed to learn a lot of new technologies: Ansible, Terraform, and Kubernetes (although I still have a lot to learn).</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>So I went to my first Night Club</title>
+            <link>http://localhost:1313/posts/2022/11/so-i-went-to-my-first-night-club/</link>
+            <pubDate>Mon, 07 Nov 2022 19:11:02 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2022/11/so-i-went-to-my-first-night-club/</guid>
+            <description>&lt;p&gt;An introvert… clubbing. Something about that sentence almost seems paradoxical.&lt;/p&gt;
+&lt;p&gt;So 26 and I have yet to go to a &amp;ldquo;dance club&amp;rdquo; and for the most part, I am really unbothered by that. Nightclubs are challenging territories for a lot of introverts. Nearly every aspect of the environment puts us outside of our ideal comfort zone. That’s not to say that we can’t still enjoy them. It just requires a little bit more effort to get us there and into the right mindset to enjoy it. It is usually not my cup of tea, but my friends asked me if I wanted to go dancing to &lt;a href=&#34;https://lakaz.mu/&#34;&gt;Lakaz&lt;/a&gt; and as an introvert I am, I more than happily accepted the invitation. I&amp;rsquo;m not sure why I did because 1) I had to work that day 2) my anxiety when i see a lot of people 3) I usually talked myself out of going because I didn’t think I’d have a good time. I’d been trying to work the nerve to go out to one lately though because I wanted to break out of my comfort zone. I figured if tonight went well, I’d push further past my boundaries next time and approach some girls the next time I go. (Just kidding xD) I&amp;rsquo;m thinking it was sure curiosity, so nonetheless I pressed on to the night life on the country side of country.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>An introvert… clubbing. Something about that sentence almost seems paradoxical.</p>
+<p>So 26 and I have yet to go to a &ldquo;dance club&rdquo; and for the most part, I am really unbothered by that. Nightclubs are challenging territories for a lot of introverts. Nearly every aspect of the environment puts us outside of our ideal comfort zone. That’s not to say that we can’t still enjoy them. It just requires a little bit more effort to get us there and into the right mindset to enjoy it. It is usually not my cup of tea, but my friends asked me if I wanted to go dancing to <a href="https://lakaz.mu/">Lakaz</a> and as an introvert I am, I more than happily accepted the invitation. I&rsquo;m not sure why I did because 1) I had to work that day 2) my anxiety when i see a lot of people 3) I usually talked myself out of going because I didn’t think I’d have a good time. I’d been trying to work the nerve to go out to one lately though because I wanted to break out of my comfort zone. I figured if tonight went well, I’d push further past my boundaries next time and approach some girls the next time I go. (Just kidding xD) I&rsquo;m thinking it was sure curiosity, so nonetheless I pressed on to the night life on the country side of country.</p>
+<p>I didn&rsquo;t get enough sleep that night since I woke up at 3 am, did my morning workout and went to work. It was a pretty lazy day, but I finished at 3 pm went straight home hoping to get some rest before they come to pick me up. Sadly, the van could not come to my place, I had to drive to my friend where the transport will pick us up and leave my car there. My expection going there was that i would get pretty drunk and hoping to dance with someone xD</p>
+<p>We were around 15 persons in the van, of that 15, I knew only 3 which were my university friends. We had some tequilla shots. We were quite lucky to have bought the tickets earlier since they were not allowing anyone inside who did not bought ticket via their app. The entry cost Rs250 but since we bought it via the app we paid Rs200 (~$4.48).</p>
+<p>There were all walks of life inside. There weren’t a lot of people inside despite there being a long line, but they told me the rooms would fill up quickly in the next few hours. I watched as most of the patrons of the establishment flood to the dance floor to do all sorts of coordinated line dance routines with ease, or were too inebriated to care. However, I was very much sober and did not understand half of what was going on so I just hung back and watched for about 30 minutes with the friend who invited me. Since we could not bring alocohol from the outside, we were forced to buy them at the bar. The drinks prices were no better as I was charged Rs150 for a jägermeister shot. It was almost around midnight and we went to the dance floor. I kept thinking about how much of a dork I must have looked like because I was stiff as fuck and didn’t know how to move. Eventually it got to a point where I told myself, “Why do I care about what all of these other people think? They don’t know me and they’re not focusing on me. Why keep worrying about them when I could be having a good time?” That’s when I realized how much more fun I could be having if I just let go of being scared and self-conscious of others thoughts.</p>
+<p>I decided to people watch to get a feel for the social aspect of a nightclub. It was pretty much 40% girls and 60% guys at the club for the rest of the night.Some girls got down and twerked or grinded on guys. Some guys would be more aggressive in how they’d go up to girls by randomly grabbing their hand to go dance, only for the girl to look weirded out and quickly take their hand back. At times, I never felt more alone seeing almost all the girls dancing with their boyfriend(s) while I&rsquo;m still single complaining about life xD.</p>
+<p>We ended the night or should i say the morning at 4hr am where the transport was waiting for us. Since i was still sober, arriving at my friend house, i took my car and drove home.</p>
+<p>Conclusion: My first time going to a nightclub, I realized that letting go of expectations and not worrying about what others think is important not only in adapting to a new environment quickly but in enjoying what you’re doing. I wouldn’t have had such a fun time at the club if I was caught up in being worried about what others thought about me. Literally, every single person at the club is there to have a fun time. Ignore those demons in your head. No one goes to a club looking for a critical, terrible time. Everyone is in a party mood so even if you decide to go by yourself, as long as you are smiling and staying positive, you shouldn’t have any problems blending in. Only thing i regret is not getting drunk enough and like my friend said :</p>
+<p><a href="https://twitter.com/EdogawaZain/status/1589457945620025346?ref_src=twsrc%5Etfw">should get drunk first before entering the club</a></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Tachiyomi: open-source manga reader</title>
+            <link>http://localhost:1313/posts/2022/11/tachiyomi-open-source-manga-reader/</link>
+            <pubDate>Sat, 05 Nov 2022 19:09:12 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2022/11/tachiyomi-open-source-manga-reader/</guid>
+            <description>&lt;p&gt;I’m sure a lot of manga readers had a hard time searching for a different manga reader. That is why I’m going to introduce you an open-source manga application named Tachiyomi. Here&amp;rsquo;s is a couple of reasons why i use Tachiyomi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Completely free&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tachiyomi is completely free to use and without any ads. That means you can have a great reading experience without any ads interrupting.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tachiyomi is also open source which means that you can go and look at the code and see how it work and maybe even contribute if you have programming experience.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>I’m sure a lot of manga readers had a hard time searching for a different manga reader. That is why I’m going to introduce you an open-source manga application named Tachiyomi. Here&rsquo;s is a couple of reasons why i use Tachiyomi:</p>
+<ul>
+<li>Completely free</li>
+</ul>
+<p>Tachiyomi is completely free to use and without any ads. That means you can have a great reading experience without any ads interrupting.</p>
+<ul>
+<li>Open source</li>
+</ul>
+<p>Tachiyomi is also open source which means that you can go and look at the code and see how it work and maybe even contribute if you have programming experience.</p>
+<ul>
+<li>Great ui</li>
+</ul>
+<p>Tachiyomi looks great and is easy to get used to. It also has better reader and you can also set custom color options to make your manga be slightly green or something like, even lowering the brightness for midnight reading.</p>
+<ul>
+<li>A big amount of sources</li>
+</ul>
+<p>What I mean by this is that Tachiyomi uses a lot of websites for searching and reading manga. It’s sources are made like separate app that community mostly made which means most of most popular manga sites are almost certainly free.</p>
+<ul>
+<li>Unlimited downloads</li>
+</ul>
+<p>You can download manga as long you have disk space on your phone. I can say that this is completely true because I always have about 5-10 GB downloaded manga to read for when I’m offline.</p>
+<p><img src="content/posts/anime-manga/tachiyomi.jpg" alt=""></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>My First Post</title>
+            <link>http://localhost:1313/posts/2022/10/my-first-post/</link>
+            <pubDate>Wed, 26 Oct 2022 19:06:08 +0400</pubDate>
+            
+            <guid>http://localhost:1313/posts/2022/10/my-first-post/</guid>
+            <description>&lt;p&gt;Now I know what you’re thinking…  This blog post isn’t very impressive looking. Well, I’m still quite proud of it! This is my first blog post using Hugo, a static website generator. The thing you have to know about me, however, is that I really enjoy customization. Some might (rightfully) call me a hipster in certain situations. I’m very excited to see what I will be able to achieve with this blog!&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Now I know what you’re thinking…  This blog post isn’t very impressive looking. Well, I’m still quite proud of it! This is my first blog post using Hugo, a static website generator. The thing you have to know about me, however, is that I really enjoy customization. Some might (rightfully) call me a hipster in certain situations. I’m very excited to see what I will be able to achieve with this blog!</p>
+<p>Here is what this post looks like to me as I am currently writing it:</p>
+<pre tabindex="0"><code>---
+title: &#34;01&#34;
+date: 2023-01-30T19:06:08+04:00
+draft: true
+toc: false
+images:
+tags:
+  - untagged
+---
+
+Now I know what you’re thinking…  This blog post isn’t very impressive looking. Well, I’m still quite proud of it! This is my first blog post using Hugo, a static website generator. The thing you have to know about me, however, is that I really enjoy customization. Some might (rightfully) call me a hipster in certain situations. I’m very excited to see what I will be able to achieve with this blog!
+
+Here is what this post looks like to me as I am currently writing it:
+</code></pre>]]></content>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Recently, I had the opportunity to work on a project that utilized an Azure DevOps build pipeline to deploy an app service. Lately, I&rsquo;ve been focusing more on AWS, but I couldn&rsquo;t pass up this chance to learn new things from Azure.
+Since I don&rsquo;t have a personal Azure Account, and Azure doesn&rsquo;t accept Visa cards during registration, I had to explore alternative solutions. Fortunately, I discovered that university students could create free accounts using their email addresses without the requirement of adding any credit card information. More details can be found here. Luckily, I had a friend who was in her third year at UOM, and with her kind assistance, I managed to overcome this hurdle 😅. Thanks Divya.
+" />
+<meta name="keywords" content=", azure, tech" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/technical/2023/06/" />
+
+
+    <title>
+        
+            Deploying an app service (web app) using Azure DevOps :: Girish Luckhun 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/main.min.07ea7ac7da67e2e153a7dfa2457bc6a19cca824288d175e223fadc579041bc51.css" integrity="sha256-B&#43;p6x9pn4uFTp9&#43;iRXvGoZzKgkKI0XXiI/rcV5BBvFE=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="Deploying an app service (web app) using Azure DevOps">
+  <meta itemprop="description" content="Recently, I had the opportunity to work on a project that utilized an Azure DevOps build pipeline to deploy an app service. Lately, I’ve been focusing more on AWS, but I couldn’t pass up this chance to learn new things from Azure.
+Since I don’t have a personal Azure Account, and Azure doesn’t accept Visa cards during registration, I had to explore alternative solutions. Fortunately, I discovered that university students could create free accounts using their email addresses without the requirement of adding any credit card information. More details can be found here. Luckily, I had a friend who was in her third year at UOM, and with her kind assistance, I managed to overcome this hurdle 😅. Thanks Divya.">
+  <meta itemprop="datePublished" content="2023-08-05T09:46:17+04:00">
+  <meta itemprop="dateModified" content="2024-04-30T14:08:25+04:00">
+  <meta itemprop="wordCount" content="2015">
+  <meta itemprop="keywords" content="Azure,Tech">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Deploying an app service (web app) using Azure DevOps">
+  <meta name="twitter:description" content="Recently, I had the opportunity to work on a project that utilized an Azure DevOps build pipeline to deploy an app service. Lately, I’ve been focusing more on AWS, but I couldn’t pass up this chance to learn new things from Azure.
+Since I don’t have a personal Azure Account, and Azure doesn’t accept Visa cards during registration, I had to explore alternative solutions. Fortunately, I discovered that university students could create free accounts using their email addresses without the requirement of adding any credit card information. More details can be found here. Luckily, I had a friend who was in her third year at UOM, and with her kind assistance, I managed to overcome this hurdle 😅. Thanks Divya.">
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2023-08-05 09:46:17 &#43;0400 &#43;04" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">$</span>
+            <span class="logo__text ">
+                cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#fffff;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/my_list/">~/mylist</a></li><li><a href="/posts/">~/posts</a></li><li><a href="/tags/">~/tags</a></li><li><a href="/technical/">~/technical</a></li><li><a href="/whoami/">whoami</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="http://localhost:1313/technical/2023/06/">Deploying an app service (web app) using Azure DevOps</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>Recently, I had the opportunity to work on a project that utilized an <a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops">Azure DevOps build pipeline</a> to deploy an <a href="https://learn.microsoft.com/en-us/azure/app-service/overview">app service</a>. Lately, I&rsquo;ve been focusing more on AWS, but I couldn&rsquo;t pass up this chance to learn new things from Azure.</p>
+<p>Since I don&rsquo;t have a personal Azure Account, and Azure doesn&rsquo;t accept Visa cards during registration, I had to explore alternative solutions. Fortunately, I discovered that university students could create free accounts using their email addresses without the requirement of adding any credit card information.   More details can be found <a href="https://azure.microsoft.com/en-us/free/students">here</a>. Luckily, I had a friend who was in her third year at UOM, and with her kind assistance, I managed to overcome this hurdle 😅.
+Thanks <a href="https://mu.linkedin.com/in/divya-rampersad-328a10231">Divya</a>.</p>
+<h2 id="what-is-an-web-app">What is an Web App?</h2>
+<p>In case you&rsquo;re new to Azure, <a href="https://learn.microsoft.com/en-us/azure/app-service/overview">Microsoft Azure App Service</a> offers a fully managed platform designed to facilitate the building, deployment, and scaling of web apps. As a Platform as a Service (PaaS), it eliminates the need to worry about infrastructure and performance, allowing quick and seamless app deployment. With support for various programming languages, including .NET, .NET Core, Java, Ruby, Node.js, PHP, and Python, developers can work with their preferred language. The flexibility extends to both Windows and Linux-based environments, enabling easy running and scaling of applications.</p>
+<p>Azure App Service goes beyond providing the capabilities of Microsoft Azure, incorporating features such as security, load balancing, autoscaling, and automated management into your application. Additionally, it leverages the DevOps capabilities, including continuous deployment from Azure DevOps, to further streamline the development process.</p>
+<h3 id="what-is-azure-devops">What is Azure Devops?</h3>
+<p><a href="https://learn.microsoft.com/en-us/azure/devops/get-started/?view=azure-devops">Azure Devops</a> is a comprehensive set of development and collaboration tools provided by Microsoft as a part of the Azure cloud platform. It offers a range of services to facilitate application development, continuous integration, continuous delivery (CI/CD), and project management. Azure DevOps is designed to streamline the entire software development lifecycle, from planning and coding to testing, deployment, and monitoring.</p>
+<p>Okay, so enough of the boring part and lets get our hand dirty.</p>
+<h2 id="nodejs-application">Node.js application</h2>
+<p>Given that I&rsquo;m still learning Node.js, I asked ChatGPT to write a simple and easy-to-understand Node.js app for me. I went for a Dad joke generator app because why not? The code was tested and works locally. Now, let&rsquo;s hope it works when it is added to the cloud. The code can be found on my <a href="https://github.com/RitLuck/Dad_joke">GitHub repository</a>.</p>
+<p><img src="./images/1.png" alt=""></p>
+<h2 id="creating-app-service">Creating App Service</h2>
+<ol>
+<li>
+<p>Go to the Azure portal, search for App service and create a new Web app</p>
+</li>
+<li>
+<p>Fill in the information by adding :</p>
+<ul>
+<li>Select your Subscription(mine is Azure for Students)</li>
+<li>Choose Resource Group (if you don’t have one, you can click create new and specify the name).</li>
+<li>Name of the Web App</li>
+<li>Runtime stack. Specify the app service language. In this example, I chose Node 18 LTS.</li>
+<li>OS (I Chose Linux)</li>
+<li>Region (East US by default)</li>
+<li>Pricing Plan (Free F1, because this is just for demo purposes)</li>
+</ul>
+<p><img src="./images/2.png" alt=""></p>
+</li>
+<li>
+<p>The remaining configurations can be left as default.</p>
+</li>
+<li>
+<p>Click Review + Create button, and wait until the app is deployed successfully.</p>
+<p><img src="./images/3.png" alt=""></p>
+</li>
+<li>
+<p>Go to your resource and click the URL to ensure your app is running.</p>
+<p><img src="./images/4.png" alt=""></p>
+</li>
+</ol>
+<h2 id="creating-service-principle">Creating Service Principle</h2>
+<p>Since we&rsquo;re on the Azure Portal, let&rsquo;s create an App Registration because we don&rsquo;t want to encounter any errors later when trying to establish the service connection (been there).</p>
+<ol>
+<li>
+<p>Go to Active Directory</p>
+</li>
+<li>
+<p>Click on App registrations</p>
+<p><img src="./images/5.png" alt=""></p>
+</li>
+<li>
+<p>Once created, go the <strong>Certificates &amp; Secrets</strong> and create a Secret. Make sure to store the Secret Value somewhere.</p>
+<p><img src="./images/6.png" alt=""></p>
+</li>
+</ol>
+<h2 id="creating-devops-environment">Creating Devops Environment</h2>
+<ol>
+<li>
+<p>To create an azure devOps, head over to this <a href="https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/">url</a></p>
+</li>
+<li>
+<p>On the right-hand side, under Basic Plan, click the &ldquo;Start Free&rdquo; button.</p>
+<p><img src="./images/7.png" alt=""></p>
+</li>
+<li>
+<p>Create your Azure DevOps organization. Click the &ldquo;Continue&rdquo; button.</p>
+</li>
+<li>
+<p>Once your DevOps environment is set, you can add your code to Azure Repos or directly use your code from GitHub/Git.</p>
+</li>
+</ol>
+<h3 id="setting-up-the-service-connection">Setting up the service connection</h3>
+<h4 id="why-do-we-need-to-create-a-service-connection">Why do we need to create a service connection?</h4>
+<p>A service connection is used to establish a connection between Azure DevOps and external services, such as Azure, GitHub, Docker Hub, etc. These connections allow Azure DevOps pipelines and other automation tasks to interact with these external services seamlessly.</p>
+<ol>
+<li>
+<p>Go to <strong>Project Settings</strong> on Azure DevOps.</p>
+</li>
+<li>
+<p>Select &ldquo;<strong>Service Connections</strong>&rdquo; and Create a <strong>new service connection</strong></p>
+</li>
+<li>
+<p>Select <strong>Azure Resource Manager</strong> and <strong>Service principle (manual)</strong></p>
+</li>
+<li>
+<p>Fill in all the required informations</p>
+<ul>
+<li>Subscription Id</li>
+<li>Susbscription Name</li>
+<li>Service Principle Id (This will be the Client ID of the App registration you created earlier)</li>
+<li>Service principle key (The value you saved earlier)</li>
+<li>Tenant Id</li>
+<li>Service Connection name (Any name you want)</li>
+<li>Select <strong>Grant access permission to all pipelines</strong></li>
+</ul>
+</li>
+<li>
+<p>Once everything is filled out, click and verify; it should appear as succeeded. If not, you might have a permission issue.</p>
+</li>
+</ol>
+<h3 id="fixing-service-connection-issue">Fixing service connection issue</h3>
+<p>In case you&rsquo;re getting this issue, which I&rsquo;m quite certain you&rsquo;re getting 🥹. Then fear not.</p>
+<p><strong>&ldquo;Failed to query service connection API &ldquo;<a href="https://managemant.azure.com/sub/xxx?api-version=2016-06-01.status">https://managemant.azure.com/sub/xxx?api-version=2016-06-01.status</a> code:&lsquo;status code:{&ldquo;error&rdquo;,:{code&quot;&ldquo;Authorization failed message&rdquo; &rsquo;the client&rdquo; with object id &ldquo;does not have authorization to perform action &lsquo;microsoft.resource/sub/read,over scope&rsquo;/sub or scope is invalid.if access was recently granted.please refresh your credentials}}&rdquo;</strong></p>
+<p><img src="./images/8.png" alt=""></p>
+<p>To resolve the error, assign the reader role/permission to the Azure AD Application on the subscription level.</p>
+<ol>
+<li>
+<p>Go to your <strong>subscription</strong></p>
+</li>
+<li>
+<p>Click on <strong>Access control(IAM)</strong></p>
+</li>
+<li>
+<p>Click on <strong>Add Role Assignment</strong></p>
+</li>
+<li>
+<p>Choose the <strong>Reader or Contributor</strong> Role</p>
+</li>
+<li>
+<p>Click on <strong>Select Members</strong> and choose your app registration.</p>
+<p><img src="./images/9.png" alt=""></p>
+</li>
+</ol>
+<p>After giving your app registration access, check your service connection again, and it should appear as Succeeded.</p>
+<p><img src="./images/10.png" alt=""></p>
+<h3 id="building-our-pipeline">Building our pipeline</h3>
+<p>To create the pipeline based on the Node.js node, proceed as follows:</p>
+<ol>
+<li>
+<p>Click on <strong>Pipelines</strong> and <strong>Create New Pipeline</strong></p>
+</li>
+<li>
+<p>It should say <strong>&ldquo;Where is your code?&rdquo;</strong>. Since I added mine on Azure Repos, I chose Azure Repos Git.</p>
+</li>
+<li>
+<p>Select your repository.</p>
+</li>
+<li>
+<p>Configure your pipeline. I&rsquo;m using <strong>Node.Js</strong>, so I&rsquo;m choosing <strong>Node.js</strong></p>
+</li>
+<li>
+<p>Review the default pipeline and Save.</p>
+</li>
+<li>
+<p>The default pipeline will be as follows :</p>
+<p><img src="./images/11.png" alt=""></p>
+</li>
+<li>
+<p>We&rsquo;ll add our own yaml line</p>
+<pre tabindex="0"><code># Define the trigger configuration for the pipeline
+# This pipeline will be triggered when changes are pushed to the &#34;devops&#34; branch
+trigger:
+branches:
+    include:
+    - devops   # Replace with your main branch name
+
+# Define the jobs that will be executed in the pipeline
+jobs:
+- job: Build
+displayName: &#39;Build the app&#39;
+pool:
+    vmImage: &#39;ubuntu-latest&#39;
+steps:
+# Use the NodeTool task to install Node.js version 18.x
+- task: NodeTool@0
+    inputs:
+    versionSpec: &#39;18.x&#39;
+    displayName: &#39;Install Node.js&#39;
+
+# Run &#39;npm install&#39; to install the project dependencies
+- script: |
+    npm install
+    displayName: &#39;Install dependencies&#39;
+
+# Display the contents of the default working directory for debugging purposes
+- script: |
+    echo &#34;Contents of the default working directory:&#34;
+    ls $(System.DefaultWorkingDirectory)
+    displayName: &#39;List files in working directory&#39;
+
+# Archive the build output into a ZIP file
+- task: ArchiveFiles@2
+    inputs:
+    rootFolderOrFile: &#39;$(System.DefaultWorkingDirectory)&#39; # Change this if your build output is in a different folder
+    includeRootFolder: false
+    archiveType: &#39;zip&#39;
+    archiveFile: &#39;$(Build.ArtifactStagingDirectory)/app.zip&#39;
+
+# Publish the ZIP file as an artifact named &#34;drop&#34; for deployment
+- publish: $(Build.ArtifactStagingDirectory)/app.zip
+    artifact: drop
+
+# Define the &#34;Deploy&#34; job, which depends on the successful completion of the &#34;Build&#34; job
+- job: Deploy
+displayName: &#39;Deploy to Azure Web App&#39;
+dependsOn: Build
+pool:
+    vmImage: &#39;ubuntu-latest&#39;
+steps:
+# Download the artifact &#34;drop&#34; from the &#34;Build&#34; job for deployment
+- download: current
+    artifact: drop
+
+# Use the AzureWebApp task to deploy the application to an Azure Web App
+- task: AzureWebApp@1
+    inputs:
+    azureSubscription: &#39;Azure for Students&#39;
+    appType: &#39;webAppLinux&#39;
+    AppName: &#39;dadjokegenerator&#39;
+    deployToSlotOrASE: true
+    ResourceGroupName: &#39;Girish_RG&#39;
+    SlotName: &#39;production&#39;
+    package: &#39;$(System.DefaultWorkingDirectory)/**/*.zip&#39;
+    RuntimeStack: &#39;NODE|18-lts&#39;
+    StartupCommand: &#39;apt-get update -yy &amp;&amp; node app.js&#39;
+</code></pre></li>
+<li>
+<p>Let&rsquo;s try to run the pipeline. The following error will be indicated</p>
+<pre tabindex="0"><code>##[error]No hosted parallelism has been purchased or granted. To request a free parallelism grant, please fill out the following form https://aka.ms/azpipelines-parallelism-request
+</code></pre><p><img src="./images/12.png" alt=""></p>
+<p>Reason why we get this error is Microsoft has currently suspended the free grant of parallel jobs for public projects and some private projects in newly created organizations. However, you have the option to request this grant by submitting a request. This change does not impact existing organizations and projects. Please be aware that it may take 2-3 business days for Microsoft to respond to your request for the free tier. <a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops&amp;tabs=ms-hosted">https://learn.microsoft.com/en-us/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops&amp;tabs=ms-hosted</a></p>
+<p>Now if you&rsquo;re impatient like me and want to see the code being deployed asap then there is a workaround.</p>
+</li>
+</ol>
+<h4 id="creating-your-own-agent">Creating your own agent.</h4>
+<p>Having an understanding of Agent Pools is essential. In Azure DevOps service, Agents are required to build or run your code in build pipelines. When executing a job within a build, the Agent in the Agent Pool facilitates the process.</p>
+<p>To access Agent Pools, navigate to project settings and click on &lsquo;Agent Pools.&rsquo; By default, there are two pools that exist.</p>
+<ul>
+<li><strong>Azure Pipelines hosted pool</strong>,(Each time you run a pipeline, you get a fresh virtual machine.)</li>
+</ul>
+<p>You can manage these pools in Azure DevOps Yaml file as well. Read more <a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops">here</a></p>
+<ul>
+<li><strong>Default Pool</strong> — Use it to register self hosted agents that you can setup. You have to manage on your own.</li>
+</ul>
+<p><img src="./images/13.png" alt=""></p>
+<p>We will use the Default Pool to register our self hosted agents.</p>
+<ol>
+<li>
+<p>Click on <strong>Default Pool</strong> and <strong>New Agent</strong></p>
+</li>
+<li>
+<p>Follow the steps shown on the screen</p>
+<p><img src="./images/14.png" alt=""></p>
+</li>
+<li>
+<p>Make sure you generate Access Token(PAT) beforehand. It is available in your profile settings.</p>
+<p><img src="./images/15.png" alt=""></p>
+</li>
+<li>
+<p>Now move to the machine or system which is going to work. Install it using instructions given by Microsoft. While running it you have to provide few details so that it can configure itself.</p>
+</li>
+<li>
+<p>Once you run the agent, check the status in Azure Console.</p>
+<p><img src="./images/16.png" alt=""></p>
+</li>
+</ol>
+<p>Now that the agent is set up, Let&rsquo;s proceed to add it on our pipeline.</p>
+<h3 id="deploying-the-web-app-via-azure-devops">Deploying the Web app via Azure Devops</h3>
+<ol>
+<li>
+<p>First, let&rsquo;s change our agent pool.</p>
+<p>Change Line 10 and 40 to <code>name: default</code></p>
+</li>
+<li>
+<p>So, the final yaml file will be like this :</p>
+<pre tabindex="0"><code># Define the trigger configuration for the pipeline
+# This pipeline will be triggered when changes are pushed to the &#34;devops&#34; branch
+trigger:
+branches:
+    include:
+    - devops   # Replace with your main branch name
+
+# Define the jobs that will be executed in the pipeline
+jobs:
+- job: Build
+displayName: &#39;Build the app&#39;
+pool:
+    name: default
+steps:
+# Use the NodeTool task to install Node.js version 18.x
+- task: NodeTool@0
+    inputs:
+    versionSpec: &#39;18.x&#39;
+    displayName: &#39;Install Node.js&#39;
+
+# Run &#39;npm install&#39; to install the project dependencies
+- script: |
+    npm install
+    displayName: &#39;Install dependencies&#39;
+
+# Display the contents of the default working directory for debugging purposes
+- script: |
+    echo &#34;Contents of the default working directory:&#34;
+    ls $(System.DefaultWorkingDirectory)
+    displayName: &#39;List files in working directory&#39;
+
+# Archive the build output into a ZIP file
+- task: ArchiveFiles@2
+    inputs:
+    rootFolderOrFile: &#39;$(System.DefaultWorkingDirectory)&#39; # Change this if your build output is in a different folder
+    includeRootFolder: false
+    archiveType: &#39;zip&#39;
+    archiveFile: &#39;$(Build.ArtifactStagingDirectory)/app.zip&#39;
+
+# Publish the ZIP file as an artifact named &#34;drop&#34; for deployment
+- publish: $(Build.ArtifactStagingDirectory)/app.zip
+    artifact: drop
+
+# Define the &#34;Deploy&#34; job, which depends on the successful completion of the &#34;Build&#34; job
+- job: Deploy
+displayName: &#39;Deploy to Azure Web App&#39;
+dependsOn: Build
+pool:
+    name: default
+steps:
+# Download the artifact &#34;drop&#34; from the &#34;Build&#34; job for deployment
+- download: current
+    artifact: drop
+
+# Use the AzureWebApp task to deploy the application to an Azure Web App
+- task: AzureWebApp@1
+    inputs:
+    azureSubscription: &#39;Azure for Students&#39;
+    appType: &#39;webAppLinux&#39;
+    AppName: &#39;dadjokegenerator&#39;
+    deployToSlotOrASE: true
+    ResourceGroupName: &#39;Girish_RG&#39;
+    SlotName: &#39;production&#39;
+    package: &#39;$(System.DefaultWorkingDirectory)/**/*.zip&#39;
+    RuntimeStack: &#39;NODE|18-lts&#39;
+    StartupCommand: &#39;apt-get update -yy &amp;&amp; node app.js&#39;
+</code></pre></li>
+<li>
+<p>Now, Let&rsquo;s run the pipeline again.</p>
+</li>
+<li>
+<p>The pipeline has been built and deployed successfully. Thank you <a href="https://zain.mu/">Zain</a> for helping me with the StartupCommand. 🤝</p>
+<p><img src="./images/17.png" alt=""></p>
+</li>
+<li>
+<p>Try to access the URL again.</p>
+<p><img src="./images/18.png" alt=""></p>
+</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>So, despite my preference for AWS, I had a pretty good experience with Azure. I learned how to deploy a web app using Azure DevOps and Azure App Service, and thanks to ChatGPT for helping me with the Node.js App. I&rsquo;ll try to dive a bit more into Node.js (if I have time 🥲).</p>
+<p>Now, you might be wondering why I did all these steps manually. Well, the truth is, I was learning just like you are right now 😌. And guess what? Yes, they can be automated using something called <a href="https://www.terraform.io/">Terraform</a>. In the next blog post, I&rsquo;ll show how we can make all of this happen automatically using Terraform, and let&rsquo;s hope it works smoothly 😅.</p>
+<p><img src="./images/1.gif" alt=""></p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="http://localhost:1313/tags/azure/">azure</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/tech/">tech</a></span>
+        
+    </p>
+
+            
+			    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="3f3591f94c114ac24b5ed24fbb0ec0a162189ef7" target="_blank" rel="noopener">3f3591f</a> @ 2024-04-30</p>
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; true</span>
+            <span><a href="http://localhost:1313/">Girish Luckhun</a></span>
+            
+            
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span><span><a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng">Theme</a></span>
+        </div>
+    </div>
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.ad54ad97364f77ede35def9096b162bb1f0b3973aa50b080f5e82fa147f6882e2a7200d7535adbf9b51bebf939f1c1ca9bbe6be87530092aca720eac4a226fda.js" integrity="sha512-rVStlzZPd&#43;3jXe&#43;QlrFiux8LOXOqULCA9egvoUf2iC4qcgDXU1rb&#43;bUb6/k58cHKm75r6HUwCSrKcg6sSiJv2g=="></script>
+
+
+
+
+    </body>
+</html>

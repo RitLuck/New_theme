@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="AWS S3 Cross-Account Replication Say for X reason, you need to migrate all your data from an S3 bucket in Account A to a bucket in Account B. There are several ways to go about it. For example:
+The Manual Way
+Download all the objects from the source bucket in Account A to your local machine, then upload them to the destination bucket in Account B. Is it the smartest way? Probably not. But technically, it works.
+" />
+<meta name="keywords" content=", tech, aws" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/technical/2025/01/" />
+
+
+    <title>
+        
+            AWS S3 Cross-Account Replication  :: Girish Luckhun 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/main.min.07ea7ac7da67e2e153a7dfa2457bc6a19cca824288d175e223fadc579041bc51.css" integrity="sha256-B&#43;p6x9pn4uFTp9&#43;iRXvGoZzKgkKI0XXiI/rcV5BBvFE=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="AWS S3 Cross-Account Replication ">
+  <meta itemprop="description" content="AWS S3 Cross-Account Replication Say for X reason, you need to migrate all your data from an S3 bucket in Account A to a bucket in Account B. There are several ways to go about it. For example:
+The Manual Way
+Download all the objects from the source bucket in Account A to your local machine, then upload them to the destination bucket in Account B. Is it the smartest way? Probably not. But technically, it works.">
+  <meta itemprop="datePublished" content="2025-06-01T15:41:16+04:00">
+  <meta itemprop="dateModified" content="2025-07-15T22:16:33+04:00">
+  <meta itemprop="wordCount" content="985">
+  <meta itemprop="keywords" content="Tech,Aws">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AWS S3 Cross-Account Replication ">
+  <meta name="twitter:description" content="AWS S3 Cross-Account Replication Say for X reason, you need to migrate all your data from an S3 bucket in Account A to a bucket in Account B. There are several ways to go about it. For example:
+The Manual Way
+Download all the objects from the source bucket in Account A to your local machine, then upload them to the destination bucket in Account B. Is it the smartest way? Probably not. But technically, it works.">
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2025-06-01 15:41:16 &#43;0400 &#43;04" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">$</span>
+            <span class="logo__text ">
+                cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#fffff;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/my_list/">~/mylist</a></li><li><a href="/posts/">~/posts</a></li><li><a href="/tags/">~/tags</a></li><li><a href="/technical/">~/technical</a></li><li><a href="/whoami/">whoami</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="http://localhost:1313/technical/2025/01/">AWS S3 Cross-Account Replication</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <h1 id="aws-s3-cross-account-replication">AWS S3 Cross-Account Replication</h1>
+<p>Say for X reason, you need to migrate all your data from an S3 bucket in <strong>Account A</strong> to a bucket in <strong>Account B</strong>. There are several ways to go about it. For example:</p>
+<ol>
+<li>
+<p><strong>The Manual Way</strong></p>
+<p>Download all the objects from the source bucket in Account A to your local machine, then upload them to the destination bucket in Account B.
+Is it the smartest way? Probably not. But technically, it works.</p>
+</li>
+<li>
+<p><strong>Lambda function</strong></p>
+<p>Automate the migration that reads objects from the source bucket and copies them to the target bucket.</p>
+</li>
+<li>
+<p><strong>CloudShell</strong></p>
+<p>If you&rsquo;re not into setting up Lambda functions or writing much code, AWS CloudShell is a great option. It’s a browser-based terminal that comes with the AWS CLI pre-installed and runs directly in your AWS environment, no need to install anything locally.</p>
+</li>
+</ol>
+<pre tabindex="0"><code>aws s3 cp s3://source-bucket-name s3://destination-bucket-name --recursive 
+</code></pre><p>Of course, you’ll need to configure cross-account access properly — either by assuming a role in the source account or by granting the right permissions to your credentials in CloudShell.</p>
+<ol start="4">
+<li>Via <strong>Amazon EFS</strong>, Mount EFS to EC2 instances in both accounts to transfer data between S3 buckets.</li>
+</ol>
+<p>Okay, so those were the more “manual” or basic methods to handle S3 migration. Now, let’s get into how AWS can help us migrate S3 much more efficiently and effortlessly.</p>
+<ol start="5">
+<li>
+<p><strong>S3 Cross-Region &amp; Cross-Account Replication</strong></p>
+<p>Automatically replicates new and updated objects from one bucket to another—across accounts or regions. This is what i&rsquo;ll show in details in this blog.</p>
+</li>
+<li>
+<p><strong>S3 Batch Operations</strong></p>
+<p>Allows you to perform large-scale batch operations on millions of objects, like copying or tagging. It’s perfect for one-time bulk migrations or changes without building your own scripts.</p>
+</li>
+<li>
+<p><strong>AWS DataSync</strong></p>
+<p>A fully managed service to transfer large amounts of data between S3 buckets, on-premises storage, or other AWS services. It’s fast, efficient, and supports incremental transfers with built-in validation.</p>
+</li>
+</ol>
+<h2 id="s3-cross-account-replication">S3 Cross-Account Replication</h2>
+<p>I chose this method because of its continuous backup capability. Imagine you’ve migrated all your existing data from the old bucket to the new one, but new objects are still being uploaded to the old bucket. This is why S3 Cross-Account Replication is the best option, it automatically replicates any new objects to Account B, keeping both buckets in sync without any extra effort.</p>
+<p>Below is the provided Architecture from the <a href="https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/copy-data-from-s3-bucket-to-another-account-region-using-s3-batch-replication.html">AWS documentation</a></p>
+<p><img src="images/1.png" alt="alt text"></p>
+<p><strong>Step 1: Create a Replication Rule in the Source Account</strong></p>
+<p><strong>NOTE :</strong> Make sure to enable <strong>Versioning</strong> on both your source and destination S3 buckets.</p>
+<ol>
+<li>Go to your <strong>Source Account</strong>, select your <strong>S3 Bucket</strong> you want to migrate, and open the <strong>Management</strong> tab.</li>
+<li>Create a <strong>replication rule</strong> with the following configuration:</li>
+</ol>
+<p><img src="images/2.png" alt="alt text"></p>
+<p><img src="images/3.png" alt="alt text"></p>
+<p><img src="images/4.png" alt="alt text"></p>
+<ul>
+<li>
+<p>The above configuration simply means you&rsquo;re selecting all objects in the bucket to be replicated to the destination S3 bucket.</p>
+</li>
+<li>
+<p>The <strong>&ldquo;Change object ownership to destination bucket owner&rdquo;</strong> option ensures that ownership of the replicated objects is transferred to the destination account, giving it full control.</p>
+</li>
+<li>
+<p>As for the role, I selected <strong>&ldquo;Create new role&rdquo;</strong>. You can also create the IAM role manually and then choose <strong>&ldquo;Use existing role&rdquo;</strong>. :</p>
+</li>
+</ul>
+<p><strong>Trust relationship</strong>:</p>
+<pre tabindex="0"><code>{
+    &#34;Version&#34;: &#34;2012-10-17&#34;,
+    &#34;Statement&#34;: [
+        {
+            &#34;Effect&#34;: &#34;Allow&#34;,
+            &#34;Principal&#34;: {
+                &#34;Service&#34;: [
+                    &#34;batchoperations.s3.amazonaws.com&#34;,
+                    &#34;s3.amazonaws.com&#34;
+                ]
+            },
+            &#34;Action&#34;: &#34;sts:AssumeRole&#34;
+        }
+    ]
+}
+</code></pre><p><strong>Permissions for AWS IAM Role</strong> :</p>
+<pre tabindex="0"><code>{
+    &#34;Version&#34;: &#34;2012-10-17&#34;,
+    &#34;Statement&#34;: [
+        {
+            &#34;Sid&#34;: &#34;GetSourceBucketConfiguration&#34;,
+            &#34;Effect&#34;: &#34;Allow&#34;,
+            &#34;Action&#34;: [
+                &#34;s3:ListBucket&#34;,
+                &#34;s3:GetBucketLocation&#34;,
+                &#34;s3:GetBucketAcl&#34;,
+                &#34;s3:GetReplicationConfiguration&#34;,
+                &#34;s3:GetObjectVersionForReplication&#34;,
+                &#34;s3:GetObjectVersionAcl&#34;,
+                &#34;s3:GetObjectVersionTagging&#34;
+            ],
+            &#34;Resource&#34;: [
+                &#34;arn:aws:s3:::source-bucket-name&#34;,
+                &#34;arn:aws:s3:::source-bucket-name/*&#34;
+            ]
+        },
+        {
+            &#34;Sid&#34;: &#34;ReplicateToDestinationBuckets&#34;,
+            &#34;Effect&#34;: &#34;Allow&#34;,
+            &#34;Action&#34;: [
+                &#34;s3:List*&#34;,
+                &#34;s3:*Object&#34;,
+                &#34;s3:ReplicateObject&#34;,
+                &#34;s3:ReplicateDelete&#34;,
+                &#34;s3:ReplicateTags&#34;
+            ],
+            &#34;Resource&#34;: [
+                &#34;arn:aws:s3:::destination-bucket-name*&#34;,
+                &#34;arn:aws:s3:::destination-bucket-name/*&#34;
+            ]
+        },
+        {
+            &#34;Sid&#34;: &#34;PermissionToOverrideBucketOwner&#34;,
+            &#34;Effect&#34;: &#34;Allow&#34;,
+            &#34;Action&#34;: [
+                &#34;s3:ObjectOwnerOverrideToBucketOwner&#34;
+            ],
+            &#34;Resource&#34;: [
+                &#34;arn:aws:s3:::destination-bucket-name*&#34;,
+                &#34;arn:aws:s3:::destination-bucket-name/*&#34;
+            ]
+        }
+    ]
+}
+</code></pre><p><strong>Note</strong>: Be sure to replace <code>source-bucket-name</code> and <code>destination-bucket-name</code> with your actual bucket names.</p>
+<h2 id="step-2-apply-a-bucket-policy-to-the-destination-bucket">Step 2: Apply a Bucket Policy to the Destination Bucket</h2>
+<p>Okay, so far we are done with the configuration in the Source Account, now lets add the bucket policy in the destination account.</p>
+<ol>
+<li>Go to your Destination S3 bucket and on the choose the <strong>Permissions</strong> tab.</li>
+<li>Edit the Bucket Policy.</li>
+</ol>
+<p><img src="images/5.png" alt="alt text"></p>
+<ol start="3">
+<li>Copy and Paste the below policy in the field.</li>
+</ol>
+<pre tabindex="0"><code>{
+    &#34;Version&#34;: &#34;2012-10-17&#34;,
+    &#34;Id&#34;: &#34;PolicyForDestinationBucket&#34;,
+    &#34;Statement&#34;: [
+        {
+            &#34;Sid&#34;: &#34;Permissions on objects and buckets&#34;,
+            &#34;Effect&#34;: &#34;Allow&#34;,
+            &#34;Principal&#34;: {
+                &#34;AWS&#34;: &#34;arn:aws:iam::SourceAWSAccountNumber:role/IAM-Role-created-in-step1-in-source-account&#34;
+            },
+            &#34;Action&#34;: [
+                &#34;s3:List*&#34;,
+                &#34;s3:GetBucketVersioning&#34;,
+                &#34;s3:PutBucketVersioning&#34;,
+                &#34;s3:ReplicateDelete&#34;,
+                &#34;s3:ReplicateObject&#34;
+            ],
+            &#34;Resource&#34;: [
+                &#34;arn:aws:s3:::destination-bucket&#34;,
+                &#34;arn:aws:s3:::destination-bucket/*&#34;
+            ]
+        },
+        {
+            &#34;Sid&#34;: &#34;Permission to override bucket owner&#34;,
+            &#34;Effect&#34;: &#34;Allow&#34;,
+            &#34;Principal&#34;: {
+                &#34;AWS&#34;: &#34;arn:aws:iam::SourceAWSAccountNumber:role/IAM-Role-created-in-step1-in-source-account&#34;
+            },
+            &#34;Action&#34;: &#34;s3:ObjectOwnerOverrideToBucketOwner&#34;,
+            &#34;Resource&#34;: &#34;arn:aws:s3:::destination-bucket/*&#34;
+        }
+    ]
+}
+</code></pre><p><strong>Note</strong>:</p>
+<ul>
+<li>Replace the <strong>SourceAWSAccountNumber</strong> with the Source Account ID.</li>
+<li>Replace <strong>IAM-Role-created-in-source-account</strong> with the Role that was created above by the Replication rule.</li>
+<li>Replace <strong>destination-bucket</strong> with the Name of the Destination Bucket.</li>
+</ul>
+<h2 id="step-3--run-batch-operation-jobs">Step 3 : Run Batch Operation Jobs</h2>
+<p>Now, since we are done with all the configuration, all need to be done, is to run the replcation.</p>
+<ol>
+<li>Go to your <strong>Source Account</strong> and <strong>S3 bucket</strong> and choose <strong>Batch Operations</strong>. And Create a <strong>Job</strong>.</li>
+</ol>
+<p><img src="images/6.png" alt="alt text"></p>
+<ol start="2">
+<li>Keep everything as default. Choose a bucket where you want to store the Manifest file.</li>
+</ol>
+<p><img src="images/7.png" alt="alt text"></p>
+<p><img src="images/8.png" alt="alt text"></p>
+<ol>
+<li>
+<p>For <strong>Operation</strong>, choose <strong>Replicate</strong>, since we are replicating the S3.</p>
+</li>
+<li>
+<p>And for <strong>Configure addtional option</strong>, you can choose to get a Completion Report, where you will get a report of all tasks including failed tasks, Or you can choose not to get the Report.</p>
+</li>
+<li>
+<p>As for the permission, you can <strong>Choose from existing IAM roles</strong></p>
+</li>
+<li>
+<p>Review the Job and Run it.</p>
+</li>
+</ol>
+<p><img src="images/9.png" alt="alt text"></p>
+<ol start="5">
+<li>Once the Job has completed, you will be able to see if it has been completed as Success or Failure.</li>
+</ol>
+<p><img src="images/10.png" alt="alt text"></p>
+<h2 id="step-4-verify-data-on-destination-bucket">Step 4: Verify data on Destination Bucket.</h2>
+<p>Go to your Destination Bucket, and you will see all your data has been updated it.</p>
+<h2 id="step-5--add-new-object-to-source-bucket">Step 5 : Add new object to Source Bucket.</h2>
+<p>Now to test the continuous Backup capability, upload an object on your Source Bucket and verify on your Destination bucket, you will be able to see that the new object will also be uploaded on the destination bucket.</p>
+<h1 id="conclusion--">Conclusion  :</h1>
+<p>Hope you got a clear idea how AWS S3 handles the replication.</p>
+<h1 id="references-">References :</h1>
+<p><a href="https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/copy-data-from-s3-bucket-to-another-account-region-using-s3-batch-replication.html">https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/copy-data-from-s3-bucket-to-another-account-region-using-s3-batch-replication.html</a></p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="http://localhost:1313/tags/tech/">tech</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/aws/">aws</a></span>
+        
+    </p>
+
+            
+			    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="df66f98940e7e4a341d00c3f3d9971fb33f022cc" target="_blank" rel="noopener">df66f98</a> @ 2025-07-15</p>
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; true</span>
+            <span><a href="http://localhost:1313/">Girish Luckhun</a></span>
+            
+            
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span><span><a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng">Theme</a></span>
+        </div>
+    </div>
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.ad54ad97364f77ede35def9096b162bb1f0b3973aa50b080f5e82fa147f6882e2a7200d7535adbf9b51bebf939f1c1ca9bbe6be87530092aca720eac4a226fda.js" integrity="sha512-rVStlzZPd&#43;3jXe&#43;QlrFiux8LOXOqULCA9egvoUf2iC4qcgDXU1rb&#43;bUb6/k58cHKm75r6HUwCSrKcg6sSiJv2g=="></script>
+
+
+
+
+    </body>
+</html>
