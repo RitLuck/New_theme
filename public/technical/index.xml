@@ -79,6 +79,13 @@
       <description>&lt;p&gt;As a Cloud Engineer, acquiring new cloud skills has become essential. I explored various avenues for learning, including enrolling in free online courses, watching informative videos, and attending insightful presentations. However, I realized that while I had grasped certain concepts, there was still a gap in my practical understanding of cloud technologies. The question lingered: if tasked with migrating an existing application to the cloud, would I truly be prepared?&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Boost Your Workday with Docker Games</title>
+      <link>http://localhost:1313/technical/2023/03/</link>
+      <pubDate>Mon, 20 Mar 2023 13:27:54 +0400</pubDate>
+      <guid>http://localhost:1313/technical/2023/03/</guid>
+      <description>&lt;p&gt;Docker games are games that can be run in Docker containers. &lt;a href=&#34;https://www.docker.com&#34;&gt;Docker&lt;/a&gt; is a popular tool for containerization, which allows software to be run in a portable and isolated environment. By running games in Docker containers, players can enjoy the benefits of portability, isolation, and ease of deployment. Some popular games that can be run in Docker containers include classic arcade games like Pac-Man and Donkey Kong, retro games like Super Mario Bros. and Legend of Zelda, and even modern games like Minecraft and Fortnite.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Building a Strong Foundation with AWS: Exploring the Six Key Pillars of the Well-Architected Framework</title>
       <link>http://localhost:1313/technical/2023/04/</link>
       <pubDate>Sat, 04 Mar 2023 10:19:40 +0400</pubDate>

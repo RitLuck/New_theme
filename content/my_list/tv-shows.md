@@ -28,10 +28,11 @@ date: 2025-07-18T10:47:04+04:00
 - The Frog
 - Tastefully Yours
 - The Potato Lab
+- Love Next Door
 
 ## 👀 Currently Watching
 
-- Love Next Door
+- ???
  
 ## 📝 Plan to Watch 
 
