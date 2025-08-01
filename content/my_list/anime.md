@@ -71,6 +71,7 @@ date: 2025-07-16T10:47:04+04:00
 - Sakamoto Days
 - Dr Stone
 - Kanojo, Okarishimasu 4th Season (Rent-a-Girlfriend) Season 4
+- Bochhi The Rock
 ---
 
 ## 📺 Plan to Watch
