@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devcon on Girish Luckhun</title>
-    <link>http://localhost:1313/tags/devcon/</link>
+    <link>https://girishluckhun.com/tags/devcon/</link>
     <description>Recent content in Devcon on Girish Luckhun</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Apr 2024 14:08:25 +0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/devcon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://girishluckhun.com/tags/devcon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developers Conference 2022</title>
-      <link>http://localhost:1313/technical/2022/01/</link>
+      <link>https://girishluckhun.com/technical/2022/01/</link>
       <pubDate>Fri, 25 Nov 2022 19:19:09 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2022/01/</guid>
+      <guid>https://girishluckhun.com/technical/2022/01/</guid>
       <description>&lt;p&gt;Mauritius Developers Conference 2022&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./images/15.png&#34; alt=&#34;image15&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This week, more than 900 tech enthusiasts descended on the city of Port Louis at &lt;a href=&#34;https://caudanartscentre.com/&#34;&gt;Caudan Arts Centre&lt;/a&gt; for the 7th Developers Conference. In case you are wondering what the Developers Conference is. Here is an &lt;a href=&#34;https://lexpress.mu/node/415580&#34;&gt;article&lt;/a&gt; written by &lt;a href=&#34;https://twitter.com/IshSookun&#34;&gt;Ish Sookun&lt;/a&gt; on L&amp;rsquo;express.&lt;/p&gt;&#xA;&lt;p&gt;Before we start talking about devcon, let&amp;rsquo;s take a moment to appreciate the venue first. It was my first time being there for an event, and damn its magnificent. Unfortunately I did not take many photos but here is &lt;a href=&#34;https://twitter.com/AfriTheatreMag/status/1484796561884340225&#34;&gt;tweet thread&lt;/a&gt; I found on twitter. All I can say is, it is absolutely remarkable.&lt;/p&gt;</description>
     </item>
   </channel>

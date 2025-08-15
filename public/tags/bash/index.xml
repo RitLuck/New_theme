@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bash on Girish Luckhun</title>
-    <link>http://localhost:1313/tags/bash/</link>
+    <link>https://girishluckhun.com/tags/bash/</link>
     <description>Recent content in Bash on Girish Luckhun</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Jun 2024 15:47:23 +0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://girishluckhun.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enable Termination Protection on ec2 instances using bash </title>
-      <link>http://localhost:1313/technical/2024/05/</link>
+      <link>https://girishluckhun.com/technical/2024/05/</link>
       <pubDate>Mon, 24 Jun 2024 15:41:16 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2024/05/</guid>
+      <guid>https://girishluckhun.com/technical/2024/05/</guid>
       <description>&lt;p&gt;To prevent your instance from being accidentally terminated, you can enable &lt;strong&gt;termination protection&lt;/strong&gt; for the instance.&lt;/p&gt;&#xA;&lt;p&gt;Below is a simple bash script that will&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Retrieve Running Instance IDs: Fetches a list of all running instance IDs in your AWS account.&lt;/li&gt;&#xA;&lt;li&gt;Enable Termination Protection: Loops through each retrieved instance ID and enables termination protection.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash&#xA;&#xA;# Get a list of all running instance IDs&#xA;INSTANCE_IDS=$(aws ec2 describe-instances --filters &amp;#34;Name=instance-state-name,Values=running&amp;#34; --query &amp;#34;Reservations[*].Instances[*].InstanceId&amp;#34; --output text --profile PROFILE_NAME)&#xA;&#xA;# Loop through each instance ID and enable termination protection&#xA;for instance_id in $INSTANCE_IDS&#xA;do&#xA;  echo &amp;#34;Enabling termination protection for instance: $instance_id&amp;#34;&#xA;  aws ec2 modify-instance-attribute --instance-id &amp;#34;$instance_id&amp;#34; --disable-api-termination --profile PROFILE_NAME&#xA;done&#xA;&#xA;echo &amp;#34;Termination protection enabled for all running instances.&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;AWS CLI Commands:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Terraform Automation with a Bash Script</title>
-      <link>http://localhost:1313/technical/2023/07/</link>
+      <link>https://girishluckhun.com/technical/2023/07/</link>
       <pubDate>Wed, 11 Oct 2023 10:13:28 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2023/07/</guid>
+      <guid>https://girishluckhun.com/technical/2023/07/</guid>
       <description>&lt;p&gt;Deploying your first cloud resources with &lt;a href=&#34;https://www.terraform.io/&#34;&gt;Terraform&lt;/a&gt; often means juggling commands like &lt;code&gt;terraform fmt&lt;/code&gt;, &lt;code&gt;terraform plan&lt;/code&gt;, and &lt;code&gt;terraform apply&lt;/code&gt;. It can feel a bit like a repetitive dance. But what if I told you there&amp;rsquo;s a simpler way? Just one command, you can seamlessly execute the entire Terraform workflow – from code formatting to applying changes in your cloud environment.&lt;/p&gt;&#xA;&lt;p&gt;The one command mentioned is a Bash Script, where you only need to specify the environment in which you want to provision your resources. The code can be found at the end of the blog on my github.&lt;/p&gt;</description>
     </item>
   </channel>

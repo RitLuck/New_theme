@@ -11,10 +11,14 @@ disableSitemap  = false
 disable404      = false
 disableHugoGeneratorInject = false
 
+
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
 [params]
+
+  googleAnalytics = "G-W7BVXTF6M9"  # Add this line under [params]
+  
   name = "Girish Luckhun"
 
   [params.author]

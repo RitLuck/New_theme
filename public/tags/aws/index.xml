@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aws on Girish Luckhun</title>
-    <link>http://localhost:1313/tags/aws/</link>
+    <link>https://girishluckhun.com/tags/aws/</link>
     <description>Recent content in Aws on Girish Luckhun</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Jul 2025 12:55:27 +0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://girishluckhun.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building the Flappy Bird Game with Amazon Q CLI</title>
-      <link>http://localhost:1313/technical/2025/03/</link>
+      <link>https://girishluckhun.com/technical/2025/03/</link>
       <pubDate>Wed, 16 Jul 2025 10:47:04 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2025/03/</guid>
+      <guid>https://girishluckhun.com/technical/2025/03/</guid>
       <description>&lt;p&gt;If you think Amazon Q is cool, try building a game with it on the CLI and experience the AWSomeness!&lt;/p&gt;&#xA;&lt;p&gt;Alright, let’s jump right in. In my &lt;a href=&#34;https://girishluckhun.com/technical/2025/02/&#34;&gt;previous blog&lt;/a&gt;, I shared the basic things you can do with Amazon Q.&lt;/p&gt;&#xA;&lt;p&gt;In this post, I’m going one step further: I’ll be building a &lt;strong&gt;Flappy Bird&lt;/strong&gt; — entirely using the Q CLI.&lt;/p&gt;&#xA;&lt;p&gt;Remember the Flappy Bird game? well, lets try that with some new features to make my life more difficult.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Having fun with Amazon Q CLI and MCP</title>
-      <link>http://localhost:1313/technical/2025/02/</link>
+      <link>https://girishluckhun.com/technical/2025/02/</link>
       <pubDate>Tue, 15 Jul 2025 20:29:16 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2025/02/</guid>
+      <guid>https://girishluckhun.com/technical/2025/02/</guid>
       <description>&lt;p&gt;Okay, so you might be wondering, what the heck is &lt;strong&gt;Amzon Q&lt;/strong&gt;, and what is &lt;strong&gt;MCP&lt;/strong&gt;?&#xA;Dont worry, I was just confused at first!&lt;/p&gt;&#xA;&lt;p&gt;So, we recently had a meeting with our AWS guru the other day, and introduced to us &lt;strong&gt;Amazon Q&lt;/strong&gt; and &lt;strong&gt;MCP&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Let me give you a quick intro to both.&lt;/p&gt;&#xA;&lt;h2 id=&#34;amazon-q&#34;&gt;Amazon Q&lt;/h2&gt;&#xA;&lt;p&gt;You have probably noticed that small blue icon when you visit the AWS docs. yes yes, that&amp;rsquo;s &lt;strong&gt;Amazon Q&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>AWS S3 Cross-Account Replication </title>
-      <link>http://localhost:1313/technical/2025/01/</link>
+      <link>https://girishluckhun.com/technical/2025/01/</link>
       <pubDate>Sun, 01 Jun 2025 15:41:16 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2025/01/</guid>
+      <guid>https://girishluckhun.com/technical/2025/01/</guid>
       <description>&lt;h1 id=&#34;aws-s3-cross-account-replication&#34;&gt;AWS S3 Cross-Account Replication&lt;/h1&gt;&#xA;&lt;p&gt;Say for X reason, you need to migrate all your data from an S3 bucket in &lt;strong&gt;Account A&lt;/strong&gt; to a bucket in &lt;strong&gt;Account B&lt;/strong&gt;. There are several ways to go about it. For example:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Manual Way&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Download all the objects from the source bucket in Account A to your local machine, then upload them to the destination bucket in Account B.&#xA;Is it the smartest way? Probably not. But technically, it works.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Enable Termination Protection on ec2 instances using bash </title>
-      <link>http://localhost:1313/technical/2024/05/</link>
+      <link>https://girishluckhun.com/technical/2024/05/</link>
       <pubDate>Mon, 24 Jun 2024 15:41:16 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2024/05/</guid>
+      <guid>https://girishluckhun.com/technical/2024/05/</guid>
       <description>&lt;p&gt;To prevent your instance from being accidentally terminated, you can enable &lt;strong&gt;termination protection&lt;/strong&gt; for the instance.&lt;/p&gt;&#xA;&lt;p&gt;Below is a simple bash script that will&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Retrieve Running Instance IDs: Fetches a list of all running instance IDs in your AWS account.&lt;/li&gt;&#xA;&lt;li&gt;Enable Termination Protection: Loops through each retrieved instance ID and enables termination protection.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash&#xA;&#xA;# Get a list of all running instance IDs&#xA;INSTANCE_IDS=$(aws ec2 describe-instances --filters &amp;#34;Name=instance-state-name,Values=running&amp;#34; --query &amp;#34;Reservations[*].Instances[*].InstanceId&amp;#34; --output text --profile PROFILE_NAME)&#xA;&#xA;# Loop through each instance ID and enable termination protection&#xA;for instance_id in $INSTANCE_IDS&#xA;do&#xA;  echo &amp;#34;Enabling termination protection for instance: $instance_id&amp;#34;&#xA;  aws ec2 modify-instance-attribute --instance-id &amp;#34;$instance_id&amp;#34; --disable-api-termination --profile PROFILE_NAME&#xA;done&#xA;&#xA;echo &amp;#34;Termination protection enabled for all running instances.&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;AWS CLI Commands:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Generative AI on AWS</title>
-      <link>http://localhost:1313/technical/2024/04/</link>
+      <link>https://girishluckhun.com/technical/2024/04/</link>
       <pubDate>Wed, 29 May 2024 12:31:18 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2024/04/</guid>
+      <guid>https://girishluckhun.com/technical/2024/04/</guid>
       <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;Just a few days back, I jumped into this online workshop hosted by AWS. They were all about using Generative AI to build smart apps. It was called &amp;lsquo;Build Intelligent Enterprise Apps Powered By Generative AI On AWS - GenAI Booster.&amp;rsquo; Participants were given access to a temporary AWS account, valid for 48 hours, specifically for the workshop. This account provided hands-on experience and access to the necessary resources for the duration of the event.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Copy Amazon Machine Images (AMI) to another account using AWS Key Management Service (KMS)</title>
-      <link>http://localhost:1313/technical/2024/02/</link>
+      <link>https://girishluckhun.com/technical/2024/02/</link>
       <pubDate>Sun, 28 Apr 2024 15:00:19 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2024/02/</guid>
+      <guid>https://girishluckhun.com/technical/2024/02/</guid>
       <description>&lt;h2 id=&#34;create-an-image-for-the-vm-you-want-to-copy&#34;&gt;Create an Image for the VM you want to copy&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Select your vm.&lt;/li&gt;&#xA;&lt;li&gt;Click on &lt;strong&gt;Actions&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Image and templates&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Create Image&lt;/strong&gt;.&#xA;&lt;img src=&#34;./images/1.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;create-an-kms-key-to-the-account&#34;&gt;Create an KMS key to the account&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Go to the account where the AMI will be copied.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Go to &lt;strong&gt;Key Management Service (KMS)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Click on &lt;strong&gt;Create A key&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Skip all the steps and go directly to &lt;strong&gt;Review&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Copy and paste the following policy in the &lt;strong&gt;Key Policy&lt;/strong&gt; section.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AWS Application Migration Service (MGN)</title>
-      <link>http://localhost:1313/technical/2024/03/</link>
+      <link>https://girishluckhun.com/technical/2024/03/</link>
       <pubDate>Wed, 24 Apr 2024 19:16:11 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2024/03/</guid>
+      <guid>https://girishluckhun.com/technical/2024/03/</guid>
       <description>&lt;h2 id=&#34;configure-aws-mgn-for-migrating-your-workloads-from-one-aws-region-to-another&#34;&gt;Configure AWS MGN for migrating your workloads from one AWS Region to another.&lt;/h2&gt;&#xA;&lt;p&gt;Moving to the cloud can be tough for companies as they need to ensure smooth and safe data transfers. &lt;a href=&#34;https://aws.amazon.com/application-migration-service/&#34;&gt;AWS MGN&lt;/a&gt;, a service by Amazon Web Services, makes this easier. It helps companies to &lt;strong&gt;Lift&lt;/strong&gt; and &lt;strong&gt;Shift&lt;/strong&gt; their data to AWS securely, cutting downtime and lowering the chance of losing data.&lt;/p&gt;&#xA;&lt;p&gt;Lift-and-shit consists in copying the existing applications and data to the cloud with no redesigning or modification, it’s a copy paste operation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My AWS Cloud Resume Challenge</title>
-      <link>http://localhost:1313/technical/2023/05/</link>
+      <link>https://girishluckhun.com/technical/2023/05/</link>
       <pubDate>Sun, 18 Jun 2023 19:31:14 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2023/05/</guid>
+      <guid>https://girishluckhun.com/technical/2023/05/</guid>
       <description>&lt;p&gt;As a Cloud Engineer, acquiring new cloud skills has become essential. I explored various avenues for learning, including enrolling in free online courses, watching informative videos, and attending insightful presentations. However, I realized that while I had grasped certain concepts, there was still a gap in my practical understanding of cloud technologies. The question lingered: if tasked with migrating an existing application to the cloud, would I truly be prepared?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building a Strong Foundation with AWS: Exploring the Six Key Pillars of the Well-Architected Framework</title>
-      <link>http://localhost:1313/technical/2023/04/</link>
+      <link>https://girishluckhun.com/technical/2023/04/</link>
       <pubDate>Sat, 04 Mar 2023 10:19:40 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2023/04/</guid>
+      <guid>https://girishluckhun.com/technical/2023/04/</guid>
       <description>&lt;p&gt;AWS Well-Architected framework is built around six foundational areas, also known as pillars, to help customers structure their applications in line with best practices that have become established.&lt;/p&gt;&#xA;&lt;p&gt;The AWS Well-Architected Framework is based on six pillars :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Operational excellence&lt;/li&gt;&#xA;&lt;li&gt;Security&lt;/li&gt;&#xA;&lt;li&gt;Reliability&lt;/li&gt;&#xA;&lt;li&gt;Performance efficiency&lt;/li&gt;&#xA;&lt;li&gt;Cost optimization&lt;/li&gt;&#xA;&lt;li&gt;Sustainability.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;operational-excellence&#34;&gt;&lt;strong&gt;Operational excellence&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This pillar focuses on helping customers run their workloads efficiently and effectively. It focuses on optimizing business and operational processes, as well as identifying areas of improvement to ensure continuous delivery and improvement of services. It includes services like AWS CloudFormation, AWS CloudTrail, AWS Config, and AWS CloudWatch. The Operational Excellence pillar includes a set of best practices, design principles, and core concepts that help customers achieve their goals. Some of the key components of this pillar are:&lt;/p&gt;</description>
     </item>
   </channel>

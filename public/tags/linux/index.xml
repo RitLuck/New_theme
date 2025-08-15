@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Girish Luckhun</title>
-    <link>http://localhost:1313/tags/linux/</link>
+    <link>https://girishluckhun.com/tags/linux/</link>
     <description>Recent content in Linux on Girish Luckhun</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Apr 2024 14:08:25 +0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://girishluckhun.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Don&#39;t be afraid of the command line</title>
-      <link>http://localhost:1313/technical/2023/02/</link>
+      <link>https://girishluckhun.com/technical/2023/02/</link>
       <pubDate>Sat, 28 Jan 2023 19:24:20 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2023/02/</guid>
+      <guid>https://girishluckhun.com/technical/2023/02/</guid>
       <description>&lt;p&gt;We are so used to graphical user interfaces that we forget computers started off without it. As an engineer, there are many reasons why using the command line can help with scripting.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Less context switching -&amp;gt; more focus&lt;/li&gt;&#xA;&lt;li&gt;Lightweight -&amp;gt; faster development&lt;/li&gt;&#xA;&lt;li&gt;Deeper understanding of tools and the computer&lt;/li&gt;&#xA;&lt;li&gt;Higher interoperability between computers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;On an aside, the recent trend of containerization requires you to be familiar with the command line. With most containers being in linux and entering them would mean that there&amp;rsquo;s no user interface so you have to depend on the good old fashion command line.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Improving My Directory Workflow</title>
-      <link>http://localhost:1313/technical/2023/01/</link>
+      <link>https://girishluckhun.com/technical/2023/01/</link>
       <pubDate>Fri, 27 Jan 2023 19:22:37 +0400</pubDate>
-      <guid>http://localhost:1313/technical/2023/01/</guid>
+      <guid>https://girishluckhun.com/technical/2023/01/</guid>
       <description>&lt;p&gt;This is my most used custom shell script. test&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/sh&#xA;&#xA;directory=$(find ~/myworkspace ~/Desktop -mindepth 0 -maxdepth 1 -type d | fzf)&#xA;&#xA;if [ -z &amp;#34;$1&amp;#34; ]; then&#xA;    cd &amp;#34;$directory&amp;#34;&#xA;    exec bash&#xA;else&#xA;    exec ranger &amp;#34;$directory&amp;#34;&#xA;fi&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;speed-&#34;&gt;Speed 🏃🏻💨&lt;/h1&gt;&#xA;&lt;p&gt;&lt;code&gt;dic&lt;/code&gt; was a little script I made to quickly find directories that I use a lot.&lt;/p&gt;&#xA;&lt;p&gt;Gone are the days of &lt;code&gt;cd ~; cd important-directory/; ls; cd subdirectory; ls; vim important-document.md&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Now I just run &lt;code&gt;dic&lt;/code&gt; and use &lt;code&gt;fzf&lt;/code&gt; to search for the directory I need.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anime on Girish Luckhun</title>
-    <link>http://localhost:1313/tags/anime/</link>
+    <link>https://girishluckhun.com/tags/anime/</link>
     <description>Recent content in Anime on Girish Luckhun</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Jan 2023 19:31:56 +0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/anime/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://girishluckhun.com/tags/anime/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tachiyomi: open-source manga reader</title>
-      <link>http://localhost:1313/posts/2022/11/tachiyomi-open-source-manga-reader/</link>
+      <link>https://girishluckhun.com/posts/2022/11/tachiyomi-open-source-manga-reader/</link>
       <pubDate>Sat, 05 Nov 2022 19:09:12 +0400</pubDate>
-      <guid>http://localhost:1313/posts/2022/11/tachiyomi-open-source-manga-reader/</guid>
+      <guid>https://girishluckhun.com/posts/2022/11/tachiyomi-open-source-manga-reader/</guid>
       <description>&lt;p&gt;I’m sure a lot of manga readers had a hard time searching for a different manga reader. That is why I’m going to introduce you an open-source manga application named Tachiyomi. Here&amp;rsquo;s is a couple of reasons why i use Tachiyomi:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Completely free&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Tachiyomi is completely free to use and without any ads. That means you can have a great reading experience without any ads interrupting.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open source&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Tachiyomi is also open source which means that you can go and look at the code and see how it work and maybe even contribute if you have programming experience.&lt;/p&gt;</description>
     </item>
   </channel>
