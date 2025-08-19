@@ -32,7 +32,8 @@ date: 2025-07-18T10:47:04+04:00
 - Family by Choice
 - Because This Is My First Life
 - I'm Not a Robot
-- 
+- Welcome to Samdal-ri
+
 
 
 
