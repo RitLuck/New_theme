@@ -5,7 +5,6 @@ date: 2025-07-18T10:47:04+04:00
 
 # 📺 K-Drama I’ve Watched
 
-
 - When Life Gives You Tangerines
 - A Korean Odyssey (2017–18)
 - Signal
@@ -21,7 +20,6 @@ date: 2025-07-18T10:47:04+04:00
 - HellBound
 - Move to Heaven
 - Memories of Alhambra
-- The Judge from Hell
 - The Doctors
 - Extraordinary Attorney Woo
 - Pinocchio
@@ -35,14 +33,20 @@ date: 2025-07-18T10:47:04+04:00
 - The Sound of Your Heart
 - Welcome to Samdal-ri
 - Hometown Cha-Cha-Cha
-
-
-
+- Pyramid Game
+- Night has come
+- Gaus Electronics
+- little women
+- Exhuma (k-movie)
+- You and Everything Else
 
 ## 👀 Currently Watching
 
-- The Sound of Your Heart
+- Marry my Husband (jdrama)
+-  
  
 ## 📝 Plan to Watch 
 
-- Gaus Electronics
+- Flower of Evil
+- The Witch's Diner
+
