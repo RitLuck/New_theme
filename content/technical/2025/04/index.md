@@ -1,5 +1,5 @@
 ---
-title: "Giving Specific user/group permission to a Specific role"
+title: "	"
 date: 2025-10-29T11:19:49+04:00
 draft: false
 toc: false
@@ -80,5 +80,3 @@ Basically, the above policy allows you to
 To test, go to your Account <Account-id>, and try updating your role, You should now have the permissions to perform these actions successfully.
 
 ![alt text](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa284MTVveXlvN3d4b3JyNmUwdnl3Y2hxZWw3dWl2eThwZ2drNzFjaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a0h7sAqON67nO/giphy.gif)
-
-

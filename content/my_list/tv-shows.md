@@ -39,14 +39,18 @@ date: 2025-07-18T10:47:04+04:00
 - little women
 - Exhuma (k-movie)
 - You and Everything Else
+- Light Shop
+- Moving
 
 ## 👀 Currently Watching
 
-- Marry my Husband (jdrama)
--  
- 
-## 📝 Plan to Watch 
+- Typhoon Family
+- 365: Repeat the Year
+- Twinkling Watefront
+## 📝 Plan to Watch  
 
 - Flower of Evil
 - The Witch's Diner
+- Strangers from Hell 
+- Prison Playbook
 
