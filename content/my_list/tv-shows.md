@@ -41,12 +41,12 @@ date: 2025-07-18T10:47:04+04:00
 - You and Everything Else
 - Light Shop
 - Moving
+- Twinkling Watefront
 
 ## 👀 Currently Watching
 
 - Typhoon Family
 - 365: Repeat the Year
-- Twinkling Watefront
 ## 📝 Plan to Watch  
 
 - Flower of Evil
