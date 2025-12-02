@@ -105,24 +105,28 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "anime"
     name       = "~/mylist"
+    pre        = "~ "
     url        = "/my_list/"
     weight = 20
 
   [[menu.main]]
     identifier = "posts"
     name       = "~/posts"
+    pre        = "~ "
     url        = "/posts/"
     weight     = 30
 
   [[menu.main]]
     identifier = "Techinical_posts"
     name       = "~/technical"
+    pre        = "~ "
     url        = "technical/"
     weight     = 40
 
   [[menu.main]]
     identifier = "tags"
     name       = "~/tags"
+    pre        = "~ "
     url        = "/tags/"
     weight     = 50
 
