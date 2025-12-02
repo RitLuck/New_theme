@@ -126,11 +126,11 @@ disableHugoGeneratorInject = false
     url        = "/tags/"
     weight     = 50
 
-[[menu.main]]
-  identifier = "resume"
-  name       = "Resume"
-  url        = "/file/girish-resume.pdf"
-  weight     = 60
+  [[menu.main]]
+    identifier = "resume"
+    name       = "~/resume"
+    url        = "/file/girish-resume.pdf"
+    weight     = 60
 
 
 
