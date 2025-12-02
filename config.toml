@@ -131,9 +131,3 @@ disableHugoGeneratorInject = false
     name       = "~/resume"
     url        = "/file/girish-resume.pdf"
     weight     = 60
-
-
-
-[services]
-  [services.googleAnalytics]
-    id = 'G-W7BVXTF6M9'
