@@ -1,4 +1,4 @@
-baseURL = "https://girishluckhun.com"
+baseURL = "https://girishluckhun.netlify.app"
 title   = "Girish Luckhun"
 languageCode = "en-us"
 theme = "hello-friend-ng"
