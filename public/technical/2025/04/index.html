@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Intro Ever wondered how you can give a particular user or group specific permissions on one or multiple AWS accounts?
+Well, with AWS IAM Identity Center, you can achieve this by creating Permission Sets and assigning them to users or groups for specific AWS accounts.
+Steps to Achieve This On your payer account, go to IAM Identity Center Navigate to Permission Set, then create one or update an existing one. You’ll notice that you can attach either AWS managed policies or customer-managed policies. Since we are interested in giving specific permission to specific role, scroll down to Inline policy (set) and edit. Here, you can add your custom inline policy, for example : { &#34;Version&#34;: &#34;2012-10-17&#34;, &#34;Statement&#34;: [ { &#34;Sid&#34;: &#34;startstopEC2&#34;, &#34;Effect&#34;: &#34;Allow&#34;, &#34;Action&#34;: [ &#34;ec2:StopInstances&#34;, &#34;ec2:StartInstances&#34; ], &#34;Resource&#34;: [ &#34;arn:aws:ec2:eu-west-1:&lt;Account-id&gt;:instance/&lt;instance-id&gt;&#34;, ] }, { &#34;Sid&#34;: &#34;AttachDetachOnlyApprovedManagedPoliciesOnRole&#34;, &#34;Effect&#34;: &#34;Allow&#34;, &#34;Action&#34;: [ &#34;iam:AttachRolePolicy&#34;, &#34;iam:DetachRolePolicy&#34; ], &#34;Resource&#34;: &#34;arn:aws:iam::&lt;Account-id&gt;:role/&lt;Role-name&gt;&#34;, &#34;Condition&#34;: { &#34;StringLike&#34;: { &#34;iam:PolicyARN&#34;: &#34;arn:aws:iam::aws:policy/*&#34; } } }, { &#34;Sid&#34;: &#34;CreateOrDeleteInlinePoliciesOnRole&#34;, &#34;Effect&#34;: &#34;Allow&#34;, &#34;Action&#34;: [ &#34;iam:PutRolePolicy&#34;, &#34;iam:DeleteRolePolicy&#34; ], &#34;Resource&#34;: &#34;arn:aws:iam::&lt;Account-id&gt;:role/&lt;Role-name&gt;&#34; } ] } Basically, the above policy allows you to
+" />
+<meta name="keywords" content=", tech, aws, iam" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://girishluckhun.com/technical/2025/04/" />
+
+
+    <title>
+        
+            	 :: Girish Luckhun 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/main.min.07ea7ac7da67e2e153a7dfa2457bc6a19cca824288d175e223fadc579041bc51.css" integrity="sha256-B&#43;p6x9pn4uFTp9&#43;iRXvGoZzKgkKI0XXiI/rcV5BBvFE=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="	">
+  <meta itemprop="description" content="Intro Ever wondered how you can give a particular user or group specific permissions on one or multiple AWS accounts?
+Well, with AWS IAM Identity Center, you can achieve this by creating Permission Sets and assigning them to users or groups for specific AWS accounts.
+Steps to Achieve This On your payer account, go to IAM Identity Center Navigate to Permission Set, then create one or update an existing one. You’ll notice that you can attach either AWS managed policies or customer-managed policies. Since we are interested in giving specific permission to specific role, scroll down to Inline policy (set) and edit. Here, you can add your custom inline policy, for example : { &#34;Version&#34;: &#34;2012-10-17&#34;, &#34;Statement&#34;: [ { &#34;Sid&#34;: &#34;startstopEC2&#34;, &#34;Effect&#34;: &#34;Allow&#34;, &#34;Action&#34;: [ &#34;ec2:StopInstances&#34;, &#34;ec2:StartInstances&#34; ], &#34;Resource&#34;: [ &#34;arn:aws:ec2:eu-west-1:&lt;Account-id&gt;:instance/&lt;instance-id&gt;&#34;, ] }, { &#34;Sid&#34;: &#34;AttachDetachOnlyApprovedManagedPoliciesOnRole&#34;, &#34;Effect&#34;: &#34;Allow&#34;, &#34;Action&#34;: [ &#34;iam:AttachRolePolicy&#34;, &#34;iam:DetachRolePolicy&#34; ], &#34;Resource&#34;: &#34;arn:aws:iam::&lt;Account-id&gt;:role/&lt;Role-name&gt;&#34;, &#34;Condition&#34;: { &#34;StringLike&#34;: { &#34;iam:PolicyARN&#34;: &#34;arn:aws:iam::aws:policy/*&#34; } } }, { &#34;Sid&#34;: &#34;CreateOrDeleteInlinePoliciesOnRole&#34;, &#34;Effect&#34;: &#34;Allow&#34;, &#34;Action&#34;: [ &#34;iam:PutRolePolicy&#34;, &#34;iam:DeleteRolePolicy&#34; ], &#34;Resource&#34;: &#34;arn:aws:iam::&lt;Account-id&gt;:role/&lt;Role-name&gt;&#34; } ] } Basically, the above policy allows you to">
+  <meta itemprop="datePublished" content="2025-10-29T11:19:49+04:00">
+  <meta itemprop="dateModified" content="2025-11-16T17:07:35+04:00">
+  <meta itemprop="wordCount" content="236">
+  <meta itemprop="keywords" content="Tech,Aws,Iam">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="	">
+  <meta name="twitter:description" content="Intro Ever wondered how you can give a particular user or group specific permissions on one or multiple AWS accounts?
+Well, with AWS IAM Identity Center, you can achieve this by creating Permission Sets and assigning them to users or groups for specific AWS accounts.
+Steps to Achieve This On your payer account, go to IAM Identity Center Navigate to Permission Set, then create one or update an existing one. You’ll notice that you can attach either AWS managed policies or customer-managed policies. Since we are interested in giving specific permission to specific role, scroll down to Inline policy (set) and edit. Here, you can add your custom inline policy, for example : { &#34;Version&#34;: &#34;2012-10-17&#34;, &#34;Statement&#34;: [ { &#34;Sid&#34;: &#34;startstopEC2&#34;, &#34;Effect&#34;: &#34;Allow&#34;, &#34;Action&#34;: [ &#34;ec2:StopInstances&#34;, &#34;ec2:StartInstances&#34; ], &#34;Resource&#34;: [ &#34;arn:aws:ec2:eu-west-1:&lt;Account-id&gt;:instance/&lt;instance-id&gt;&#34;, ] }, { &#34;Sid&#34;: &#34;AttachDetachOnlyApprovedManagedPoliciesOnRole&#34;, &#34;Effect&#34;: &#34;Allow&#34;, &#34;Action&#34;: [ &#34;iam:AttachRolePolicy&#34;, &#34;iam:DetachRolePolicy&#34; ], &#34;Resource&#34;: &#34;arn:aws:iam::&lt;Account-id&gt;:role/&lt;Role-name&gt;&#34;, &#34;Condition&#34;: { &#34;StringLike&#34;: { &#34;iam:PolicyARN&#34;: &#34;arn:aws:iam::aws:policy/*&#34; } } }, { &#34;Sid&#34;: &#34;CreateOrDeleteInlinePoliciesOnRole&#34;, &#34;Effect&#34;: &#34;Allow&#34;, &#34;Action&#34;: [ &#34;iam:PutRolePolicy&#34;, &#34;iam:DeleteRolePolicy&#34; ], &#34;Resource&#34;: &#34;arn:aws:iam::&lt;Account-id&gt;:role/&lt;Role-name&gt;&#34; } ] } Basically, the above policy allows you to">
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2025-10-29 11:19:49 &#43;0400 &#43;04" />
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">$</span>
+            <span class="logo__text ">
+                cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#fffff;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/my_list/">~/mylist</a></li><li><a href="/posts/">~/posts</a></li><li><a href="/tags/">~/tags</a></li><li><a href="/technical/">~/technical</a></li><li><a href="/whoami/">whoami</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://girishluckhun.com/technical/2025/04/"></a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <h1 id="intro">Intro</h1>
+<p>Ever wondered how you can give a particular user or group specific permissions on one or multiple AWS accounts?</p>
+<p>Well, with AWS IAM Identity Center, you can achieve this by creating Permission Sets and assigning them to users or groups for specific AWS accounts.</p>
+<h1 id="steps-to-achieve-this">Steps to Achieve This</h1>
+<ol>
+<li>On your payer account, go to <strong>IAM Identity Center</strong></li>
+<li>Navigate to <strong>Permission Set</strong>, then create one or update an existing one.</li>
+<li>You’ll notice that you can attach either AWS managed policies or customer-managed policies.
+<img src="./images/01.png" alt="alt text"></li>
+<li>Since we are interested in giving specific permission to specific role, scroll down to <strong>Inline policy (set)</strong> and edit.
+<img src="./images/02.png" alt="alt text"></li>
+<li>Here, you can add your custom inline policy, for example :</li>
+</ol>
+<pre tabindex="0"><code>{
+	&#34;Version&#34;: &#34;2012-10-17&#34;,
+	&#34;Statement&#34;: [
+		{
+			&#34;Sid&#34;: &#34;startstopEC2&#34;,
+			&#34;Effect&#34;: &#34;Allow&#34;,
+			&#34;Action&#34;: [
+				&#34;ec2:StopInstances&#34;,
+				&#34;ec2:StartInstances&#34;
+			],
+			&#34;Resource&#34;: [
+				&#34;arn:aws:ec2:eu-west-1:&lt;Account-id&gt;:instance/&lt;instance-id&gt;&#34;,
+			]
+		},
+		{
+			&#34;Sid&#34;: &#34;AttachDetachOnlyApprovedManagedPoliciesOnRole&#34;,
+			&#34;Effect&#34;: &#34;Allow&#34;,
+			&#34;Action&#34;: [
+				&#34;iam:AttachRolePolicy&#34;,
+				&#34;iam:DetachRolePolicy&#34;
+			],
+			&#34;Resource&#34;: &#34;arn:aws:iam::&lt;Account-id&gt;:role/&lt;Role-name&gt;&#34;,
+			&#34;Condition&#34;: {
+				&#34;StringLike&#34;: {
+					&#34;iam:PolicyARN&#34;: &#34;arn:aws:iam::aws:policy/*&#34;
+				}
+			}
+		},
+		{
+			&#34;Sid&#34;: &#34;CreateOrDeleteInlinePoliciesOnRole&#34;,
+			&#34;Effect&#34;: &#34;Allow&#34;,
+			&#34;Action&#34;: [
+			    &#34;iam:PutRolePolicy&#34;,
+			    &#34;iam:DeleteRolePolicy&#34;
+			],
+			&#34;Resource&#34;: &#34;arn:aws:iam::&lt;Account-id&gt;:role/&lt;Role-name&gt;&#34;
+		}
+	]
+}
+</code></pre><p>Basically, the above policy allows you to</p>
+<ul>
+<li>Start and stop <!-- raw HTML omitted --> in the account <!-- raw HTML omitted -->.</li>
+<li>Attach and detach Policy for the Role <!-- raw HTML omitted --> in the account <!-- raw HTML omitted -->.</li>
+<li>Create and Delete Inline Policy for the role <!-- raw HTML omitted -->.</li>
+</ul>
+<ol>
+<li>Save the inline policy and create the permission set.</li>
+</ol>
+<h1 id="testing">Testing</h1>
+<p>To test, go to your Account <!-- raw HTML omitted -->, and try updating your role, You should now have the permissions to perform these actions successfully.</p>
+<p><img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa284MTVveXlvN3d4b3JyNmUwdnl3Y2hxZWw3dWl2eThwZ2drNzFjaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a0h7sAqON67nO/giphy.gif" alt="alt text"></p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://girishluckhun.com/tags/tech/">tech</a></span>
+        <span class="tag"><a href="https://girishluckhun.com/tags/aws/">aws</a></span>
+        <span class="tag"><a href="https://girishluckhun.com/tags/iam/">iam</a></span>
+        
+    </p>
+
+            
+			    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="7bd7efacbaf37f5e49e22f42796c7b4f6f3e8f2d" target="_blank" rel="noopener">7bd7efa</a> @ 2025-11-16</p>
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; true</span>
+            <span><a href="https://girishluckhun.com/">Girish Luckhun</a></span>
+            
+            
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span><span><a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng">Theme</a></span>
+        </div>
+    </div>
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.ad54ad97364f77ede35def9096b162bb1f0b3973aa50b080f5e82fa147f6882e2a7200d7535adbf9b51bebf939f1c1ca9bbe6be87530092aca720eac4a226fda.js" integrity="sha512-rVStlzZPd&#43;3jXe&#43;QlrFiux8LOXOqULCA9egvoUf2iC4qcgDXU1rb&#43;bUb6/k58cHKm75r6HUwCSrKcg6sSiJv2g=="></script>
+
+
+
+
+    </body>
+</html>

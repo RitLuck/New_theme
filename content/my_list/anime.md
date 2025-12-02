@@ -54,24 +54,25 @@ date: 2025-07-16T10:47:04+04:00
 - Tokyo Revengers
 - Solo Leveling  
 - Nanatsu no Taizai (The Seven Deadly Sins)
-
+- Dr Stone
+- Kaiju No. 8 Season 2
+- Dandadan Season 2
+- Enen no Shouboutai (Fire Force)
+- Bocchi The Rock
+- 
 ---
 
 ## 👀 Watching
 
 - One Piece    
 - Detective Conan
-- Enen no Shouboutai (Fire Force)
 - Lord of Mysteries
-- Dandadan Season 2
 - Sono Bisque Doll wa Koi wo Suru (My Dress-Up Darling ) Season 2
-- Kaiju No. 8 Season 2
 - Kaoru Hana wa Rin to Saku (The Fragrant Flower Blooms with Dignity)
 - Gachiakuta
 - Sakamoto Days
-- Dr Stone
 - Kanojo, Okarishimasu 4th Season (Rent-a-Girlfriend) Season 4
-- Bochhi The Rock
+
 ---
 
 ## 📺 Plan to Watch

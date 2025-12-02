@@ -42,12 +42,13 @@ date: 2025-07-18T10:47:04+04:00
 - Light Shop
 - Moving
 - Twinkling Watermelon
+- Strangers From Hell
+- Typhoon Family
 
 ## 👀 Currently Watching
 
-- Typhoon Family
-- 365: Repeat the Year
-- Strangers From Hell
+- Inspector Koo
+- Dynamite Kiss
 
 ## 📝 Plan to Watch  
 
@@ -55,4 +56,5 @@ date: 2025-07-18T10:47:04+04:00
 - The Witch's Diner
 - Strangers from Hell 
 - Prison Playbook
+- Dr X
 
