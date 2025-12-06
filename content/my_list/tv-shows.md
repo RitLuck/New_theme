@@ -44,6 +44,7 @@ date: 2025-07-18T10:47:04+04:00
 - Twinkling Watermelon
 - Strangers From Hell
 - Typhoon Family
+- The Price of Confession
 
 ## 👀 Currently Watching
 
