@@ -45,11 +45,13 @@ date: 2025-07-18T10:47:04+04:00
 - Strangers From Hell
 - Typhoon Family
 - The Price of Confession
+- Dynamite Kiss
+- Cashhero
 
 ## 👀 Currently Watching
 
 - Inspector Koo
-- Dynamite Kiss
+- 
 
 ## 📝 Plan to Watch  
 
@@ -58,4 +60,5 @@ date: 2025-07-18T10:47:04+04:00
 - Strangers from Hell 
 - Prison Playbook
 - Dr X
+- Burning
 
