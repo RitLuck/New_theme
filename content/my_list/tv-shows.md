@@ -47,11 +47,13 @@ date: 2025-07-18T10:47:04+04:00
 - The Price of Confession
 - Dynamite Kiss
 - Cashhero
+- Undercover Miss Hong
 
 ## 👀 Currently Watching
 
 - Inspector Koo
-- 
+- Boyfriend On Demand
+- Honour
 
 ## 📝 Plan to Watch  
 
