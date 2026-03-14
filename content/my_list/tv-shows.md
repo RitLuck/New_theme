@@ -47,15 +47,16 @@ date: 2025-07-18T10:47:04+04:00
 - The Price of Confession
 - Dynamite Kiss
 - Cashhero
-- Undercover Miss Hong
+- The Art of Sarah (2026)
+- Undercover Miss Hong (2026)
 
 ## 👀 Currently Watching
 
 - Inspector Koo
-- Boyfriend On Demand
-- Honour
-- Vincenzo
-- Phantom Lawyer
+- Boyfriend On Demand (2026)
+- Honour (2026)
+- Vincenzo (2026)
+- Phantom Lawyer (2026)
 
 ## 📝 Plan to Watch  
 
