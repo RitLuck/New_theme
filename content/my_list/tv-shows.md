@@ -49,12 +49,12 @@ date: 2025-07-18T10:47:04+04:00
 - Cashhero (2025)
 - The Art of Sarah (2026)
 - Undercover Miss Hong (2026)
+- Honour (2026)
 
 ## 👀 Currently Watching
 
 - Inspector Koo (2021)
 - Boyfriend On Demand (2026)
-- Honour (2026)
 - Vincenzo (2026)
 - Phantom Lawyer (2026)
 
