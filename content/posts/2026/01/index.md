@@ -42,8 +42,12 @@ One cool feature I added is a countdown for her upcoming concerts. If you click 
 #### Past Concert
 I’ve also included locations from her past tours so you can see everywhere she has performed so far.
 
-### Future plans
+#### Future plans
 I plan to change the domain to adoverse.com or something similar soon. Also in the pipeline, i want to add a library for all her songs where new fans can easily see her songs.
 
+
+#### Onions in Australia?
+Ohh, you might be wondering why are onions flying around australia...hmmmm....welll, if you know..you know xD
+![image01](./images/onion.png)
 
 P.S I am going to her Nissan Stadium concert in July in Japan. SUPER EXCITED!!!!!
