@@ -51,13 +51,14 @@ date: 2025-07-18T10:47:04+04:00
 - Undercover Miss Hong (2026)
 - Honour (2026)
 - Ghost Doctor (2022)
+- Phantom Lawyer (2026)
 
 ## 👀 Currently Watching
 
 - Inspector Koo (2021)
-- Boyfriend On Demand (2026)
 - Vincenzo (2026)
-- Phantom Lawyer (2026)
+- Perfect Crown (2026)
+- Filing For Love (2026)
 
 ## 📝 Plan to Watch  
 

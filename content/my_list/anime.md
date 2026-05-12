@@ -59,22 +59,21 @@ date: 2025-07-16T10:47:04+04:00
 - Dandadan Season 2
 - Enen no Shouboutai (Fire Force)
 - Bocchi The Rock
-- 
+- Gachiakuta
+- Lord of Mysteries
+- Sakamoto Days
 ---
 
 ## 👀 Watching
 
 - One Piece    
 - Detective Conan
-- Lord of Mysteries
 - Sono Bisque Doll wa Koi wo Suru (My Dress-Up Darling ) Season 2
 - Kaoru Hana wa Rin to Saku (The Fragrant Flower Blooms with Dignity)
-- Gachiakuta
-- Sakamoto Days
+- Witch Hat Atelier
 - Kanojo, Okarishimasu 4th Season (Rent-a-Girlfriend) Season 4
+- Frieren: Beyond Journey’s End
 
 ---
 
 ## 📺 Plan to Watch
-
-- Frieren: Beyond Journey’s End
