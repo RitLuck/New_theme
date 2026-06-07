@@ -60,6 +60,7 @@ date: 2025-07-18T10:47:04+04:00
 - Vincenzo (2026)
 - Perfect Crown (2026)
 - Filing For Love (2026)
+- Reborn Rich
 
 ## 📝 Plan to Watch  
 
