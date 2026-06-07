@@ -62,6 +62,7 @@ date: 2025-07-16T10:47:04+04:00
 - Gachiakuta
 - Lord of Mysteries
 - Sakamoto Days
+- Frieren: Beyond Journey’s End
 ---
 
 ## 👀 Watching
@@ -72,7 +73,7 @@ date: 2025-07-16T10:47:04+04:00
 - Kaoru Hana wa Rin to Saku (The Fragrant Flower Blooms with Dignity)
 - Witch Hat Atelier
 - Kanojo, Okarishimasu 4th Season (Rent-a-Girlfriend) Season 4
-- Frieren: Beyond Journey’s End
+
 
 ---
 
