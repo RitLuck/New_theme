@@ -1,7 +1,7 @@
 ---
 title: "Japan Solo trip 2026"
 date: 2026-07-01T13:34:16+09:00
-draft: true
+draft: false
 toc: false
 images:
 tags:

@@ -1,3 +1,15 @@
+---
+title: "Making of Harry Potter Japan"
+date: 2026-07-21T13:34:16+09:00
+draft: false
+toc: false
+images:
+tags:
+  - travel
+  - Japan
+  - Harry Potter
+---
+
 ## Day 15 - Making of Harry Potter
 
 ### Entrance
@@ -190,7 +202,7 @@ It was so stunning inside. We were literally walking right through the Great Hal
 </figure>
 
 <figure>
-  <video src="./images/pen.mp4" controls style="width: 60%; height: auto;"></video>
+  <video src="./images/v22.mp4" controls style="width: 60%; height: auto;"></video>
 </figure>
 
 
