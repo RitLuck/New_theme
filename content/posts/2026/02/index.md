@@ -934,11 +934,11 @@ Overall, the whole play ran for about 5 hours, but it was worth every single min
 {{< figure src="images/137.png" width="50%" >}}
 {{< figure src="images/138.png" width="50%" >}}
 
-## Day 15 - Making of Harry Potter / 15日目 - メイキング・オブ・ハリー・ポッター
+Day 15 - Making of Harry Potter / 15日目 - メイキング・オブ・ハリー・ポッター
+Head over to [this post](https://girishluckhun.netlify.app/posts/2026/07/making-of-harry-potter-japan/) to read about my Harry Potter adventure! 
+The post was getting too long, so I had to break it down into a separate blog post.
 
-Head over to [insert link] to read about my Harry Potter adventure! The post was getting too long, so I had to break it down into a separate blog post.
-
-ハリー・ポッターのスタジオツアー記事はこちらの[別記事リンク]をご覧ください！長くなりすぎたので別の記事に分けました。
+ハリー・ポッターのスタジオツアー記事は[こちらの別記事リンク](https://girishluckhun.netlify.app/posts/2026/07/making-of-harry-potter-japan/)をご覧ください！長くなりすぎたので別の記事に分けました。
 
 ## Day 16 - Relax Day / 16日目 - 休日
 
