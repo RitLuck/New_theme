@@ -2,177 +2,207 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://girishluckhun.com/technical/2025/04/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-27T17:13:12+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/harry-potter/</loc>
+    <lastmod>2026-07-27T17:13:12+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/japan/</loc>
+    <lastmod>2026-07-27T17:13:12+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2026/07/making-of-harry-potter-japan/</loc>
+    <lastmod>2026-07-27T17:13:12+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-07-27T17:13:12+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-07-27T17:13:12+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/travel/</loc>
+    <lastmod>2026-07-27T17:13:12+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2026/07/japan-solo-trip-2026/</loc>
+    <lastmod>2026-07-27T17:13:12+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/aws/</loc>
+    <lastmod>2026-04-27T14:10:57+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/iam/</loc>
+    <lastmod>2026-04-27T14:10:57+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tech/</loc>
+    <lastmod>2026-04-27T14:10:57+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/technical/</loc>
+    <lastmod>2026-04-27T14:10:57+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/technical/2026/01/</loc>
+    <lastmod>2026-04-27T14:10:57+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ado/</loc>
+    <lastmod>2026-04-27T14:59:14+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2026/03/adoverse-map/</loc>
+    <lastmod>2026-04-27T14:59:14+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/life/</loc>
+    <lastmod>2026-04-27T14:59:14+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/technical/2025/04/</loc>
     <lastmod>2025-11-16T17:07:35+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/aws/</loc>
-    <lastmod>2025-11-16T17:07:35+04:00</lastmod>
+    <loc>http://localhost:1313/technical/2025/05/</loc>
+    <lastmod>2025-12-06T22:59:17+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/</loc>
-    <lastmod>2025-11-22T11:16:46+04:00</lastmod>
+    <loc>http://localhost:1313/my_list/</loc>
+    <lastmod>2026-06-07T19:53:12+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/iam/</loc>
-    <lastmod>2025-11-16T17:07:35+04:00</lastmod>
+    <loc>http://localhost:1313/my_list/tv-shows/</loc>
+    <lastmod>2026-06-07T19:53:12+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/</loc>
-    <lastmod>2025-11-16T17:07:35+04:00</lastmod>
+    <loc>http://localhost:1313/my_list/anime/</loc>
+    <lastmod>2026-06-07T19:52:28+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/tech/</loc>
-    <lastmod>2025-11-16T17:07:35+04:00</lastmod>
-  </url><url>
-    <loc>https://girishluckhun.com/technical/</loc>
-    <lastmod>2025-11-16T17:07:35+04:00</lastmod>
-  </url><url>
-    <loc>https://girishluckhun.com/my_list/</loc>
-    <lastmod>2025-11-22T11:16:46+04:00</lastmod>
-  </url><url>
-    <loc>https://girishluckhun.com/my_list/tv-shows/</loc>
-    <lastmod>2025-11-22T11:16:46+04:00</lastmod>
-  </url><url>
-    <loc>https://girishluckhun.com/my_list/anime/</loc>
-    <lastmod>2025-08-01T10:17:01+04:00</lastmod>
-  </url><url>
-    <loc>https://girishluckhun.com/technical/2025/03/</loc>
+    <loc>http://localhost:1313/technical/2025/03/</loc>
     <lastmod>2025-07-16T12:55:27+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/genai/</loc>
+    <loc>http://localhost:1313/tags/genai/</loc>
     <lastmod>2025-07-16T12:55:27+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/technical/2025/02/</loc>
+    <loc>http://localhost:1313/technical/2025/02/</loc>
     <lastmod>2025-07-15T22:25:59+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/technical/2025/01/</loc>
+    <loc>http://localhost:1313/technical/2025/01/</loc>
     <lastmod>2025-07-15T22:16:33+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/bash/</loc>
+    <loc>http://localhost:1313/tags/bash/</loc>
     <lastmod>2024-06-24T15:47:23+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/technical/2024/05/</loc>
+    <loc>http://localhost:1313/technical/2024/05/</loc>
     <lastmod>2024-06-24T15:47:23+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/technical/2024/04/</loc>
+    <loc>http://localhost:1313/technical/2024/04/</loc>
     <lastmod>2024-06-07T16:41:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2024/05/im-thinking-of-ending-things/</loc>
+    <loc>http://localhost:1313/posts/2024/05/im-thinking-of-ending-things/</loc>
     <lastmod>2024-05-09T11:13:24+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/life/</loc>
+    <loc>http://localhost:1313/posts/2024/04/a-few-months-have-passed-since-i-was-thinking-about-why-i-cant-write-a-blog./</loc>
     <lastmod>2024-05-10T11:12:04+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/</loc>
+    <loc>http://localhost:1313/tags/blog/</loc>
     <lastmod>2024-05-10T11:12:04+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2024/04/a-few-months-have-passed-since-i-was-thinking-about-why-i-cant-write-a-blog./</loc>
-    <lastmod>2024-05-10T11:12:04+04:00</lastmod>
-  </url><url>
-    <loc>https://girishluckhun.com/tags/blog/</loc>
-    <lastmod>2024-05-10T11:12:04+04:00</lastmod>
-  </url><url>
-    <loc>https://girishluckhun.com/technical/2024/02/</loc>
+    <loc>http://localhost:1313/technical/2024/02/</loc>
     <lastmod>2024-06-07T16:41:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/technical/2024/03/</loc>
+    <loc>http://localhost:1313/technical/2024/03/</loc>
     <lastmod>2024-06-07T16:41:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2023/11/2023-malyasia-trip/</loc>
+    <loc>http://localhost:1313/posts/2023/11/2023-malyasia-trip/</loc>
     <lastmod>2023-11-13T11:59:06+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/vacation/</loc>
+    <loc>http://localhost:1313/tags/vacation/</loc>
     <lastmod>2023-11-13T11:59:06+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/azure/</loc>
+    <loc>http://localhost:1313/tags/azure/</loc>
     <lastmod>2024-04-30T14:08:25+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/terraform/</loc>
+    <loc>http://localhost:1313/tags/terraform/</loc>
     <lastmod>2024-04-30T14:08:25+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/technical/2023/07/</loc>
+    <loc>http://localhost:1313/technical/2023/07/</loc>
     <lastmod>2024-04-30T14:08:25+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/technical/2023/06/</loc>
+    <loc>http://localhost:1313/technical/2023/06/</loc>
     <lastmod>2024-04-30T14:08:25+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/technical/2023/05/</loc>
+    <loc>http://localhost:1313/technical/2023/05/</loc>
     <lastmod>2024-04-30T14:08:25+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2023/04/note-to-self/</loc>
+    <loc>http://localhost:1313/posts/2023/04/note-to-self/</loc>
     <lastmod>2023-04-19T21:12:04+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2023/04/remember-you-are-human-too./</loc>
+    <loc>http://localhost:1313/posts/2023/04/remember-you-are-human-too./</loc>
     <lastmod>2023-04-10T09:08:27+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2023/03/can-you-be-a-loner-without-being-lonely/</loc>
+    <loc>http://localhost:1313/posts/2023/03/can-you-be-a-loner-without-being-lonely/</loc>
     <lastmod>2023-04-09T22:53:08+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/technical/2023/04/</loc>
+    <loc>http://localhost:1313/technical/2023/03/</loc>
     <lastmod>2024-04-30T14:08:25+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2023/02/realizing-nobody-has-ever-had-a-crush-on-you/</loc>
+    <loc>http://localhost:1313/technical/2023/04/</loc>
+    <lastmod>2024-04-30T14:08:25+04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2023/02/realizing-nobody-has-ever-had-a-crush-on-you/</loc>
     <lastmod>2023-04-09T23:06:13+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/adventure/</loc>
+    <loc>http://localhost:1313/tags/adventure/</loc>
     <lastmod>2023-02-19T23:12:16+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2023/02/walking-under-the-stars-a-trek-to-grand-bassin/</loc>
+    <loc>http://localhost:1313/posts/2023/02/walking-under-the-stars-a-trek-to-grand-bassin/</loc>
     <lastmod>2023-02-19T23:12:16+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/whoami/</loc>
+    <loc>http://localhost:1313/whoami/</loc>
     <lastmod>2023-01-30T19:31:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/technical/2023/02/</loc>
+    <loc>http://localhost:1313/technical/2023/02/</loc>
     <lastmod>2024-04-30T14:08:25+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2024-04-30T14:08:25+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/technical/2023/01/</loc>
+    <loc>http://localhost:1313/technical/2023/01/</loc>
     <lastmod>2024-04-30T14:08:25+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2023/01/my-current-approach-to-social-media/</loc>
+    <loc>http://localhost:1313/posts/2023/01/my-current-approach-to-social-media/</loc>
     <lastmod>2023-04-07T12:00:35+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2023/01/what-is-the-most-important-choice-in-life/</loc>
+    <loc>http://localhost:1313/posts/2023/01/what-is-the-most-important-choice-in-life/</loc>
     <lastmod>2023-01-30T19:31:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2022/12/my-experience-so-far/</loc>
+    <loc>http://localhost:1313/posts/2022/12/my-experience-so-far/</loc>
     <lastmod>2023-01-30T19:31:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/devcon/</loc>
+    <loc>http://localhost:1313/tags/devcon/</loc>
     <lastmod>2024-04-30T14:08:25+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/technical/2022/01/</loc>
+    <loc>http://localhost:1313/technical/2022/01/</loc>
     <lastmod>2024-04-30T14:08:25+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/nightclub/</loc>
+    <loc>http://localhost:1313/tags/nightclub/</loc>
     <lastmod>2023-01-30T19:31:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2022/11/so-i-went-to-my-first-night-club/</loc>
+    <loc>http://localhost:1313/posts/2022/11/so-i-went-to-my-first-night-club/</loc>
     <lastmod>2023-01-30T19:31:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/anime/</loc>
+    <loc>http://localhost:1313/tags/anime/</loc>
     <lastmod>2023-01-30T19:31:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/manga/</loc>
+    <loc>http://localhost:1313/tags/manga/</loc>
     <lastmod>2023-01-30T19:31:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2022/11/tachiyomi-open-source-manga-reader/</loc>
+    <loc>http://localhost:1313/posts/2022/11/tachiyomi-open-source-manga-reader/</loc>
     <lastmod>2023-01-30T19:31:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/first-post/</loc>
+    <loc>http://localhost:1313/tags/first-post/</loc>
     <lastmod>2023-01-30T19:31:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/posts/2022/10/my-first-post/</loc>
+    <loc>http://localhost:1313/posts/2022/10/my-first-post/</loc>
     <lastmod>2023-01-30T19:31:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/tags/testing/</loc>
+    <loc>http://localhost:1313/tags/testing/</loc>
     <lastmod>2023-01-30T19:31:56+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://girishluckhun.com/my_list/manga/</loc>
-    <lastmod>2025-07-27T21:32:49+04:00</lastmod>
+    <loc>http://localhost:1313/my_list/manga/</loc>
+    <lastmod>2026-06-07T19:52:28+04:00</lastmod>
   </url><url>
-    <loc>https://girishluckhun.com/my_list/movies/</loc>
+    <loc>http://localhost:1313/my_list/movies/</loc>
     <lastmod>2025-07-18T21:13:56+04:00</lastmod>
   </url>
 </urlset>

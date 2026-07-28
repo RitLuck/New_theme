@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -10,7 +10,7 @@
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://girishluckhun.com/404.html" />
+<link rel="canonical" href="http://localhost:1313/404.html" />
 
 
     <title>
@@ -58,7 +58,6 @@
 
 
 
-    
 
 
 
@@ -89,7 +88,7 @@
 
         <span class="header__right">
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="/my_list/">~/mylist</a></li><li><a href="/posts/">~/posts</a></li><li><a href="/tags/">~/tags</a></li><li><a href="/technical/">~/technical</a></li><li><a href="/whoami/">whoami</a></li>
+    <ul class="menu__inner"><li><a href="/my_list/">~/mylist</a></li><li><a href="/posts/">~/posts</a></li><li><a href="/file/girish-resume.pdf">~/resume</a></li><li><a href="/tags/">~/tags</a></li><li><a href="/technical/">~/technical</a></li><li><a href="/whoami/">whoami</a></li>
     </ul>
 </nav>
 
@@ -114,9 +113,9 @@
             <h1>404</h1>
             <p>Oops, page not found…</p>
             <p class="btn-404">
-                <a href="https://girishluckhun.com/">
+                <a href="http://localhost:1313/">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>Home</a>
-                <a href="https://girishluckhun.com/posts">
+                <a href="http://localhost:1313/posts">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-archive"><polyline points="21 8 21 21 3 21 3 8"></polyline><rect x="1" y="3" width="22" height="5"></rect><line x1="10" y1="12" x2="14" y2="12"></line></svg>Archives</a>
             </p>
         </div>
@@ -126,20 +125,37 @@
 
             
                 <footer class="footer">
-    
+  
     <div class="footer__inner">
-        <div class="footer__content">
-            <span>&copy; true</span>
-            <span><a href="https://girishluckhun.com/">Girish Luckhun</a></span>
-            
-            
-            <span>Powered by <a href="http://gohugo.io">Hugo</a></span><span><a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng">Theme</a></span>
-        </div>
+      
     </div>
-    
-    
+  
 </footer>
 
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    
+    mediumZoom('main img, article img, .post-content img, figure img', {
+      margin: 24,
+      background: 'rgba(0, 0, 0, 0.85)',
+      scrollOffset: 0,
+    });
+  });
+</script>
+
+<style>
+   
+  .medium-zoom-overlay {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 999;
+  }
+  .medium-zoom-image--opened {
+    z-index: 1000;
+  }
+</style>
             
         </div>
 

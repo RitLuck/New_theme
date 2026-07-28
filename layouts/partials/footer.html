@@ -1,0 +1,36 @@
+<footer class="footer">
+  {{ if .Site.Params.footer }}
+    <div class="footer__inner">
+      {{ if .Site.Params.footer.copyright }}
+        <div class="copyright copyright--user">
+          <span>{{ .Site.Params.footer.copyright | safeHTML }}</span>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+</footer>
+
+<!-- Medium Zoom Lightbox Script -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Note: Use mediumZoom (camelCase) here!
+    mediumZoom('main img, article img, .post-content img, figure img', {
+      margin: 24,
+      background: 'rgba(0, 0, 0, 0.85)',
+      scrollOffset: 0,
+    });
+  });
+</script>
+
+<style>
+  /* Dark blurred backdrop styling */
+  .medium-zoom-overlay {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 999;
+  }
+  .medium-zoom-image--opened {
+    z-index: 1000;
+  }
+</style>

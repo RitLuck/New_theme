@@ -2,136 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Girish Luckhun</title>
-    <link>https://girishluckhun.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Girish Luckhun</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Nov 2025 17:07:35 +0400</lastBuildDate>
-    <atom:link href="https://girishluckhun.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jul 2026 17:13:12 +0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harry Potter</title>
+      <link>http://localhost:1313/tags/harry-potter/</link>
+      <pubDate>Tue, 21 Jul 2026 13:34:16 +0900</pubDate>
+      <guid>http://localhost:1313/tags/harry-potter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Japan</title>
+      <link>http://localhost:1313/tags/japan/</link>
+      <pubDate>Tue, 21 Jul 2026 13:34:16 +0900</pubDate>
+      <guid>http://localhost:1313/tags/japan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>http://localhost:1313/tags/travel/</link>
+      <pubDate>Tue, 21 Jul 2026 13:34:16 +0900</pubDate>
+      <guid>http://localhost:1313/tags/travel/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Aws</title>
-      <link>https://girishluckhun.com/tags/aws/</link>
-      <pubDate>Wed, 29 Oct 2025 11:19:49 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/aws/</guid>
+      <link>http://localhost:1313/tags/aws/</link>
+      <pubDate>Mon, 27 Apr 2026 14:10:04 +0400</pubDate>
+      <guid>http://localhost:1313/tags/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>Iam</title>
-      <link>https://girishluckhun.com/tags/iam/</link>
-      <pubDate>Wed, 29 Oct 2025 11:19:49 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/iam/</guid>
+      <link>http://localhost:1313/tags/iam/</link>
+      <pubDate>Mon, 27 Apr 2026 14:10:04 +0400</pubDate>
+      <guid>http://localhost:1313/tags/iam/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>https://girishluckhun.com/tags/tech/</link>
-      <pubDate>Wed, 29 Oct 2025 11:19:49 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/tech/</guid>
+      <link>http://localhost:1313/tags/tech/</link>
+      <pubDate>Mon, 27 Apr 2026 14:10:04 +0400</pubDate>
+      <guid>http://localhost:1313/tags/tech/</guid>
       <description></description>
     </item>
     <item>
-      <title>GenAi</title>
-      <link>https://girishluckhun.com/tags/genai/</link>
-      <pubDate>Wed, 16 Jul 2025 10:47:04 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/genai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bash</title>
-      <link>https://girishluckhun.com/tags/bash/</link>
-      <pubDate>Mon, 24 Jun 2024 15:41:16 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/bash/</guid>
+      <title>Ado</title>
+      <link>http://localhost:1313/tags/ado/</link>
+      <pubDate>Fri, 20 Mar 2026 20:34:16 +0400</pubDate>
+      <guid>http://localhost:1313/tags/ado/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>https://girishluckhun.com/tags/life/</link>
-      <pubDate>Sat, 11 May 2024 19:16:11 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/life/</guid>
+      <link>http://localhost:1313/tags/life/</link>
+      <pubDate>Fri, 20 Mar 2026 20:34:16 +0400</pubDate>
+      <guid>http://localhost:1313/tags/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GenAi</title>
+      <link>http://localhost:1313/tags/genai/</link>
+      <pubDate>Wed, 16 Jul 2025 10:47:04 +0400</pubDate>
+      <guid>http://localhost:1313/tags/genai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bash</title>
+      <link>http://localhost:1313/tags/bash/</link>
+      <pubDate>Mon, 24 Jun 2024 15:41:16 +0400</pubDate>
+      <guid>http://localhost:1313/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://girishluckhun.com/tags/blog/</link>
+      <link>http://localhost:1313/tags/blog/</link>
       <pubDate>Tue, 30 Apr 2024 20:34:16 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/blog/</guid>
+      <guid>http://localhost:1313/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Vacation</title>
-      <link>https://girishluckhun.com/tags/vacation/</link>
+      <link>http://localhost:1313/tags/vacation/</link>
       <pubDate>Thu, 02 Nov 2023 01:48:45 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/vacation/</guid>
+      <guid>http://localhost:1313/tags/vacation/</guid>
       <description></description>
     </item>
     <item>
       <title>Azure</title>
-      <link>https://girishluckhun.com/tags/azure/</link>
+      <link>http://localhost:1313/tags/azure/</link>
       <pubDate>Wed, 11 Oct 2023 10:13:28 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/azure/</guid>
+      <guid>http://localhost:1313/tags/azure/</guid>
       <description></description>
     </item>
     <item>
       <title>Terraform</title>
-      <link>https://girishluckhun.com/tags/terraform/</link>
+      <link>http://localhost:1313/tags/terraform/</link>
       <pubDate>Wed, 11 Oct 2023 10:13:28 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/terraform/</guid>
+      <guid>http://localhost:1313/tags/terraform/</guid>
       <description></description>
     </item>
     <item>
       <title>Adventure</title>
-      <link>https://girishluckhun.com/tags/adventure/</link>
+      <link>http://localhost:1313/tags/adventure/</link>
       <pubDate>Sat, 18 Feb 2023 16:50:56 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/adventure/</guid>
+      <guid>http://localhost:1313/tags/adventure/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://girishluckhun.com/tags/linux/</link>
+      <link>http://localhost:1313/tags/linux/</link>
       <pubDate>Sat, 28 Jan 2023 19:24:20 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/linux/</guid>
+      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Devcon</title>
-      <link>https://girishluckhun.com/tags/devcon/</link>
+      <link>http://localhost:1313/tags/devcon/</link>
       <pubDate>Fri, 25 Nov 2022 19:19:09 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/devcon/</guid>
+      <guid>http://localhost:1313/tags/devcon/</guid>
       <description></description>
     </item>
     <item>
       <title>NightClub</title>
-      <link>https://girishluckhun.com/tags/nightclub/</link>
+      <link>http://localhost:1313/tags/nightclub/</link>
       <pubDate>Mon, 07 Nov 2022 19:11:02 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/nightclub/</guid>
+      <guid>http://localhost:1313/tags/nightclub/</guid>
       <description></description>
     </item>
     <item>
       <title>Anime</title>
-      <link>https://girishluckhun.com/tags/anime/</link>
+      <link>http://localhost:1313/tags/anime/</link>
       <pubDate>Sat, 05 Nov 2022 19:09:12 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/anime/</guid>
+      <guid>http://localhost:1313/tags/anime/</guid>
       <description></description>
     </item>
     <item>
       <title>Manga</title>
-      <link>https://girishluckhun.com/tags/manga/</link>
+      <link>http://localhost:1313/tags/manga/</link>
       <pubDate>Sat, 05 Nov 2022 19:09:12 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/manga/</guid>
+      <guid>http://localhost:1313/tags/manga/</guid>
       <description></description>
     </item>
     <item>
       <title>First Post</title>
-      <link>https://girishluckhun.com/tags/first-post/</link>
+      <link>http://localhost:1313/tags/first-post/</link>
       <pubDate>Wed, 26 Oct 2022 19:06:08 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/first-post/</guid>
+      <guid>http://localhost:1313/tags/first-post/</guid>
       <description></description>
     </item>
     <item>
       <title>Testing</title>
-      <link>https://girishluckhun.com/tags/testing/</link>
+      <link>http://localhost:1313/tags/testing/</link>
       <pubDate>Wed, 26 Oct 2022 19:06:08 +0400</pubDate>
-      <guid>https://girishluckhun.com/tags/testing/</guid>
+      <guid>http://localhost:1313/tags/testing/</guid>
       <description></description>
     </item>
   </channel>

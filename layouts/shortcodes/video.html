@@ -1,0 +1,12 @@
+<figure style="text-align: center; margin: 1.5rem auto;">
+  <video 
+    src="{{ .Get "src" }}" 
+    controls 
+    preload="metadata"
+    playsinline
+    style="width: {{ default "60%" (.Get "width") }}; max-width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 8px;">
+  </video>
+  {{ with .Get "caption" }}
+    <figcaption style="font-size: 0.9em; opacity: 0.8; margin-top: 0.5rem;">{{ . }}</figcaption>
+  {{ end }}
+</figure>
