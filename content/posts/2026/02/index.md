@@ -11,6 +11,8 @@ tags:
 
 # Japan trip / 日本一人旅
 
+Konnichiwa minna-san, 
+
 So, a dream finally came true after years and years of wondering if I would ever get here. It's currently the first of July, and I am sitting in my hotel, [Hotel Onyado Nono Kyoto Shichijo Natural Hot Spring](https://onyado-nono-kyoto-shichijo-natural-hot-spring.hotels-in-kyoto.com/en/), in Kyoto as I start writing this blog.
 
 何年も何年も「いつか行けるのだろうか」と思い続けていた夢が、ついに叶いました。このブログを書き始めた今は7月1日。京都のホテル「[天然温泉 蓮花の湯 御宿 野乃京都七条](https://onyado-nono-kyoto-shichijo-natural-hot-spring.hotels-in-kyoto.com/en/)」の部屋に座っています。
@@ -476,23 +478,121 @@ True! How I ended up after another 20k steps:
 
 {{< figure src="images/120.png" caption="Exhausted again / 疲労困憊" width="50%" >}}
 
+I also stayed to watch the sunset.
+
+{{< figure src="images/142.png" caption="Sunset / 夕日" width="50%" >}}
+
+{{< figure src="images/143.png" caption="Watching the sunset / 夕日を眺める" width="50%" >}}
+
 ## Day 6 - Kyoto - Tuesday / 6日目 - 京都（火曜日）
 
-- Broke a cup at station / 駅でコップを割ってしまうハプニング
-- Hotel, left my luggage / ホテルに荷物を預ける
-- New shoes / 新しい靴を購入
+I took a train to Kyoto, which was about a 30-45min ride.
+
+電車で京都へ向かいました。所要時間はだいたい30分から45分ほどでした。
+
+{{< figure src="images/144.png" caption="Going to Kyoto / 京都へ出発" width="50%" >}}
+
+Got an Eki-Stamp at Kyoto Station!
+
+京都駅で駅スタンプを押しました！
+
+{{< figure src="images/145.png" caption="Kyoto Station Eki-Stamp / 京都駅の駅スタンプ" width="50%" >}}
+
+While walking around Kyoto Station, I stumbled upon a Godzilla Shop and went in to browse. I saw a really cool mug and picked it up, but almost immediately, something fell out from inside it and shattered on the floor. I was terrified! The staff member came rushing over, and I kept bowing and repeating *"Sumimasen"* (I'm sorry). 
+
+She was bowing back to me too. The first thing she asked was, *"Daijoubu desu ka?"* (Are you okay?). I replied, *"Daijoubu desu... Sumimasen, I will pay for it."* But she kept insistently refusing to let me pay. I felt so bad about the whole thing that I ended up buying a few items from the store just to make up for it!
+
+京都駅をブラブラ歩いていると、ゴジラショップを見つけたので入ってみました。すごく格好いいマグカップを見つけて手に取ったのですが、直後に中から何かが落ちて床で割れてしまいました。本当に焦りました！店員さんが飛んできて、私は何度も頭を下げながら「すみません」と言い続けました。
+
+店員さんも一緒におじぎをしてくれて、開口一番「大丈夫ですか？」と声をかけてくれました。「大丈夫です…すみません、弁償します」と伝えたのですが、店員さんは何度も「いいえ、大丈夫ですよ」と言って支払いを断ってくれました。申し訳なさがすごかったので、少しでも罪 guilty 感を減らそうと、その店で商品をいくつか買って帰りました！
+
+I headed straight to my hotel to leave my luggage, as check-in wasn't until 3:00 PM. I had planned to visit Kibune Shrine anyway, so I hopped on the train to head up there for some peace of mind.
+
+チェックインの15時まで時間があったので、まずは荷物を預けにホテルへ向かいました。もともと貴船神社に行く予定だったので、気持ちを落ち着かせるためにも電車に乗って向かうことにしました。
 
 ### Kibune / 貴船
 
-- Attend shrine/ceremony / 貴船神社で参拝・儀式に参加
-- Kamo River at night / 夜のカモ川（鴨川）散策
+It was quite a long journey. I had to take two train lines from Kyoto Station, and then transfer to two buses after getting off at Kibuneguchi Station.
+
+かなりの長旅でした。京都駅から電車を2本乗り継ぎ、貴船口駅で降りたあとはバスを2本乗り継ぐ必要がありました。
+
+{{< figure src="images/146.png" caption="Kyoto Station to Kibune / 京都駅から貴船へ" width="50%" >}}
+
+{{< figure src="images/147.png" caption="Big Torii gate at Kibune / 貴船の大鳥居" width="50%" >}}
+
+These tanuki statues are outside almost every shop in Japan. Apparently, rubbing their... *ahem*... "balls of fortune" brings good luck!
+
+日本のほぼすべてのお店で見かけるこの狸の置物。どうやら…コホン…「金運の金玉」を撫でると縁起が良いらしいです！
+
+{{< figure src="images/148.png" caption="Tanuki statue / 狸の置物" width="50%" >}}
+
+### Kifune Shrine / 貴船神社
+
+{{< figure src="images/149.png" caption="Stairs to Kifune Shrine / 貴船神社の参道階段" width="50%" >}}
+
+At Kifune Shrine, they have water fortune telling (*Mizu-ura Mikuji*). You take a blank piece of paper, place it in the sacred water, and Japanese characters magically appear. After the morning I had, I was almost expecting a curse, but I actually got a "Small Blessing" (*Shō-kichi*)... I'll definitely take it!
+
+貴船神社には「水占いみくじ」があります。何も書かれていない紙を神聖な水に浮かべると、日本語の文字が浮かび上がってきます。波乱の朝を迎えた後だったので「凶」でも出るんじゃないかとヒヤヒヤしましたが、結果は「小吉」でした…！まあ良しとしましょう！
+
+{{< video src="images/v21.mp4" width="50%" >}}
+
+{{< figure src="images/150.png" caption="Small Blessing fortune / 小吉のおみくじ" width="50%" >}}
+
+There was a QR code on the paper that translated the detailed reading into English.
+
+おみくじにはQRコードがついていて、英語で詳しい解説を読むことができました。
+
+{{< figure src="images/151.png" caption="Fortune QR code translation / おみくじの翻訳" width="50%" >}}
+
+{{< figure src="images/152.png" caption="Fortune details / おみくじの詳細" width="50%" >}}
+
+Ehh... wait, what's this under "Travel"? *"Beware of accidents"*... Uhhhhh, these things are eerie, aren't they? Wish they'd warned me before the Godzilla shop mug incident! 🥲
+
+えっ…待って、「旅行」の項目になんて書いてある…？「怪我に注意」…うーん、おみくじって当たるものですね。ゴジラショップでマグカップを割る前に教えてほしかった！🥲
+
+Since it was July 1st, there was a special ritual taking place at the shrine, which I stayed to watch.
+
+この日は7月1日だったので、神社で特別な神事（儀式）が行われており、立ち止まって見学しました。
+
+{{< video src="images/v22.mp4" width="50%" >}}
+
+### Kamo River at Night / 夜の鴨川散策
+
+After heading back and checking into the hotel, I went for a night walk along the Kamo River. 
+
+*(P.S. This exact same river was completely flooded just a few days prior due to the typhoon!)*
+
+ホテルに戻ってチェックインを済ませた後、夜の鴨川沿いをお散歩しに行きました。
+
+*(P.S. この鴨川、ほんの数日前の台風の時には完全に増水して溢れていた場所なんです！)*
+
+{{< video src="images/v23.mp4" width="50%" >}}
+
+I sat by the water for about 30 minutes before continuing my stroll. Kyoto is honestly so peaceful at night.
+
+川辺に30分ほど座ってから、また散歩を再開しました。夜の京都は本当に静かで落ち着きます。
+
+When I got back to the hotel, I decided to try out their natural hot spring (*onsen*). It was my very first time experiencing one! The golden rule is that you have to go completely butt-naked alongside everyone else. I went in around 1:00 AM when there were only a few people around. It felt incredible after a long day of walking.
+
+ホテルに戻り、天然温泉に入ってみることにしました。人生初の温泉体験です！「他の人たちと一緒に完全に全裸で入る」というのが鉄則。人が少なくなった深夜1時ごろに入りました。一日中歩き回った後の温泉は最高に気持ちよかったです。
+
+---
 
 ## Day 7 - Kyoto - Wednesday / 7日目 - 京都（水曜日）
 
-- Yasui Shrine morning / 朝に安井金比羅宮へ
-- Yasaka Shrine / 八坂神社
+In the morning, I visited Yasui Konpira-gu Shrine.
 
-- Afternoon, went to Nintendo Museum / 午後はニンテンドーミュージアムへ
+朝、安井金比羅宮を参拝しました。
+
+{{< figure src="images/153.png" caption="Yasui Konpira-gu Shrine / 安井金比羅宮" width="50%" >}}
+
+### Nintendo Museum / 任天堂資料館
+
+In the evening, I went to the Nintendo Museum. Even as a solo traveler, I had an absolute blast exploring everything!
+
+夕方には任天堂資料館（ニンテンドーミュージアム）へ行きました。一人旅でしたが、展示を巡るのが本当に楽しかったです！
+
+{{< figure src="images/154.png" caption="Nintendo Museum / 任天堂資料館" width="50%" >}}
 
 ## Day 8 - Osaka / 8日目 - 大阪
 
