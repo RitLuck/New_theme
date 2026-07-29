@@ -1545,3 +1545,9 @@ Saying goodbye to Japan was so hard, but this trip was everything I could have w
 Thinking of doing Mt. Fuji next time and going to see all the Mugiwaras Statues in Kumamoto Prefecture!
 
 次は富士山登頂と、熊本県の麦わらの一味の像めぐりを計画中です！
+
+次は富士山登頂と、熊本県の麦わらの一味の像めぐりを計画中です！
+
+Well then... Arigatou Gozaimasu for reading! 🙇🏽‍♂️
+
+Sayonara for now! 👋🏽
