@@ -33,11 +33,11 @@ My itinerary looked like this:
 
 ### Layover at Tokyo Haneda Airport / 羽田空港でのレイオーバー
 
-I landed at Terminal 2 at 11:00 PM, and my connection to Osaka wasn't until 8:00 AM the next morning. Back when I was planning, I thought, *"Hey, I have a 9-hour transit! I can just walk around and collect some [Eki Stamps](https://en.wikipedia.org/wiki/Eki_stamp)."* Boy, was I wrong! 
+I landed at Terminal 2 at 11:00 PM, and my flight to Osaka wasn't until 8:00 AM the next morning. Back when I was planning, I thought, *"Hey, I have a 9-hour transit! I can just walk around and collect some [Eki Stamps](https://en.wikipedia.org/wiki/Eki_stamp)."* Boy, was I wrong! 
 
 午後11時に第2ターミナルに着いたのですが、大阪行きの乗り継ぎ便は翌朝の8時でした。旅行の計画を立てていた時は、「9時間も乗り継ぎ時間があるから、歩き回って[駅スタンプ](https://en.wikipedia.org/wiki/Eki_stamp)を集めよう！」なんて考えていたんです。…甘かった！
 
-Basically, almost every Information Service desk—whether in the airport or railway stations has a unique stamp you can collect, but I completely forgot to check if they closed at night. I ended up spending the next 2 hours just wandering around a mostly quiet Terminal 2.
+Basically, almost every Information Service desk, whether in the airport or railway stations has a unique stamp you can collect, but I completely forgot to check if they closed at night. I ended up spending the next 2 hours just wandering around a mostly quiet Terminal 2.
 
 空港や駅の案内所にはオリジナルのスタンプが置いてあることが多いのですが、夜間に閉まるかどうかを確認するのを完全に忘れていました。結局、静まり返った第2ターミナルを2時間ほど彷徨う羽目になりました。
 
@@ -71,7 +71,7 @@ At 2:00 AM, I went into Lawson and grabbed an egg sandwich, it was decent, nothi
 
 午前2時、ローソンに入ってたまごサンド（普通に美味しかったですが感動するほどではなかったです）とおにぎりを買いました。
 
-{{< figure src="images/04.png" alt="Egg Sandwich" caption="Lawson run / ローソンのたまごサンド" width="25%" >}}
+{{< figure src="images/04.png" alt="Egg Sandwich" caption="Egg Sandwich / 卵サンド" width="25%" >}}
 
 I went up to the 3rd floor, and holy shit, I was not expecting a giant Godzilla staring down at me from above!
 
@@ -218,7 +218,7 @@ Oh boy... while walking around, I could hear people on the ride screaming their 
 {{< video src="images/v5.mp4" width="50%" >}}
 
 And holy hell, it did NOT disappoint!
-I could literally feel my soul coming out of my body on those drops, but I held it together and didn't scream xD. It was literally one hell of a ride—now I completely understand why some people faint on these things!
+I could literally feel my soul coming out of my body on those drops, but I held it together and didn't scream xD. It was literally one hell of a ride..now I completely understand why some people faint on these things!
 
 そして…期待を裏切らない凄まじさでした！
 急降下するとき、文字通り魂が体から抜け出るような感覚がしましたが、なんとか堪えて叫ばずに済みました（笑）。本当に凄まじい絶叫マシンで、気を失う人がいる理由が心から理解できました！
@@ -334,7 +334,7 @@ Yeah, yeah, go ahead and make fun of my hair... xD
 
 ### Super Nintendo World / スーパー・ニンテンドー・ワールド
 
-Ah, the famous Super Nintendo World! As expected, it was completely packed with people. I went on some rides—it was super cool, but definitely crowded.
+Ah, the famous Super Nintendo World! As expected, it was completely packed with people. I went on some rides...it was super cool, but definitely crowded.
 
 噂のスーパー・ニンテンドー・ワールド！予想通り大混雑でした。アトラクションにも乗りましたが、最高にクオリティが高い反面、とにかく人が多かったです。
 
@@ -362,7 +362,7 @@ Hollywood Dream was intense, though not *quite* as terrifying as *The Flying Din
 
 ### Harry Potter Again / 再びハリー・ポッターへ
 
-Around 6:00 PM, I made my way back to the Wizarding World one last time. I re-rode the attractions and hung around Hogsmeade until the evening lights turned on, illuminating Hogwarts Castle against the night sky—the perfect finish to a wild, typhoon-filled day at USJ!
+Around 6:00 PM, I made my way back to the Wizarding World one last time. I rerode the attractions and hung around Hogsmeade until the evening lights turned on, illuminating Hogwarts Castle against the night sky.
 
 午後6時頃、最後にもう一度魔法界へ。アトラクションに再び乗り、夜のライトアップで漆黒の夜空に浮かび上がるホグワーツ城を眺めました。台風に見舞われた荒れ模様の1日でしたが、最高の締めくくりとなりました！
 
@@ -370,7 +370,7 @@ How I ended up after spending 6+ hours at USJ in a typhoon:
 
 台風のUSJで6時間以上過ごした人間の末路：
 
-{{< figure src="images/118.png" caption="Drenched / ずぶ濡れ" width="50%" >}}
+{{< figure src="images/118.png" caption="Me in a Harry Potter cloak and my Mario hat / ハリー・ポッターのローブとマリオの帽子をかぶった僕（ずぶ濡れ）" width="50%" >}}
 
 ## Day 3/4 - Weekends / 3・4日目 - 週末
 
@@ -379,6 +379,8 @@ I decided to keep it light on the weekend, so I focused more on doing some shopp
 週末は無理せずゆったり過ごすことにし、ユニクロでショッピングを楽しみました。軽くて安くて最高です。
 
 Also saw Ado-chan and bought a Japanese football shirt.
+
+{{< figure src="images/155.png" caption="Ado Display in Osaka / 大阪のAdo展示" width="50%" >}}
 
 Adoちゃんのパネルも見かけて、サッカー日本代表のユニフォームも購入！
 
@@ -498,7 +500,7 @@ Got an Eki-Stamp at Kyoto Station!
 
 {{< figure src="images/145.png" caption="Kyoto Station Eki-Stamp / 京都駅の駅スタンプ" width="50%" >}}
 
-While walking around Kyoto Station, I stumbled upon a Godzilla Shop and went in to browse. I saw a really cool mug and picked it up, but almost immediately, something fell out from inside it and shattered on the floor. I was terrified! The staff member came rushing over, and I kept bowing and repeating *"Sumimasen"* (I'm sorry). 
+While walking around Kyoto Station, I saw a Godzilla Shop and went in to browse. I saw a really cool mug and picked it up, but almost immediately, something fell out from inside it and shattered on the floor. I was terrified! The staff member came rushing over, and I kept bowing and repeating *"Sumimasen"* (I'm sorry). 
 
 She was bowing back to me too. The first thing she asked was, *"Daijoubu desu ka?"* (Are you okay?). I replied, *"Daijoubu desu... Sumimasen, I will pay for it."* But she kept insistently refusing to let me pay. I felt so bad about the whole thing that I ended up buying a few items from the store just to make up for it!
 
@@ -542,13 +544,15 @@ There was a QR code on the paper that translated the detailed reading into Engli
 
 おみくじにはQRコードがついていて、英語で詳しい解説を読むことができました。
 
-{{< figure src="images/151.png" caption="Fortune QR code translation / おみくじの翻訳" width="50%" >}}
-
-{{< figure src="images/152.png" caption="Fortune details / おみくじの詳細" width="50%" >}}
-
 Ehh... wait, what's this under "Travel"? *"Beware of accidents"*... Uhhhhh, these things are eerie, aren't they? Wish they'd warned me before the Godzilla shop mug incident! 🥲
 
 えっ…待って、「旅行」の項目になんて書いてある…？「怪我に注意」…うーん、おみくじって当たるものですね。ゴジラショップでマグカップを割る前に教えてほしかった！🥲
+
+
+
+{{< figure src="images/151.png" caption="Fortune QR code translation / おみくじの翻訳" width="50%" >}}
+
+{{< figure src="images/152.png" width="50%" >}}
 
 Since it was July 1st, there was a special ritual taking place at the shrine, which I stayed to watch.
 
