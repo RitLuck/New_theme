@@ -704,6 +704,14 @@ Treated myself to some Ado-themed beef dish before the big event!
 
 {{< figure src="images/28.png" caption="Ado Food Collaboration / コラボフード" width="50%" >}}
 
+Finally got the Ado plush, LOVE ITTT!!!!
+
+ついにAdoちゃんのぬいぐるみGET！最高に愛おしい！！！！
+
+{{< figure src="images/156.png" caption="Adooo" width="50%" >}}
+
+{{< figure src="images/157.png" caption="Adooo peaking" width="50%" >}}
+
 The inside of the stadium was freaking hugeeee!!! My seat was on the East Side, Row 2, Number 131. It was pretty far back from Ado, but I still had a decent view of the whole stage.
 
 スタジアム内部はめちゃくちゃ広い！！！僕の席は東スタンド 2列 131番。ステージからは少し距離がありましたが、会場全体が見渡せる良い席でした。
