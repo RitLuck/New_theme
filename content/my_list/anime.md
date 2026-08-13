@@ -73,6 +73,9 @@ date: 2025-07-16T10:47:04+04:00
 - Kaoru Hana wa Rin to Saku (The Fragrant Flower Blooms with Dignity)
 - Witch Hat Atelier
 - Kanojo, Okarishimasu 4th Season (Rent-a-Girlfriend) Season 4
+- ChainSmoker Cat (2026)
+- Smoking Behind the Supermarket with You (2026)
+- Bleach: Thousand-Year Blood War
 
 
 ---
