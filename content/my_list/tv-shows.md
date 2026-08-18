@@ -54,12 +54,14 @@ date: 2025-07-18T10:47:04+04:00
 - Phantom Lawyer (2026)
 - A Time Called You (2023)
 - Filing For Love (2026)
+- WONDERfools (2026)
 - Inspector Koo (2021)
 - Perfect Crown (2026)
-- OOur Sticky Love (2026)
+- Our Sticky Love (2026)
 
 ## 👀 Currently Watching
-
+- Spooky In Love (2026)
+- The Apartment Job (2026)
 
 - Vincenzo (2026)
 - Spooky in Love (2026)
