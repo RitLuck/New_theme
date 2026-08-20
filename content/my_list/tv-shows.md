@@ -59,17 +59,14 @@ date: 2025-07-18T10:47:04+04:00
 - Inspector Koo (2021)
 - Perfect Crown (2026)
 - Our Sticky Love (2026)
+- Reborn Rich (2022)
 
 ## 👀 Currently Watching
 - Spooky In Love (2026)
 - The Apartment Job (2026)
-
+- Reborn Rookie (2026)
 - Vincenzo (2026)
-- Spooky in Love (2026)
 - My Bias My Boss (2026)
-
-
-- Reborn Rich
 
 ## 📝 Plan to Watch  
 
